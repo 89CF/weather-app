@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import weatherRouter from './api/weather';
+import locationRouter from './api/weather/location';
 
 dotenv.config();
 
@@ -12,7 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api', weatherRouter);
+app.use('/api/weather', weatherRouter);
+app.use('/api/weather', locationRouter);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
