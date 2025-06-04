@@ -19,6 +19,13 @@ router.get('/location', async (req, res) => {
 
   try {
     const weatherApiKey = process.env.WEATHER_API_KEY;
+    
+    if (!weatherApiKey) {
+      return res.status(500).json({
+        error: 'Weather API key is not configured'
+      });
+    }
+
     const weatherFetcher = new WeatherFetcher(weatherApiKey);
     
     // Convert lat/lon to a string format that WeatherAPI accepts
