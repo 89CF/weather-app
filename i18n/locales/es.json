@@ -1,0 +1,327 @@
+{
+  "welcome": {
+    "title": "Bienvenido a la Aplicación del Clima",
+    "subtitle": "Información y pronósticos del clima en tiempo real"
+  },
+  "header": {
+    "title": "Aplicación del Clima"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Soporte integrado de TypeScript para una mejor experiencia de desarrollo"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Framework CSS basado en utilidades para un desarrollo rápido de la interfaz"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "La próxima generación del framework Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "settings": "Configuración"
+  },
+  "footer": {
+    "copyright": "© {year} Aplicación del Clima. Todos los derechos reservados."
+  },
+  "language": {
+    "switch": "Cambiar Idioma",
+    "current": "Idioma Actual",
+    "select": "Seleccionar Idioma"
+  },
+  "home": {
+    "title": "Aplicación del Clima",
+    "search_prompt": "Ingrese el nombre de la ciudad o use su ubicación para información del clima"
+  },
+  "weather": {
+    "title": "Clima",
+    "subtitle": "Obtenga información precisa del clima para cualquier ciudad",
+    "cityLabel": "Nombre de la Ciudad",
+    "cityPlaceholder": "Ingrese nombre de ciudad...",
+    "search": {
+      "title": "Búsqueda del Clima",
+      "enterCity": "Ingrese nombre de ciudad",
+      "searchButton": "Buscar",
+      "placeholder": "Ingrese nombre de ciudad...",
+      "error": "Ciudad no encontrada",
+      "useLocation": "Usar mi ubicación",
+      "searching": "Buscando..."
+    },
+    "loading": "Cargando...",
+    "fetchError": "No se pudieron obtener los datos del clima. Por favor, intente nuevamente.",
+    "currentWeather": "Clima Actual",
+    "feelsLike": "Sensación Térmica",
+    "humidity": "Humedad",
+    "wind": "Velocidad del Viento",
+    "uvIndex": "Índice UV",
+    "forecast": {
+      "title": "Pronóstico",
+      "daily": "Pronóstico Diario",
+      "hourly": "Pronóstico por Hora",
+      "nextDays": "Próximos {days} Días",
+      "nextHours": "Próximas {hours} Horas",
+      "today": "Hoy",
+      "tomorrow": "Mañana",
+      "thisWeek": "Esta Semana",
+      "thisMonth": "Este Mes",
+      "threeDay": "Pronóstico de 3 Días",
+      "temperature": {
+        "high": "Máxima",
+        "low": "Mínima",
+        "average": "Promedio"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "pulg",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mi",
+      "m": "m",
+      "ft": "pies",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Norte",
+        "NE": "Noreste",
+        "E": "Este",
+        "SE": "Sureste",
+        "S": "Sur",
+        "SW": "Suroeste",
+        "W": "Oeste",
+        "NW": "Noroeste"
+      }
+    },
+    "conditions": {
+      "clear": "Despejado",
+      "sunny": "Soleado",
+      "clouds": "Nublado",
+      "rain": "Lluvia",
+      "snow": "Nieve",
+      "thunderstorm": "Tormenta",
+      "drizzle": "Llovizna",
+      "mist": "Neblina",
+      "fog": "Niebla",
+      "partlyCloudy": "Parcialmente Nublado",
+      "cloudy": "Nublado",
+      "overcast": "Cubierto",
+      "patchyRain": "Lluvia Irregular",
+      "patchySnow": "Nieve Irregular",
+      "patchySleet": "Aguanieve Irregular",
+      "patchyFreezingDrizzle": "Llovizna Helada Irregular",
+      "thunderyOutbreaks": "Tormentas Aisladas",
+      "blowingSnow": "Nieve con Viento",
+      "blizzard": "Ventisca",
+      "freezingFog": "Niebla Helada",
+      "patchyLightDrizzle": "Llovizna Ligera Irregular",
+      "lightDrizzle": "Llovizna Ligera",
+      "freezingDrizzle": "Llovizna Helada",
+      "heavyFreezingDrizzle": "Llovizna Helada Intensa",
+      "patchyLightRain": "Lluvia Ligera Irregular",
+      "lightRain": "Lluvia Ligera",
+      "moderateRain": "Lluvia Moderada",
+      "heavyRain": "Lluvia Intensa",
+      "lightFreezingRain": "Lluvia Helada Ligera",
+      "moderateOrHeavyFreezingRain": "Lluvia Helada Moderada o Intensa",
+      "lightSleet": "Aguanieve Ligera",
+      "moderateOrHeavySleet": "Aguanieve Moderada o Intensa",
+      "patchyLightSnow": "Nieve Ligera Irregular",
+      "lightSnow": "Nieve Ligera",
+      "moderateSnow": "Nieve Moderada",
+      "heavySnow": "Nieve Intensa",
+      "icePellets": "Granizo",
+      "lightRainShower": "Chubasco Ligero",
+      "moderateOrHeavyRainShower": "Chubasco Moderado o Intenso",
+      "torrentialRainShower": "Chubasco Torrencial",
+      "lightSleetShowers": "Chubasco de Aguanieve Ligero",
+      "moderateOrHeavySleetShowers": "Chubasco de Aguanieve Moderado o Intenso",
+      "lightSnowShowers": "Chubasco de Nieve Ligero",
+      "moderateOrHeavySnowShowers": "Chubasco de Nieve Moderado o Intenso",
+      "lightShowersOfIcePellets": "Chubasco de Granizo Ligero",
+      "moderateOrHeavyShowersOfIcePellets": "Chubasco de Granizo Moderado o Intenso",
+      "patchyLightRainWithThunder": "Lluvia Ligera Irregular con Truenos",
+      "moderateOrHeavyRainWithThunder": "Lluvia Moderada o Intensa con Truenos",
+      "patchyLightSnowWithThunder": "Nieve Ligera Irregular con Truenos",
+      "moderateOrHeavySnowWithThunder": "Nieve Moderada o Intensa con Truenos"
+    },
+    "alerts": {
+      "title": "Alertas del Clima",
+      "expand": "Mostrar Detalles",
+      "collapse": "Ocultar Detalles",
+      "affectedAreas": "Áreas Afectadas",
+      "severity": {
+        "Minor": "Menor",
+        "Moderate": "Moderada",
+        "Severe": "Severa",
+        "Extreme": "Extrema"
+      }
+    },
+    "enterCity": "Ingrese nombre de ciudad...",
+    "errors": {
+      "enterCity": "Por favor ingrese un nombre de ciudad",
+      "fetchFailed": "No se pudieron obtener los datos del clima. Por favor, intente nuevamente.",
+      "fetchError": "No se pudieron obtener las información del clima"
+    },
+    "refresh": "Actualizar",
+    "uvIndexDescription": "Nivel {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperatura",
+      "current": "Temperatura Actual",
+      "min": "Mínima",
+      "max": "Máxima",
+      "average": "Promedio",
+      "feelsLike": "Sensación Térmica"
+    },
+    "visibility": {
+      "title": "Visibilidad",
+      "current": "Visibilidad Actual",
+      "good": "Buena",
+      "moderate": "Moderada",
+      "poor": "Mala",
+      "veryPoor": "Muy Mala",
+      "foggy": "Neblinosa"
+    },
+    "uvIndex": {
+      "title": "Índice UV",
+      "current": "Índice UV Actual",
+      "levels": {
+        "low": "Bajo (0-2)",
+        "moderate": "Moderado (3-5)",
+        "high": "Alto (6-7)",
+        "veryHigh": "Muy Alto (8-10)",
+        "extreme": "Extremo (11+)"
+      },
+      "protection": {
+        "low": "No se requiere protección",
+        "moderate": "Se recomienda protección",
+        "high": "Se requiere protección",
+        "veryHigh": "Se requiere protección adicional",
+        "extreme": "Evite la exposición al sol"
+      }
+    },
+    "timeNotAvailable": "Información de hora no disponible",
+    "iconAltText": {
+      "clear": "Cielo despejado",
+      "sunny": "Soleado",
+      "partly cloudy": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "overcast": "Cubierto",
+      "mist": "Neblinoso",
+      "patchy rain nearby": "Lluvia irregular cerca",
+      "patchy light rain": "Lluvia ligera irregular",
+      "light rain": "Lluvia ligera",
+      "moderate rain": "Lluvia moderada",
+      "heavy rain": "Lluvia intensa",
+      "light freezing rain": "Lluvia helada ligera",
+      "moderate or heavy freezing rain": "Lluvia helada moderada o intensa",
+      "light sleet": "Aguanieve ligera",
+      "moderate or heavy sleet": "Aguanieve moderada o intensa",
+      "patchy light snow": "Nieve ligera irregular",
+      "light snow": "Nieve ligera",
+      "patchy moderate snow": "Nieve moderada irregular",
+      "moderate snow": "Nieve moderada",
+      "patchy heavy snow": "Nieve intensa irregular",
+      "heavy snow": "Nieve intensa",
+      "ice pellets": "Granizo",
+      "light rain shower": "Chubasco ligero",
+      "moderate or heavy rain shower": "Chubasco moderado o intenso",
+      "torrential rain shower": "Chubasco torrencial",
+      "light sleet showers": "Chubasco de aguanieve ligero",
+      "moderate or heavy sleet showers": "Chubasco de aguanieve moderado o intenso",
+      "light snow showers": "Chubasco de nieve ligero",
+      "moderate or heavy snow showers": "Chubasco de nieve moderado o intenso",
+      "light showers of ice pellets": "Chubasco de granizo ligero",
+      "moderate or heavy showers of ice pellets": "Chubasco de granizo moderado o intenso",
+      "patchy light rain with thunder": "Lluvia ligera irregular con truenos",
+      "moderate or heavy rain with thunder": "Lluvia moderada o intensa con truenos",
+      "patchy light snow with thunder": "Nieve ligera irregular con truenos",
+      "moderate or heavy snow with thunder": "Nieve moderada o intensa con truenos",
+      "fog": "Niebla",
+      "freezing fog": "Niebla helada",
+      "blowing snow": "Nieve con viento",
+      "blizzard": "Ventisca",
+      "thundery outbreaks in nearby": "Tormentas aisladas cerca",
+      "patchy light drizzle": "Llovizna ligera irregular",
+      "light drizzle": "Llovizna ligera",
+      "freezing drizzle": "Llovizna helada",
+      "heavy freezing drizzle": "Llovizna helada intensa",
+      "patchy rain possible": "Posible lluvia irregular",
+      "patchy snow possible": "Posible nieve irregular",
+      "patchy sleet possible": "Posible aguanieve irregular",
+      "patchy freezing drizzle possible": "Posible llovizna helada irregular",
+      "thundery outbreaks possible": "Posibles tormentas aisladas"
+    },
+    "details": {
+      "uvIndex": "Índice UV"
+    }
+  },
+  "app": {
+    "name": "Clima",
+    "description": "Pronósticos del clima y actualizaciones en tiempo real para ciudades de todo el mundo",
+    "theme": {
+      "dark": "Modo Oscuro",
+      "light": "Modo Claro",
+      "system": "Sistema"
+    },
+    "language": {
+      "switch": "Cambiar Idioma",
+      "en": "Inglés",
+      "tr": "Turco",
+      "es": "Español",
+      "fr": "Francés",
+      "de": "Alemán",
+      "it": "Italiano",
+      "ru": "Ruso",
+      "pl": "Polaco",
+      "nl": "Holandés",
+      "uk": "Ucraniano",
+      "ar": "Árabe",
+      "zh": "Chino",
+      "hi": "Hindi",
+      "ja": "Japonés",
+      "ko": "Coreano",
+      "pt": "Portugués",
+      "sv": "Sueco",
+      "da": "Danés",
+      "fi": "Finlandés",
+      "no": "Noruego",
+      "el": "Griego",
+      "cs": "Checo",
+      "he": "Hebreo",
+      "id": "Indonesio",
+      "ms": "Malayo",
+      "th": "Tailandés",
+      "hu": "Húngaro",
+      "vi": "Vietnamita"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Ciudad no encontrada",
+        "fetch_failed": "No se pudieron obtener los datos del clima",
+        "invalid_input": "Por favor ingrese un nombre de ciudad válido",
+        "location_denied": "Acceso a la ubicación denegado",
+        "api_key": "Error en la configuración del servicio del clima",
+        "connection_reset": "Conexión con el servicio del clima reiniciada",
+        "invalid_response": "Se recibieron datos inválidos del servicio del clima",
+        "unknown": "Ocurrió un error inesperado"
+      }
+    }
+  },
+  "error": {
+    "title": "Error",
+    "description": "Algo salió mal",
+    "retry": "Reintentar",
+    "back": "Atrás"
+  }
+} 

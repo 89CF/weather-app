@@ -1,0 +1,309 @@
+{
+  "welcome": {
+    "title": "Benvenuto nell'App Meteo",
+    "subtitle": "Informazioni e previsioni meteo in tempo reale"
+  },
+  "header": {
+    "title": "App Meteo",
+    "toggleTheme": "Cambia Tema"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Supporto TypeScript integrato per una migliore esperienza di sviluppo"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Framework CSS basato su utility per uno sviluppo UI rapido"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "La prossima generazione del framework Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "settings": "Impostazioni"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "Alimentato da WeatherAPI",
+    "copyright": "© {year} App Meteo. Tutti i diritti riservati."
+  },
+  "language": {
+    "switch": "Cambia Lingua",
+    "current": "Lingua Attuale",
+    "select": "Seleziona Lingua"
+  },
+  "home": {
+    "title": "App Meteo",
+    "search_prompt": "Inserisci il nome della città o usa la tua posizione per le informazioni meteo"
+  },
+  "weather": {
+    "title": "Meteo",
+    "subtitle": "Ottieni informazioni meteo accurate per qualsiasi città",
+    "cityLabel": "Nome Città",
+    "cityPlaceholder": "Inserisci il nome della città...",
+    "search": {
+      "title": "Cerca Meteo",
+      "enterCity": "Inserisci il nome della città",
+      "searchButton": "Cerca",
+      "placeholder": "Digita il nome della città...",
+      "error": "Città non trovata",
+      "useLocation": "Usa la Mia Posizione",
+      "searching": "Ricerca in corso..."
+    },
+    "loading": "Caricamento...",
+    "fetchError": "Impossibile recuperare i dati meteo. Riprova.",
+    "currentWeather": "Meteo Attuale",
+    "feelsLike": "Percepita Come",
+    "humidity": "Umidità",
+    "wind": "Velocità del Vento",
+    "uvIndex": "Indice UV",
+    "forecast": {
+      "title": "Previsioni",
+      "daily": "Previsioni Giornaliere",
+      "hourly": "Previsioni Orarie",
+      "nextDays": "Prossimi {days} Giorni",
+      "nextHours": "Prossime {hours} Ore",
+      "today": "Oggi",
+      "tomorrow": "Domani",
+      "thisWeek": "Questa Settimana",
+      "thisMonth": "Questo Mese",
+      "threeDay": "Previsioni a 3 Giorni",
+      "temperature": {
+        "high": "Massima",
+        "low": "Minima",
+        "average": "Media"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "pollici",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "miglia",
+      "m": "m",
+      "ft": "piedi",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Nord",
+        "NE": "Nord-Est",
+        "E": "Est",
+        "SE": "Sud-Est",
+        "S": "Sud",
+        "SW": "Sud-Ovest",
+        "W": "Ovest",
+        "NW": "Nord-Ovest"
+      }
+    },
+    "conditions": {
+      "clear": "Sereno",
+      "sunny": "Soleggiato",
+      "clouds": "Nuvoloso",
+      "rain": "Pioggia",
+      "snow": "Neve",
+      "thunderstorm": "Temporale",
+      "drizzle": "Pioviggine",
+      "mist": "Nebbia Leggera",
+      "fog": "Nebbia",
+      "partlyCloudy": "Parzialmente Nuvoloso",
+      "cloudy": "Nuvoloso",
+      "overcast": "Coperto",
+      "patchyRain": "Pioggia a Tratti",
+      "patchySnow": "Neve a Tratti",
+      "patchySleet": "Nevischio a Tratti",
+      "patchyFreezingDrizzle": "Pioviggine Ghiacciata a Tratti",
+      "thunderyOutbreaks": "Temporali a Tratti",
+      "blowingSnow": "Neve Tonda",
+      "blizzard": "Tormenta",
+      "freezingFog": "Nebbia Ghiacciata",
+      "patchyLightDrizzle": "Pioviggine Leggera a Tratti",
+      "lightDrizzle": "Pioviggine Leggera",
+      "freezingDrizzle": "Pioviggine Ghiacciata",
+      "heavyFreezingDrizzle": "Pioviggine Ghiacciata Intensa",
+      "patchyLightRain": "Pioggia Leggera a Tratti",
+      "lightRain": "Pioggia Leggera",
+      "moderateRain": "Pioggia Moderata",
+      "heavyRain": "Pioggia Intensa",
+      "lightFreezingRain": "Pioggia Ghiacciata Leggera",
+      "moderateOrHeavyFreezingRain": "Pioggia Ghiacciata Moderata o Intensa",
+      "lightSleet": "Nevischio Leggero",
+      "moderateOrHeavySleet": "Nevischio Moderato o Intenso",
+      "patchyLightSnow": "Neve Leggera a Tratti",
+      "lightSnow": "Neve Leggera",
+      "moderateSnow": "Neve Moderata",
+      "heavySnow": "Neve Intensa",
+      "icePellets": "Gragnola",
+      "lightRainShower": "Rovescio Leggero",
+      "moderateOrHeavyRainShower": "Rovescio Moderato o Intenso",
+      "torrentialRainShower": "Rovescio Torrenziale",
+      "lightSleetShowers": "Rovescio di Nevischio Leggero",
+      "moderateOrHeavySleetShowers": "Rovescio di Nevischio Moderato o Intenso",
+      "lightSnowShowers": "Rovescio di Neve Leggero",
+      "moderateOrHeavySnowShowers": "Rovescio di Neve Moderato o Intenso",
+      "lightShowersOfIcePellets": "Rovescio di Gragnola Leggero",
+      "moderateOrHeavyShowersOfIcePellets": "Rovescio di Gragnola Moderato o Intenso",
+      "patchyLightRainWithThunder": "Pioggia Leggera con Tuoni a Tratti",
+      "moderateOrHeavyRainWithThunder": "Pioggia Moderata o Intensa con Tuoni",
+      "patchyLightSnowWithThunder": "Neve Leggera con Tuoni a Tratti",
+      "moderateOrHeavySnowWithThunder": "Neve Moderata o Intensa con Tuoni"
+    },
+    "alerts": {
+      "title": "Allerte Meteo",
+      "expand": "Mostra Dettagli",
+      "collapse": "Nascondi Dettagli",
+      "affectedAreas": "Aree Interessate",
+      "severity": {
+        "Minor": "Lieve",
+        "Moderate": "Moderata",
+        "Severe": "Grave",
+        "Extreme": "Estrema"
+      }
+    },
+    "enterCity": "Inserisci il nome della città...",
+    "errors": {
+      "enterCity": "Inserisci il nome della città",
+      "fetchFailed": "Impossibile recuperare i dati meteo. Riprova.",
+      "fetchError": "Impossibile recuperare le informazioni meteo"
+    },
+    "refresh": "Aggiorna",
+    "uvIndexDescription": "Livello {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperatura",
+      "current": "Temperatura Attuale",
+      "min": "Temperatura Minima",
+      "max": "Temperatura Massima",
+      "average": "Temperatura Media",
+      "feelsLike": "Percepita Come"
+    },
+    "visibility": {
+      "title": "Visibilità",
+      "current": "Visibilità Attuale",
+      "good": "Buona",
+      "moderate": "Moderata",
+      "poor": "Scarsa",
+      "veryPoor": "Molto Scarsa",
+      "foggy": "Nebbia"
+    },
+    "uvIndex": {
+      "title": "Indice UV",
+      "current": "Indice UV Attuale",
+      "levels": {
+        "low": "Basso (0-2)",
+        "moderate": "Moderato (3-5)",
+        "high": "Alto (6-7)",
+        "veryHigh": "Molto Alto (8-10)",
+        "extreme": "Estremo (11+)"
+      },
+      "protection": {
+        "low": "Nessuna protezione necessaria",
+        "moderate": "Protezione consigliata",
+        "high": "Protezione necessaria",
+        "veryHigh": "Protezione extra necessaria",
+        "extreme": "Evitare l'esposizione al sole"
+      }
+    },
+    "timeNotAvailable": "Informazioni orarie non disponibili",
+    "details": {
+      "sunrise": "Alba",
+      "sunset": "Tramonto",
+      "wind": "Vento",
+      "pressure": "Pressione",
+      "uvIndex": "Indice UV",
+      "uvLevels": {
+        "low": "Basso",
+        "moderate": "Moderato",
+        "high": "Alto",
+        "veryHigh": "Molto Alto",
+        "extreme": "Estremo"
+      },
+      "moonPhase": "Fase Lunare",
+      "visibility": "Visibilità",
+      "moonrise": "Sorgere della Luna",
+      "moonset": "Tramonto della Luna",
+      "dewPoint": "Punto di Rugiada",
+      "precipitation": "Precipitazioni",
+      "precipitationProbability": "Probabilità di Precipitazioni",
+      "cloudCover": "Copertura Nuvolosa",
+      "windGust": "Raffiche di Vento",
+      "windDirection": "Direzione del Vento",
+      "airQuality": "Qualità dell'Aria",
+      "airQualityLevels": {
+        "good": "Buona",
+        "moderate": "Moderata",
+        "unhealthyForSensitive": "Non salutare per gruppi sensibili",
+        "unhealthy": "Non salutare",
+        "veryUnhealthy": "Molto non salutare",
+        "hazardous": "Pericolosa"
+      }
+    }
+  },
+  "app": {
+    "name": "Meteo",
+    "description": "Previsioni meteo e aggiornamenti in tempo reale per città di tutto il mondo",
+    "theme": {
+      "dark": "Tema Scuro",
+      "light": "Tema Chiaro",
+      "system": "Tema di Sistema"
+    },
+    "language": {
+      "switch": "Cambia Lingua",
+      "en": "Inglese",
+      "tr": "Turco",
+      "es": "Spagnolo",
+      "fr": "Francese",
+      "de": "Tedesco",
+      "it": "Italiano",
+      "ru": "Russo",
+      "pl": "Polacco",
+      "nl": "Olandese",
+      "uk": "Ucraino",
+      "ar": "Arabo",
+      "zh": "Cinese",
+      "hi": "Hindi",
+      "ja": "Giapponese",
+      "ko": "Coreano",
+      "pt": "Portoghese",
+      "sv": "Svedese",
+      "da": "Danese",
+      "fi": "Finlandese",
+      "no": "Norvegese",
+      "el": "Greco",
+      "cs": "Ceco",
+      "he": "Ebraico",
+      "id": "Indonesiano",
+      "ms": "Malese",
+      "th": "Tailandese",
+      "hu": "Ungherese",
+      "vi": "Vietnamita"
+    },
+    "footer": {
+      "rights": "Tutti i diritti riservati"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Città non trovata",
+        "fetch_failed": "Impossibile recuperare i dati meteo",
+        "invalid_input": "Inserisci un nome città valido",
+        "location_denied": "Accesso alla posizione negato",
+        "api_key": "Errore di configurazione del servizio meteo",
+        "connection_reset": "Connessione al servizio meteo resettata",
+        "invalid_response": "Dati non validi ricevuti dal servizio meteo",
+        "unknown": "Si è verificato un errore sconosciuto"
+      }
+    }
+  },
+  "error": {
+    "title": "Errore",
+    "description": "Si è verificato un errore",
+    "retry": "Riprova",
+    "back": "Indietro"
+  }
+} 

@@ -1,0 +1,327 @@
+{
+  "welcome": {
+    "title": "Willkommen bei der Wetter App",
+    "subtitle": "Echtzeit-Wetterinformationen und Vorhersagen"
+  },
+  "header": {
+    "title": "Wetter App"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Integrierte TypeScript-Unterstützung für eine bessere Entwicklungserfahrung"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-First CSS-Framework für schnelle UI-Entwicklung"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Die nächste Generation des Vue.js-Frameworks"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über",
+    "settings": "Einstellungen"
+  },
+  "footer": {
+    "copyright": "© {year} Wetter App. Alle Rechte vorbehalten."
+  },
+  "language": {
+    "switch": "Sprache ändern",
+    "current": "Aktuelle Sprache",
+    "select": "Sprache auswählen"
+  },
+  "home": {
+    "title": "Wetter App",
+    "search_prompt": "Geben Sie einen Stadtnamen ein oder nutzen Sie Ihren Standort für Wetterinformationen"
+  },
+  "weather": {
+    "title": "Wetter",
+    "subtitle": "Erhalten Sie genaue Wetterinformationen für jede Stadt",
+    "cityLabel": "Stadtname",
+    "cityPlaceholder": "Stadtname eingeben...",
+    "search": {
+      "title": "Wetter suchen",
+      "enterCity": "Stadtname eingeben",
+      "searchButton": "Suchen",
+      "placeholder": "Stadtname eingeben...",
+      "error": "Stadt nicht gefunden",
+      "useLocation": "Meinen Standort verwenden",
+      "searching": "Suche..."
+    },
+    "loading": "Lädt...",
+    "fetchError": "Wetterdaten konnten nicht abgerufen werden. Bitte versuchen Sie es erneut.",
+    "currentWeather": "Aktuelles Wetter",
+    "feelsLike": "Gefühlt",
+    "humidity": "Luftfeuchtigkeit",
+    "wind": "Windgeschwindigkeit",
+    "uvIndex": "UV-Index",
+    "forecast": {
+      "title": "Vorhersage",
+      "daily": "Tagesvorhersage",
+      "hourly": "Stundenvorhersage",
+      "nextDays": "Nächste {days} Tage",
+      "nextHours": "Nächste {hours} Stunden",
+      "today": "Heute",
+      "tomorrow": "Morgen",
+      "thisWeek": "Diese Woche",
+      "thisMonth": "Dieser Monat",
+      "threeDay": "3-Tage-Vorhersage",
+      "temperature": {
+        "high": "Maximum",
+        "low": "Minimum",
+        "average": "Durchschnitt"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "Zoll",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mi",
+      "m": "m",
+      "ft": "ft",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Nord",
+        "NE": "Nordost",
+        "E": "Ost",
+        "SE": "Südost",
+        "S": "Süd",
+        "SW": "Südwest",
+        "W": "West",
+        "NW": "Nordwest"
+      }
+    },
+    "conditions": {
+      "clear": "Klar",
+      "sunny": "Sonnig",
+      "clouds": "Bewölkt",
+      "rain": "Regen",
+      "snow": "Schnee",
+      "thunderstorm": "Gewitter",
+      "drizzle": "Nieselregen",
+      "mist": "Nebel",
+      "fog": "Nebel",
+      "partlyCloudy": "Teilweise bewölkt",
+      "cloudy": "Bewölkt",
+      "overcast": "Bedeckt",
+      "patchyRain": "Vereinzelt Regen",
+      "patchySnow": "Vereinzelt Schnee",
+      "patchySleet": "Vereinzelt Schneeregen",
+      "patchyFreezingDrizzle": "Vereinzelt gefrierender Nieselregen",
+      "thunderyOutbreaks": "Vereinzelt Gewitter",
+      "blowingSnow": "Schneetreiben",
+      "blizzard": "Schneesturm",
+      "freezingFog": "Gefrierender Nebel",
+      "patchyLightDrizzle": "Vereinzelt leichter Nieselregen",
+      "lightDrizzle": "Leichter Nieselregen",
+      "freezingDrizzle": "Gefrierender Nieselregen",
+      "heavyFreezingDrizzle": "Starker gefrierender Nieselregen",
+      "patchyLightRain": "Vereinzelt leichter Regen",
+      "lightRain": "Leichter Regen",
+      "moderateRain": "Mäßiger Regen",
+      "heavyRain": "Starker Regen",
+      "lightFreezingRain": "Leichter gefrierender Regen",
+      "moderateOrHeavyFreezingRain": "Mäßiger oder starker gefrierender Regen",
+      "lightSleet": "Leichter Schneeregen",
+      "moderateOrHeavySleet": "Mäßiger oder starker Schneeregen",
+      "patchyLightSnow": "Vereinzelt leichter Schnee",
+      "lightSnow": "Leichter Schnee",
+      "moderateSnow": "Mäßiger Schnee",
+      "heavySnow": "Starker Schnee",
+      "icePellets": "Eiskörner",
+      "lightRainShower": "Leichte Regenschauer",
+      "moderateOrHeavyRainShower": "Mäßige oder starke Regenschauer",
+      "torrentialRainShower": "Starkregen",
+      "lightSleetShowers": "Leichte Schneeregenschauer",
+      "moderateOrHeavySleetShowers": "Mäßige oder starke Schneeregenschauer",
+      "lightSnowShowers": "Leichte Schneeschauer",
+      "moderateOrHeavySnowShowers": "Mäßige oder starke Schneeschauer",
+      "lightShowersOfIcePellets": "Leichte Eiskörnerschauer",
+      "moderateOrHeavyShowersOfIcePellets": "Mäßige oder starke Eiskörnerschauer",
+      "patchyLightRainWithThunder": "Vereinzelt leichter Regen mit Donner",
+      "moderateOrHeavyRainWithThunder": "Mäßiger oder starker Regen mit Donner",
+      "patchyLightSnowWithThunder": "Vereinzelt leichter Schnee mit Donner",
+      "moderateOrHeavySnowWithThunder": "Mäßiger oder starker Schnee mit Donner"
+    },
+    "alerts": {
+      "title": "Wetterwarnungen",
+      "expand": "Details anzeigen",
+      "collapse": "Details ausblenden",
+      "affectedAreas": "Betroffene Gebiete",
+      "severity": {
+        "Minor": "Gering",
+        "Moderate": "Mäßig",
+        "Severe": "Stark",
+        "Extreme": "Extrem"
+      }
+    },
+    "enterCity": "Stadtname eingeben...",
+    "errors": {
+      "enterCity": "Bitte geben Sie einen Stadtnamen ein",
+      "fetchFailed": "Wetterdaten konnten nicht abgerufen werden. Bitte versuchen Sie es erneut.",
+      "fetchError": "Wetterinformationen konnten nicht abgerufen werden"
+    },
+    "refresh": "Aktualisieren",
+    "uvIndexDescription": "Niveau {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperatur",
+      "current": "Aktuelle Temperatur",
+      "min": "Minimum",
+      "max": "Maximum",
+      "average": "Durchschnitt",
+      "feelsLike": "Gefühlt"
+    },
+    "visibility": {
+      "title": "Sichtweite",
+      "current": "Aktuelle Sichtweite",
+      "good": "Gut",
+      "moderate": "Mäßig",
+      "poor": "Schlecht",
+      "veryPoor": "Sehr schlecht",
+      "foggy": "Neblig"
+    },
+    "uvIndex": {
+      "title": "UV-Index",
+      "current": "Aktueller UV-Index",
+      "levels": {
+        "low": "Niedrig (0-2)",
+        "moderate": "Mäßig (3-5)",
+        "high": "Hoch (6-7)",
+        "veryHigh": "Sehr hoch (8-10)",
+        "extreme": "Extrem (11+)"
+      },
+      "protection": {
+        "low": "Kein Schutz erforderlich",
+        "moderate": "Schutz empfohlen",
+        "high": "Schutz erforderlich",
+        "veryHigh": "Zusätzlicher Schutz erforderlich",
+        "extreme": "Sonneneinstrahlung vermeiden"
+      }
+    },
+    "timeNotAvailable": "Zeitinformation nicht verfügbar",
+    "iconAltText": {
+      "clear": "Klarer Himmel",
+      "sunny": "Sonnig",
+      "partly cloudy": "Teilweise bewölkt",
+      "cloudy": "Bewölkt",
+      "overcast": "Bedeckt",
+      "mist": "Neblig",
+      "patchy rain nearby": "Vereinzelt Regen in der Nähe",
+      "patchy light rain": "Vereinzelt leichter Regen",
+      "light rain": "Leichter Regen",
+      "moderate rain": "Mäßiger Regen",
+      "heavy rain": "Starker Regen",
+      "light freezing rain": "Leichter gefrierender Regen",
+      "moderate or heavy freezing rain": "Mäßiger oder starker gefrierender Regen",
+      "light sleet": "Leichter Schneeregen",
+      "moderate or heavy sleet": "Mäßiger oder starker Schneeregen",
+      "patchy light snow": "Vereinzelt leichter Schnee",
+      "light snow": "Leichter Schnee",
+      "patchy moderate snow": "Vereinzelt mäßiger Schnee",
+      "moderate snow": "Mäßiger Schnee",
+      "patchy heavy snow": "Vereinzelt starker Schnee",
+      "heavy snow": "Starker Schnee",
+      "ice pellets": "Eiskörner",
+      "light rain shower": "Leichte Regenschauer",
+      "moderate or heavy rain shower": "Mäßige oder starke Regenschauer",
+      "torrential rain shower": "Starkregen",
+      "light sleet showers": "Leichte Schneeregenschauer",
+      "moderate or heavy sleet showers": "Mäßige oder starke Schneeregenschauer",
+      "light snow showers": "Leichte Schneeschauer",
+      "moderate or heavy snow showers": "Mäßige oder starke Schneeschauer",
+      "light showers of ice pellets": "Leichte Eiskörnerschauer",
+      "moderate or heavy showers of ice pellets": "Mäßige oder starke Eiskörnerschauer",
+      "patchy light rain with thunder": "Vereinzelt leichter Regen mit Donner",
+      "moderate or heavy rain with thunder": "Mäßiger oder starker Regen mit Donner",
+      "patchy light snow with thunder": "Vereinzelt leichter Schnee mit Donner",
+      "moderate or heavy snow with thunder": "Mäßiger oder starker Schnee mit Donner",
+      "fog": "Nebel",
+      "freezing fog": "Gefrierender Nebel",
+      "blowing snow": "Schneetreiben",
+      "blizzard": "Schneesturm",
+      "thundery outbreaks in nearby": "Gewitter in der Nähe",
+      "patchy light drizzle": "Vereinzelt leichter Nieselregen",
+      "light drizzle": "Leichter Nieselregen",
+      "freezing drizzle": "Gefrierender Nieselregen",
+      "heavy freezing drizzle": "Starker gefrierender Nieselregen",
+      "patchy rain possible": "Möglicher vereinzelter Regen",
+      "patchy snow possible": "Möglicher vereinzelter Schnee",
+      "patchy sleet possible": "Möglicher vereinzelter Schneeregen",
+      "patchy freezing drizzle possible": "Möglicher vereinzelter gefrierender Nieselregen",
+      "thundery outbreaks possible": "Mögliche Gewitter"
+    },
+    "details": {
+      "uvIndex": "UV-Index"
+    }
+  },
+  "app": {
+    "name": "Wetter",
+    "description": "Wettervorhersagen und Echtzeit-Updates für Städte weltweit",
+    "theme": {
+      "dark": "Dunkler Modus",
+      "light": "Heller Modus",
+      "system": "Systemeinstellung"
+    },
+    "language": {
+      "switch": "Sprache ändern",
+      "en": "Englisch",
+      "tr": "Türkisch",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "de": "Deutsch",
+      "it": "Italienisch",
+      "ru": "Russisch",
+      "pl": "Polnisch",
+      "nl": "Niederländisch",
+      "uk": "Ukrainisch",
+      "ar": "Arabisch",
+      "zh": "Chinesisch",
+      "hi": "Hindi",
+      "ja": "Japanisch",
+      "ko": "Koreanisch",
+      "pt": "Portugiesisch",
+      "sv": "Schwedisch",
+      "da": "Dänisch",
+      "fi": "Finnisch",
+      "no": "Norwegisch",
+      "el": "Griechisch",
+      "cs": "Tschechisch",
+      "he": "Hebräisch",
+      "id": "Indonesisch",
+      "ms": "Malaiisch",
+      "th": "Thailändisch",
+      "hu": "Ungarisch",
+      "vi": "Vietnamesisch"
+    },
+    "footer": {
+      "rights": "Alle Rechte vorbehalten"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Stadt nicht gefunden",
+        "fetch_failed": "Wetterdaten konnten nicht abgerufen werden",
+        "invalid_input": "Bitte geben Sie einen gültigen Stadtnamen ein",
+        "location_denied": "Standortzugriff wurde verweigert",
+        "api_key": "Fehler in der Wetterdienst-Konfiguration",
+        "connection_reset": "Wetterdienst-Verbindung wurde zurückgesetzt",
+        "invalid_response": "Ungültige Daten vom Wetterdienst erhalten",
+        "unknown": "Ein unerwarteter Fehler ist aufgetreten"
+      }
+    }
+  },
+  "error": {
+    "title": "Fehler",
+    "description": "Etwas ist schiefgelaufen",
+    "retry": "Wiederholen",
+    "back": "Zurück"
+  }
+} 

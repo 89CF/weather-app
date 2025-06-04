@@ -1,0 +1,331 @@
+{
+  "welcome": {
+    "title": "Velkommen til Vejr App",
+    "subtitle": "Realtids vejrinformation og prognoser"
+  },
+  "header": {
+    "title": "Vejr App",
+    "toggleTheme": "Skift Tema"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Indbygget TypeScript support for en bedre udviklingsoplevelse"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-first CSS framework til hurtig UI-udvikling"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Den næste generation af Vue.js framework"
+    }
+  },
+  "navigation": {
+    "home": "Hjem",
+    "about": "Om",
+    "settings": "Indstillinger"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "Drevet af WeatherAPI",
+    "copyright": "© {year} Vejr App. Alle rettigheder forbeholdes."
+  },
+  "language": {
+    "switch": "Skift sprog",
+    "current": "Nuværende sprog",
+    "select": "Vælg sprog"
+  },
+  "home": {
+    "title": "Vejr App",
+    "search_prompt": "Indtast bynavn eller brug din placering for at få vejrinformation"
+  },
+  "weather": {
+    "title": "Vejr",
+    "subtitle": "Få præcis vejrinformation for enhver by",
+    "cityLabel": "Bynavn",
+    "cityPlaceholder": "Indtast bynavn...",
+    "search": {
+      "title": "Søg efter vejr",
+      "enterCity": "Indtast bynavn",
+      "searchButton": "Søg",
+      "placeholder": "Indtast bynavn...",
+      "error": "Byen blev ikke fundet",
+      "useLocation": "Brug min placering",
+      "searching": "Søger..."
+    },
+    "loading": "Indlæser...",
+    "fetchError": "Kunne ikke hente vejrdata. Prøv venligst igen.",
+    "currentWeather": "Nuværende vejr",
+    "feelsLike": "Føles som",
+    "humidity": "Luftfugtighed",
+    "wind": "Vindhastighed",
+    "uvIndex": "UV-indeks",
+    "forecast": {
+      "title": "Prognose",
+      "daily": "Daglig prognose",
+      "hourly": "Timevis prognose",
+      "nextDays": "De næste {days} dage",
+      "nextHours": "De næste {hours} timer",
+      "today": "I dag",
+      "tomorrow": "I morgen",
+      "thisWeek": "Denne uge",
+      "thisMonth": "Denne måned",
+      "threeDay": "3-dages prognose",
+      "temperature": {
+        "high": "Maksimum",
+        "low": "Minimum",
+        "average": "Gennemsnit"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/t",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "tomme",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mi",
+      "m": "m",
+      "ft": "ft",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Nord",
+        "NE": "Nordøst",
+        "E": "Øst",
+        "SE": "Sydøst",
+        "S": "Syd",
+        "SW": "Sydvest",
+        "W": "Vest",
+        "NW": "Nordvest"
+      }
+    },
+    "conditions": {
+      "clear": "Klar",
+      "sunny": "Solrig",
+      "clouds": "Skyet",
+      "rain": "Regn",
+      "snow": "Sne",
+      "thunderstorm": "Tordenvejr",
+      "drizzle": "Støvregn",
+      "mist": "Dis",
+      "fog": "Tåge",
+      "partlyCloudy": "Delvist skyet",
+      "cloudy": "Skyet",
+      "overcast": "Overskyet",
+      "patchyRain": "Lokalt regn",
+      "patchySnow": "Lokalt sne",
+      "patchySleet": "Lokalt slud",
+      "patchyFreezingDrizzle": "Lokalt underkølet støvregn",
+      "thunderyOutbreaks": "Lokale tordenbyger",
+      "blowingSnow": "Frisk sne",
+      "blizzard": "Snestorm",
+      "freezingFog": "Frosttåge",
+      "patchyLightDrizzle": "Lokalt let støvregn",
+      "lightDrizzle": "Let støvregn",
+      "freezingDrizzle": "Underkølet støvregn",
+      "heavyFreezingDrizzle": "Kraftigt underkølet støvregn",
+      "patchyLightRain": "Lokalt let regn",
+      "lightRain": "Let regn",
+      "moderateRain": "Moderat regn",
+      "heavyRain": "Kraftigt regn",
+      "lightFreezingRain": "Let underkølet regn",
+      "moderateOrHeavyFreezingRain": "Moderat eller kraftigt underkølet regn",
+      "lightSleet": "Let slud",
+      "moderateOrHeavySleet": "Moderat eller kraftig slud",
+      "patchyLightSnow": "Lokalt let sne",
+      "lightSnow": "Let sne",
+      "moderateSnow": "Moderat sne",
+      "heavySnow": "Kraftig sne",
+      "icePellets": "Iskorn",
+      "lightRainShower": "Let regnbyge",
+      "moderateOrHeavyRainShower": "Moderat eller kraftig regnbyge",
+      "torrentialRainShower": "Skybrud",
+      "lightSleetShowers": "Let sludbyge",
+      "moderateOrHeavySleetShowers": "Moderat eller kraftig sludbyge",
+      "lightSnowShowers": "Let snebyge",
+      "moderateOrHeavySnowShowers": "Moderat eller kraftig snebyge",
+      "lightShowersOfIcePellets": "Let iskornbyge",
+      "moderateOrHeavyShowersOfIcePellets": "Moderat eller kraftig iskornbyge",
+      "patchyLightRainWithThunder": "Lokalt let regn med torden",
+      "moderateOrHeavyRainWithThunder": "Moderat eller kraftig regn med torden",
+      "patchyLightSnowWithThunder": "Lokalt let sne med torden",
+      "moderateOrHeavySnowWithThunder": "Moderat eller kraftig sne med torden"
+    },
+    "alerts": {
+      "title": "Vejrvarselet",
+      "expand": "Vis detaljer",
+      "collapse": "Skjul detaljer",
+      "affectedAreas": "Berørte områder",
+      "severity": {
+        "Minor": "Mindre",
+        "Moderate": "Moderat",
+        "Severe": "Alvorlig",
+        "Extreme": "Ekstrem"
+      }
+    },
+    "enterCity": "Indtast bynavn...",
+    "errors": {
+      "enterCity": "Indtast venligst et bynavn",
+      "fetchFailed": "Kunne ikke hente vejrdata. Prøv venligst igen.",
+      "fetchError": "Kunne ikke hente vejrinformation"
+    },
+    "refresh": "Opdater",
+    "uvIndexDescription": "Niveau {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperatur",
+      "current": "Nuværende temperatur",
+      "min": "Minimum",
+      "max": "Maksimum",
+      "average": "Gennemsnit",
+      "feelsLike": "Føles som"
+    },
+    "visibility": {
+      "title": "Sigtbarhed",
+      "current": "Nuværende sigtbarhed",
+      "good": "God",
+      "moderate": "Moderat",
+      "poor": "Dårlig",
+      "veryPoor": "Meget dårlig",
+      "foggy": "Tåget"
+    },
+    "uvIndex": {
+      "title": "UV-indeks",
+      "current": "Nuværende UV-indeks",
+      "details": "UV-indeks detaljer",
+      "levels": {
+        "low": "Lavt (0-2)",
+        "moderate": "Moderat (3-5)",
+        "high": "Højt (6-7)",
+        "veryHigh": "Meget højt (8-10)",
+        "extreme": "Ekstremt (11+)"
+      },
+      "protection": {
+        "low": "Ingen beskyttelse nødvendig",
+        "moderate": "Beskyttelse anbefales",
+        "high": "Beskyttelse er nødvendig",
+        "veryHigh": "Ekstra beskyttelse er nødvendig",
+        "extreme": "Undgå sollys"
+      }
+    },
+    "timeNotAvailable": "Tidsinformation ikke tilgængelig",
+    "iconAltText": {
+      "clear": "Klar himmel",
+      "sunny": "Solrigt",
+      "partly cloudy": "Delvist skyet",
+      "cloudy": "Skyet",
+      "overcast": "Overskyet",
+      "mist": "Diset",
+      "patchy rain nearby": "Lokalt regn i nærheden",
+      "patchy light rain": "Lokalt let regn",
+      "light rain": "Let regn",
+      "moderate rain": "Moderat regn",
+      "heavy rain": "Kraftigt regn",
+      "light freezing rain": "Let underkølet regn",
+      "moderate or heavy freezing rain": "Moderat eller kraftigt underkølet regn",
+      "light sleet": "Let slud",
+      "moderate or heavy sleet": "Moderat eller kraftig slud",
+      "patchy light snow": "Lokalt let sne",
+      "light snow": "Let sne",
+      "patchy moderate snow": "Lokalt moderat sne",
+      "moderate snow": "Moderat sne",
+      "patchy heavy snow": "Lokalt kraftig sne",
+      "heavy snow": "Kraftig sne",
+      "ice pellets": "Iskorn",
+      "light rain shower": "Let regnbyge",
+      "moderate or heavy rain shower": "Moderat eller kraftig regnbyge",
+      "torrential rain shower": "Skybrud",
+      "light sleet showers": "Let sludbyge",
+      "moderate or heavy sleet showers": "Moderat eller kraftig sludbyge",
+      "light snow showers": "Let snebyge",
+      "moderate or heavy snow showers": "Moderat eller kraftig snebyge",
+      "light showers of ice pellets": "Let iskornbyge",
+      "moderate or heavy showers of ice pellets": "Moderat eller kraftig iskornbyge",
+      "patchy light rain with thunder": "Lokalt let regn med torden",
+      "moderate or heavy rain with thunder": "Moderat eller kraftig regn med torden",
+      "patchy light snow with thunder": "Lokalt let sne med torden",
+      "moderate or heavy snow with thunder": "Moderat eller kraftig sne med torden",
+      "fog": "Tåge",
+      "freezing fog": "Frosttåge",
+      "blowing snow": "Frisk sne",
+      "blizzard": "Snestorm",
+      "thundery outbreaks in nearby": "Tordenbyger i nærheden",
+      "patchy light drizzle": "Lokalt let støvregn",
+      "light drizzle": "Let støvregn",
+      "freezing drizzle": "Underkølet støvregn",
+      "heavy freezing drizzle": "Kraftigt underkølet støvregn",
+      "patchy rain possible": "Mulighed for lokalt regn",
+      "patchy snow possible": "Mulighed for lokalt sne",
+      "patchy sleet possible": "Mulighed for lokalt slud",
+      "patchy freezing drizzle possible": "Mulighed for lokalt underkølet støvregn",
+      "thundery outbreaks possible": "Mulighed for tordenbyger"
+    },
+    "details": {
+      "uvIndex": "UV-indeks"
+    }
+  },
+  "app": {
+    "name": "Vejr",
+    "description": "Vejrprognoser og realtidsopdateringer for byer verden over",
+    "theme": {
+      "dark": "Mørk tilstand",
+      "light": "Lys tilstand",
+      "system": "Systemindstilling"
+    },
+    "language": {
+      "switch": "Skift sprog",
+      "en": "Engelsk",
+      "tr": "Tyrkisk",
+      "es": "Spansk",
+      "fr": "Fransk",
+      "de": "Tysk",
+      "it": "Italiensk",
+      "ru": "Russisk",
+      "pl": "Polsk",
+      "nl": "Hollandsk",
+      "uk": "Ukrainsk",
+      "ar": "Arabisk",
+      "zh": "Kinesisk",
+      "hi": "Hindi",
+      "ja": "Japansk",
+      "ko": "Koreansk",
+      "pt": "Portugisisk",
+      "sv": "Svensk",
+      "da": "Dansk",
+      "fi": "Finsk",
+      "no": "Norsk",
+      "el": "Græsk",
+      "cs": "Tjekkisk",
+      "he": "Hebraisk",
+      "id": "Indonesisk",
+      "ms": "Malajisk",
+      "th": "Thai",
+      "hu": "Ungarsk",
+      "vi": "Vietnamesisk"
+    },
+    "footer": {
+      "rights": "Alle rettigheder forbeholdes"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Byen blev ikke fundet",
+        "fetch_failed": "Kunne ikke hente vejrdata",
+        "invalid_input": "Indtast venligst et gyldigt bynavn",
+        "location_denied": "Adgang til placering blev nægtet",
+        "api_key": "Fejl i vejrtjeneste konfiguration",
+        "connection_reset": "Vejrtjeneste forbindelse blev nulstillet",
+        "invalid_response": "Modtog ugyldige data fra vejrtjenesten",
+        "unknown": "Der opstod en uventet fejl"
+      }
+    }
+  },
+  "error": {
+    "title": "Fejl",
+    "description": "Noget gik galt",
+    "retry": "Prøv igen",
+    "back": "Tilbage"
+  }
+} 

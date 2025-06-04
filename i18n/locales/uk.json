@@ -1,0 +1,382 @@
+{
+  "welcome": {
+    "title": "Ласкаво просимо до Додатку Погоди",
+    "subtitle": "Інформація про погоду та прогнози в реальному часі"
+  },
+  "header": {
+    "title": "Додаток Погоди",
+    "toggleTheme": "Змінити тему"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Інтегрована підтримка TypeScript для кращого досвіду розробки"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Утилітарний CSS-фреймворк для швидкої розробки інтерфейсу"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Нове покоління фреймворку Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "Головна",
+    "about": "Про нас",
+    "settings": "Налаштування"
+  },
+  "footer": {
+    "copyright": "© {year} Додаток Погоди. Всі права захищені.",
+    "github": "GitHub",
+    "poweredBy": "Надається WeatherAPI",
+    "rights": "Всі права захищені"
+  },
+  "language": {
+    "switch": "Змінити мову",
+    "current": "Поточна мова",
+    "select": "Виберіть мову"
+  },
+  "home": {
+    "title": "Додаток Погоди",
+    "search_prompt": "Введіть назву міста або використайте своє місцезнаходження для отримання інформації про погоду"
+  },
+  "weather": {
+    "title": "Погода",
+    "subtitle": "Отримайте точну інформацію про погоду для будь-якого міста",
+    "cityLabel": "Назва міста",
+    "cityPlaceholder": "Введіть назву міста...",
+    "search": {
+      "title": "Пошук погоди",
+      "enterCity": "Введіть назву міста",
+      "searchButton": "Пошук",
+      "placeholder": "Введіть назву міста...",
+      "error": "Місто не знайдено",
+      "useLocation": "Використати моє місцезнаходження",
+      "searching": "Пошук..."
+    },
+    "loading": "Завантаження...",
+    "fetchError": "Не вдалося отримати дані про погоду. Спробуйте ще раз.",
+    "currentWeather": "Поточна погода",
+    "feelsLike": "Відчувається як",
+    "humidity": "Вологість",
+    "wind": "Швидкість вітру",
+    "uvIndex": "Індекс УФ",
+    "forecast": {
+      "title": "Прогноз",
+      "daily": "Щоденний прогноз",
+      "hourly": "Погодинний прогноз",
+      "nextDays": "Наступні {days} днів",
+      "nextHours": "Наступні {hours} годин",
+      "today": "Сьогодні",
+      "tomorrow": "Завтра",
+      "thisWeek": "Цього тижня",
+      "thisMonth": "Цього місяця",
+      "threeDay": "Прогноз на 3 дні",
+      "temperature": {
+        "high": "Максимальна",
+        "low": "Мінімальна",
+        "average": "Середня"
+      }
+    },
+    "chanceOfRain": "Ймовірність дощу",
+    "alerts": "Погодні попередження",
+    "alertPeriod": "Період попередження",
+    "current": {
+      "title": "Поточна погода",
+      "subtitle": "Детальна інформація про погоду",
+      "temperature": "Температура",
+      "feelsLike": "Відчувається як",
+      "humidity": "Вологість",
+      "wind": "Вітер",
+      "pressure": "Тиск",
+      "visibility": "Видимість",
+      "sunrise": "Схід сонця",
+      "sunset": "Захід сонця"
+    },
+    "details": {
+      "title": "Деталі погоди",
+      "sunrise": "Схід сонця",
+      "sunset": "Захід сонця",
+      "wind": "Вітер",
+      "pressure": "Тиск",
+      "uvIndex": "Індекс УФ",
+      "visibility": "Видимість",
+      "moonPhase": "Фаза місяця",
+      "moonrise": "Схід місяця",
+      "moonset": "Захід місяця",
+      "dewPoint": "Точка роси",
+      "precipitation": "Опади",
+      "precipitationProbability": "Ймовірність опадів",
+      "cloudCover": "Хмарність",
+      "windGust": "Порив вітру",
+      "windDirection": "Напрямок вітру",
+      "airQuality": "Якість повітря",
+      "airQualityLevels": {
+        "good": "Добра",
+        "moderate": "Помірна",
+        "unhealthyForSensitive": "Небезпечна для чутливих груп",
+        "unhealthy": "Небезпечна",
+        "veryUnhealthy": "Дуже небезпечна",
+        "hazardous": "Непридатна"
+      },
+      "uvLevels": {
+        "low": "Низький",
+        "moderate": "Помірний",
+        "high": "Високий",
+        "veryHigh": "Дуже високий",
+        "extreme": "Екстремальний"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "км/год",
+      "mph": "миль/год",
+      "mm": "мм",
+      "inch": "дюйм",
+      "hPa": "гПа",
+      "km": "км",
+      "mi": "миль",
+      "m": "м",
+      "ft": "фут",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Північ",
+        "NE": "Північний схід",
+        "E": "Схід",
+        "SE": "Південний схід",
+        "S": "Південь",
+        "SW": "Південний захід",
+        "W": "Захід",
+        "NW": "Північний захід"
+      }
+    },
+    "conditions": {
+      "clear": "Ясно",
+      "sunny": "Сонячно",
+      "clouds": "Хмарно",
+      "rain": "Дощ",
+      "snow": "Сніг",
+      "thunderstorm": "Гроза",
+      "drizzle": "Мряка",
+      "mist": "Туман",
+      "fog": "Туман",
+      "partlyCloudy": "Частково хмарно",
+      "cloudy": "Хмарно",
+      "overcast": "Похмуро",
+      "patchyRain": "Місцями дощ",
+      "patchySnow": "Місцями сніг",
+      "patchySleet": "Місцями мокрий сніг",
+      "patchyFreezingDrizzle": "Місцями мряка з ожеледдю",
+      "thunderyOutbreaks": "Місцями грози",
+      "blowingSnow": "Завірюха",
+      "blizzard": "Буран",
+      "freezingFog": "Туман з ожеледдю",
+      "patchyLightDrizzle": "Місцями легка мряка",
+      "lightDrizzle": "Легка мряка",
+      "freezingDrizzle": "Мряка з ожеледдю",
+      "heavyFreezingDrizzle": "Сильна мряка з ожеледдю",
+      "patchyLightRain": "Місцями легкий дощ",
+      "lightRain": "Легкий дощ",
+      "moderateRain": "Помірний дощ",
+      "heavyRain": "Сильний дощ",
+      "lightFreezingRain": "Легкий дощ з ожеледдю",
+      "moderateOrHeavyFreezingRain": "Помірний або сильний дощ з ожеледдю",
+      "lightSleet": "Легкий мокрий сніг",
+      "moderateOrHeavySleet": "Помірний або сильний мокрий сніг",
+      "patchyLightSnow": "Місцями легкий сніг",
+      "lightSnow": "Легкий сніг",
+      "moderateSnow": "Помірний сніг",
+      "heavySnow": "Сильний сніг",
+      "icePellets": "Крупа",
+      "lightRainShower": "Легкий дощовий шквал",
+      "moderateOrHeavyRainShower": "Помірний або сильний дощовий шквал",
+      "torrentialRainShower": "Злива",
+      "lightSleetShowers": "Легкі шквали мокрого снігу",
+      "moderateOrHeavySleetShowers": "Помірні або сильні шквали мокрого снігу",
+      "lightSnowShowers": "Легкі снігові шквали",
+      "moderateOrHeavySnowShowers": "Помірні або сильні снігові шквали",
+      "lightShowersOfIcePellets": "Легкі шквали крупи",
+      "moderateOrHeavyShowersOfIcePellets": "Помірні або сильні шквали крупи",
+      "patchyLightRainWithThunder": "Місцями легкий дощ з грозою",
+      "moderateOrHeavyRainWithThunder": "Помірний або сильний дощ з грозою",
+      "patchyLightSnowWithThunder": "Місцями легкий сніг з грозою",
+      "moderateOrHeavySnowWithThunder": "Помірний або сильний сніг з грозою"
+    },
+    "alerts": {
+      "title": "Погодні попередження",
+      "expand": "Показати деталі",
+      "collapse": "Приховати деталі",
+      "affectedAreas": "Поражені райони",
+      "severity": {
+        "Minor": "Незначний",
+        "Moderate": "Помірний",
+        "Severe": "Серйозний",
+        "Extreme": "Екстремальний"
+      }
+    },
+    "enterCity": "Введіть назву міста...",
+    "errors": {
+      "enterCity": "Введіть назву міста",
+      "fetchFailed": "Не вдалося отримати дані про погоду. Спробуйте ще раз.",
+      "fetchError": "Не вдалося отримати інформацію про погоду"
+    },
+    "refresh": "Оновити",
+    "uvIndexDescription": "Рівень {level} (УФ: {value})",
+    "temperature": {
+      "title": "Температура",
+      "current": "Поточна температура",
+      "min": "Мінімальна температура",
+      "max": "Максимальна температура",
+      "average": "Середня температура",
+      "feelsLike": "Відчувається як"
+    },
+    "visibility": {
+      "title": "Видимість",
+      "current": "Поточна видимість",
+      "good": "Добра",
+      "moderate": "Помірна",
+      "poor": "Погана",
+      "veryPoor": "Дуже погана",
+      "foggy": "Туманна"
+    },
+    "uvIndex": {
+      "title": "Індекс УФ",
+      "current": "Поточний індекс УФ",
+      "levels": {
+        "low": "Низький (0-2)",
+        "moderate": "Помірний (3-5)",
+        "high": "Високий (6-7)",
+        "veryHigh": "Дуже високий (8-10)",
+        "extreme": "Екстремальний (11+)"
+      },
+      "protection": {
+        "low": "Захист не потрібен",
+        "moderate": "Рекомендується захист",
+        "high": "Потрібен захист",
+        "veryHigh": "Потрібен додатковий захист",
+        "extreme": "Уникайте перебування на сонці"
+      }
+    },
+    "timeNotAvailable": "Інформація про час недоступна",
+    "iconAltText": {
+      "clear": "Ясне небо",
+      "sunny": "Сонячна погода",
+      "partly cloudy": "Частково хмарно",
+      "cloudy": "Хмарна погода",
+      "overcast": "Похмура погода",
+      "mist": "Туманна погода",
+      "patchy rain nearby": "Місцями дощ поблизу",
+      "patchy light rain": "Місцями легкий дощ",
+      "light rain": "Легкий дощ",
+      "moderate rain": "Помірний дощ",
+      "heavy rain": "Сильний дощ",
+      "light freezing rain": "Легкий дощ з ожеледдю",
+      "moderate or heavy freezing rain": "Помірний або сильний дощ з ожеледдю",
+      "light sleet": "Легкий мокрий сніг",
+      "moderate or heavy sleet": "Помірний або сильний мокрий сніг",
+      "patchy light snow": "Місцями легкий сніг",
+      "light snow": "Легкий сніг",
+      "patchy moderate snow": "Місцями помірний сніг",
+      "moderate snow": "Помірний сніг",
+      "patchy heavy snow": "Місцями сильний сніг",
+      "heavy snow": "Сильний сніг",
+      "ice pellets": "Крупа",
+      "light rain shower": "Легкий дощовий шквал",
+      "moderate or heavy rain shower": "Помірний або сильний дощовий шквал",
+      "torrential rain shower": "Злива",
+      "light sleet showers": "Легкі шквали мокрого снігу",
+      "moderate or heavy sleet showers": "Помірні або сильні шквали мокрого снігу",
+      "light snow showers": "Легкі снігові шквали",
+      "moderate or heavy snow showers": "Помірні або сильні снігові шквали",
+      "light showers of ice pellets": "Легкі шквали крупи",
+      "moderate or heavy showers of ice pellets": "Помірні або сильні шквали крупи",
+      "patchy light rain with thunder": "Місцями легкий дощ з грозою",
+      "moderate or heavy rain with thunder": "Помірний або сильний дощ з грозою",
+      "patchy light snow with thunder": "Місцями легкий сніг з грозою",
+      "moderate or heavy snow with thunder": "Помірний або сильний сніг з грозою",
+      "fog": "Туман",
+      "freezing fog": "Туман з ожеледдю",
+      "blowing snow": "Завірюха",
+      "blizzard": "Буран",
+      "thundery outbreaks in nearby": "Грози поблизу",
+      "patchy light drizzle": "Місцями легка мряка",
+      "light drizzle": "Легка мряка",
+      "freezing drizzle": "Мряка з ожеледдю",
+      "heavy freezing drizzle": "Сильна мряка з ожеледдю",
+      "patchy rain possible": "Можливі місцеві дощі",
+      "patchy snow possible": "Можливі місцеві снігопади",
+      "patchy sleet possible": "Можливий місцевий мокрий сніг",
+      "patchy freezing drizzle possible": "Можлива місцева мряка з ожеледдю",
+      "thundery outbreaks possible": "Можливі грози"
+    }
+  },
+  "app": {
+    "name": "Погода",
+    "description": "Прогнози погоди та оновлення в реальному часі для міст по всьому світу",
+    "theme": {
+      "dark": "Темна тема",
+      "light": "Світла тема",
+      "system": "Системна тема"
+    },
+    "language": {
+      "switch": "Змінити мову",
+      "en": "Англійська",
+      "tr": "Турецька",
+      "es": "Іспанська",
+      "fr": "Французька",
+      "de": "Німецька",
+      "it": "Італійська",
+      "ru": "Російська",
+      "pl": "Польська",
+      "nl": "Голландська",
+      "uk": "Українська",
+      "ar": "Арабська",
+      "zh": "Китайська",
+      "hi": "Гінді",
+      "ja": "Японська",
+      "ko": "Корейська",
+      "pt": "Португальська",
+      "sv": "Шведська",
+      "da": "Данська",
+      "fi": "Фінська",
+      "no": "Норвезька",
+      "el": "Грецька",
+      "cs": "Чеська",
+      "he": "Іврит",
+      "id": "Індонезійська",
+      "ms": "Малайська",
+      "th": "Тайська",
+      "hu": "Угорська",
+      "vi": "В'єтнамська"
+    },
+    "footer": {
+      "rights": "Всі права захищені"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Місто не знайдено",
+        "fetch_failed": "Не вдалося отримати дані про погоду",
+        "invalid_input": "Введіть правильну назву міста",
+        "location_denied": "Відмовлено в доступі до місцезнаходження",
+        "api_key": "Помилка конфігурації погодного сервісу",
+        "connection_reset": "З'єднання з погодним сервісом скинуто",
+        "invalid_response": "Отримано некоректні дані від погодного сервісу",
+        "unknown": "Сталася неочікувана помилка"
+      }
+    }
+  },
+  "error": {
+    "title": "Помилка",
+    "description": "Щось пішло не так",
+    "retry": "Спробувати ще раз",
+    "back": "Назад"
+  },
+  "common": {
+    "retry": "Спробувати ще раз",
+    "loading": "Завантаження...",
+    "error": "Сталася помилка"
+  }
+} 

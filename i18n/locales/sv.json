@@ -1,0 +1,418 @@
+{
+  "header": {
+    "title": "Väderapp",
+    "toggleTheme": "Växla Tema"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "Drivs av WeatherAPI",
+    "copyright": "Alla rättigheter förbehållna"
+  },
+  "home": {
+    "title": "Väderapp",
+    "search_prompt": "Ange plats för att kontrollera vädret"
+  },
+  "weather": {
+    "current": {
+      "title": "Aktuellt Väder",
+      "subtitle": "Realtidsväderinformation",
+      "humidity": "Luftfuktighet",
+      "wind": "Vind"
+    },
+    "details": {
+      "title": "Väderdetaljer",
+      "sunrise": "Soluppgång",
+      "sunset": "Solnedgång",
+      "wind": "Vind",
+      "uvIndex": "UV-index",
+      "visibility": "Sikt",
+      "pressure": "Lufttryck",
+      "moonPhase": "Månfas",
+      "moonrise": "Månuppgång",
+      "uvLevels": {
+        "low": "Låg",
+        "moderate": "Måttlig",
+        "high": "Hög",
+        "veryHigh": "Mycket hög",
+        "extreme": "Extrem"
+      }
+    },
+    "conditions": {
+      "clear": "Klar",
+      "sunny": "Soligt",
+      "partlyCloudy": "Delvis molnigt",
+      "cloudy": "Molnigt",
+      "overcast": "Mulet",
+      "rain": "Regn",
+      "lightRain": "Lätt regn",
+      "moderateRain": "Måttligt regn",
+      "heavyRain": "Kraftigt regn",
+      "snow": "Snö",
+      "lightSnow": "Lätt snö",
+      "moderateSnow": "Måttlig snö",
+      "heavySnow": "Kraftig snö",
+      "thunderstorm": "Åskväder",
+      "fog": "Dimma",
+      "mist": "Dis"
+    }
+  },
+  "common": {
+    "retry": "Försök igen",
+    "loading": "Laddar...",
+    "error": "Ett fel uppstod"
+  },
+  "welcome": {
+    "title": "Välkommen till Väderappen",
+    "subtitle": "Realtidsväderinformation och prognoser"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Inbyggt TypeScript-stöd för en bättre utvecklingsupplevelse"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-first CSS-ramverk för snabb UI-utveckling"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Nästa generation av Vue.js-ramverk"
+    }
+  },
+  "navigation": {
+    "home": "Hem",
+    "about": "Om",
+    "settings": "Inställningar"
+  },
+  "footer": {
+    "copyright": "© {year} Nuxt 3 App. Alla rättigheter förbehållna.",
+    "github": "GitHub",
+    "poweredBy": "Drivs av WeatherAPI"
+  },
+  "language": {
+    "switch": "Byt språk",
+    "current": "Aktuellt språk",
+    "select": "Välj språk"
+  },
+  "home": {
+    "title": "Väderapp",
+    "search_prompt": "Ange stadens namn eller använd din plats för att se vädret"
+  },
+  "weather": {
+    "title": "Väder",
+    "subtitle": "Få exakt väderinformation för vilken stad som helst",
+    "cityLabel": "Stadens namn",
+    "cityPlaceholder": "Ange stadens namn...",
+    "search": {
+      "title": "Sök väder",
+      "enterCity": "Ange stadens namn",
+      "searchButton": "Sök",
+      "placeholder": "Ange stadens namn...",
+      "error": "Staden hittades inte",
+      "useLocation": "Använd min plats",
+      "searching": "Söker..."
+    },
+    "loading": "Laddar...",
+    "fetchError": "Kunde inte hämta väderdata. Försök igen.",
+    "currentWeather": "Aktuellt väder",
+    "feelsLike": "Känns som",
+    "humidity": "Luftfuktighet",
+    "wind": "Vindhastighet",
+    "uvIndex": "UV-index",
+    "forecast": {
+      "title": "Prognos",
+      "daily": "Daglig prognos",
+      "hourly": "Timprognos",
+      "nextDays": "Nästa {days} dagar",
+      "nextHours": "Nästa {hours} timmar",
+      "today": "Idag",
+      "tomorrow": "Imorgon",
+      "thisWeek": "Denna vecka",
+      "thisMonth": "Denna månad",
+      "threeDay": "3-dagars prognos",
+      "temperature": {
+        "high": "Högsta",
+        "low": "Lägsta",
+        "average": "Genomsnitt"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "tum",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "miles",
+      "m": "m",
+      "ft": "fot",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Norr",
+        "NE": "Nordost",
+        "E": "Öster",
+        "SE": "Sydost",
+        "S": "Söder",
+        "SW": "Sydväst",
+        "W": "Väster",
+        "NW": "Nordväst"
+      }
+    },
+    "conditions": {
+      "clear": "Klar",
+      "sunny": "Soligt",
+      "clouds": "Molnigt",
+      "rain": "Regn",
+      "snow": "Snö",
+      "thunderstorm": "Åskväder",
+      "drizzle": "Duggregn",
+      "mist": "Dimma",
+      "fog": "Tjocka",
+      "partlyCloudy": "Delvis molnigt",
+      "cloudy": "Molnigt",
+      "overcast": "Mulet",
+      "patchyRain": "Områdesvis regn",
+      "patchySnow": "Områdesvis snö",
+      "patchySleet": "Områdesvis snöblandat regn",
+      "patchyFreezingDrizzle": "Områdesvis underkylt duggregn",
+      "thunderyOutbreaks": "Områdesvis åskväder",
+      "blowingSnow": "Drivande snö",
+      "blizzard": "Snöstorm",
+      "freezingFog": "Underkylt dimma",
+      "patchyLightDrizzle": "Områdesvis lätt duggregn",
+      "lightDrizzle": "Lätt duggregn",
+      "freezingDrizzle": "Underkylt duggregn",
+      "heavyFreezingDrizzle": "Kraftigt underkylt duggregn",
+      "patchyLightRain": "Områdesvis lätt regn",
+      "lightRain": "Lätt regn",
+      "moderateRain": "Måttligt regn",
+      "heavyRain": "Kraftigt regn",
+      "lightFreezingRain": "Lätt underkylt regn",
+      "moderateOrHeavyFreezingRain": "Måttligt eller kraftigt underkylt regn",
+      "lightSleet": "Lätt snöblandat regn",
+      "moderateOrHeavySleet": "Måttligt eller kraftigt snöblandat regn",
+      "patchyLightSnow": "Områdesvis lätt snö",
+      "lightSnow": "Lätt snö",
+      "moderateSnow": "Måttlig snö",
+      "heavySnow": "Kraftig snö",
+      "icePellets": "Iskorn",
+      "lightRainShower": "Lätt regnskur",
+      "moderateOrHeavyRainShower": "Måttlig eller kraftig regnskur",
+      "torrentialRainShower": "Skyfall",
+      "lightSleetShowers": "Lätta snöblandade regnskurar",
+      "moderateOrHeavySleetShowers": "Måttliga eller kraftiga snöblandade regnskurar",
+      "lightSnowShowers": "Lätta snöbyar",
+      "moderateOrHeavySnowShowers": "Måttliga eller kraftiga snöbyar",
+      "lightShowersOfIcePellets": "Lätta iskornbyar",
+      "moderateOrHeavyShowersOfIcePellets": "Måttliga eller kraftiga iskornbyar",
+      "patchyLightRainWithThunder": "Områdesvis lätt regn med åska",
+      "moderateOrHeavyRainWithThunder": "Måttligt eller kraftigt regn med åska",
+      "patchyLightSnowWithThunder": "Områdesvis lätt snö med åska",
+      "moderateOrHeavySnowWithThunder": "Måttlig eller kraftig snö med åska"
+    },
+    "alerts": {
+      "title": "Väderaviseringar",
+      "expand": "Visa detaljer",
+      "collapse": "Dölj detaljer",
+      "affectedAreas": "Berörda områden",
+      "severity": {
+        "Minor": "Mindre",
+        "Moderate": "Måttlig",
+        "Severe": "Allvarlig",
+        "Extreme": "Extrem"
+      }
+    },
+    "enterCity": "Ange stadens namn...",
+    "errors": {
+      "enterCity": "Vänligen ange stadens namn",
+      "fetchFailed": "Kunde inte hämta väderdata. Försök igen.",
+      "fetchError": "Kunde inte hämta väderinformation"
+    },
+    "refresh": "Uppdatera",
+    "uvIndexDescription": "Nivå {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperatur",
+      "current": "Aktuell temperatur",
+      "min": "Minimum",
+      "max": "Maximum",
+      "average": "Medel",
+      "feelsLike": "Känns som"
+    },
+    "visibility": {
+      "title": "Sikt",
+      "current": "Aktuell sikt",
+      "good": "Bra",
+      "moderate": "Måttlig",
+      "poor": "Dålig",
+      "veryPoor": "Mycket dålig",
+      "foggy": "Dimma"
+    },
+    "uvIndex": {
+      "title": "UV-index",
+      "current": "Aktuellt UV-index",
+      "levels": {
+        "low": "Låg (0-2)",
+        "moderate": "Måttlig (3-5)",
+        "high": "Hög (6-7)",
+        "veryHigh": "Mycket hög (8-10)",
+        "extreme": "Extrem (11+)"
+      },
+      "protection": {
+        "low": "Inget skydd behövs",
+        "moderate": "Skydd rekommenderas",
+        "high": "Skydd krävs",
+        "veryHigh": "Extra skydd krävs",
+        "extreme": "Undvik solsken"
+      }
+    },
+    "timeNotAvailable": "Tidsinformation inte tillgänglig",
+    "iconAltText": {
+      "clear": "Klar himmel",
+      "sunny": "Soligt",
+      "partly cloudy": "Delvis molnigt",
+      "cloudy": "Molnigt",
+      "overcast": "Mulet",
+      "mist": "Dimma",
+      "patchy rain nearby": "Områdesvis regn i närheten",
+      "patchy light rain": "Områdesvis lätt regn",
+      "light rain": "Lätt regn",
+      "moderate rain": "Måttligt regn",
+      "heavy rain": "Kraftigt regn",
+      "light freezing rain": "Lätt underkylt regn",
+      "moderate or heavy freezing rain": "Måttligt eller kraftigt underkylt regn",
+      "light sleet": "Lätt snöblandat regn",
+      "moderate or heavy sleet": "Måttligt eller kraftigt snöblandat regn",
+      "patchy light snow": "Områdesvis lätt snö",
+      "light snow": "Lätt snö",
+      "patchy moderate snow": "Områdesvis måttlig snö",
+      "moderate snow": "Måttlig snö",
+      "patchy heavy snow": "Områdesvis kraftig snö",
+      "heavy snow": "Kraftig snö",
+      "ice pellets": "Iskorn",
+      "light rain shower": "Lätt regnskur",
+      "moderate or heavy rain shower": "Måttlig eller kraftig regnskur",
+      "torrential rain shower": "Skyfall",
+      "light sleet showers": "Lätta snöblandade regnskurar",
+      "moderate or heavy sleet showers": "Måttliga eller kraftiga snöblandade regnskurar",
+      "light snow showers": "Lätta snöbyar",
+      "moderate or heavy snow showers": "Måttliga eller kraftiga snöbyar",
+      "light showers of ice pellets": "Lätta iskornbyar",
+      "moderate or heavy showers of ice pellets": "Måttliga eller kraftiga iskornbyar",
+      "patchy light rain with thunder": "Områdesvis lätt regn med åska",
+      "moderate or heavy rain with thunder": "Måttligt eller kraftigt regn med åska",
+      "patchy light snow with thunder": "Områdesvis lätt snö med åska",
+      "moderate or heavy snow with thunder": "Måttlig eller kraftig snö med åska",
+      "fog": "Dimma",
+      "freezing fog": "Underkylt dimma",
+      "blowing snow": "Drivande snö",
+      "blizzard": "Snöstorm",
+      "thundery outbreaks in nearby": "Åskväder i närheten",
+      "patchy light drizzle": "Områdesvis lätt duggregn",
+      "light drizzle": "Lätt duggregn",
+      "freezing drizzle": "Underkylt duggregn",
+      "heavy freezing drizzle": "Kraftigt underkylt duggregn",
+      "patchy rain possible": "Möjligt områdesvis regn",
+      "patchy snow possible": "Möjlig områdesvis snö",
+      "patchy sleet possible": "Möjligt områdesvis snöblandat regn",
+      "patchy freezing drizzle possible": "Möjligt områdesvis underkylt duggregn",
+      "thundery outbreaks possible": "Möjligt åskväder"
+    },
+    "details": {
+      "sunrise": "Soluppgång",
+      "sunset": "Solnedgång",
+      "wind": "Vind",
+      "pressure": "Lufttryck",
+      "uvIndex": "UV-index",
+      "uvLevels": {
+        "low": "Låg",
+        "moderate": "Måttlig",
+        "high": "Hög",
+        "veryHigh": "Mycket hög",
+        "extreme": "Extrem"
+      },
+      "moonPhase": "Månfas",
+      "visibility": "Sikt",
+      "moonrise": "Månuppgång",
+      "moonset": "Månnedgång",
+      "dewPoint": "Daggpunkt",
+      "precipitation": "Nederbörd",
+      "precipitationProbability": "Nederbördssannolikhet",
+      "cloudCover": "Molnmängd",
+      "windGust": "Vindby",
+      "windDirection": "Vindriktning",
+      "airQuality": "Luftkvalitet",
+      "airQualityLevels": {
+        "good": "Bra",
+        "moderate": "Måttlig",
+        "unhealthyForSensitive": "Ohälsosam för känsliga grupper",
+        "unhealthy": "Ohälsosam",
+        "veryUnhealthy": "Mycket ohälsosam",
+        "hazardous": "Farlig"
+      }
+    }
+  },
+  "app": {
+    "name": "Väder",
+    "description": "Realtidsväderprognoser och uppdateringar för städer över hela världen",
+    "theme": {
+      "dark": "Mörkt läge",
+      "light": "Ljust läge",
+      "system": "Systemtema"
+    },
+    "language": {
+      "switch": "Byt språk",
+      "en": "Engelska",
+      "tr": "Turkiska",
+      "es": "Spanska",
+      "fr": "Franska",
+      "de": "Tyska",
+      "it": "Italienska",
+      "ru": "Ryska",
+      "pl": "Polska",
+      "nl": "Nederländska",
+      "uk": "Ukrainska",
+      "ar": "Arabiska",
+      "zh": "Kinesiska",
+      "hi": "Hindi",
+      "ja": "Japanska",
+      "ko": "Koreanska",
+      "pt": "Portugisiska",
+      "sv": "Svenska",
+      "da": "Danska",
+      "fi": "Finska",
+      "no": "Norska",
+      "el": "Grekiska",
+      "cs": "Tjeckiska",
+      "he": "Hebreiska",
+      "id": "Indonesiska",
+      "ms": "Malajiska",
+      "th": "Thailändska",
+      "hu": "Ungerska",
+      "vi": "Vietnamesiska"
+    },
+    "footer": {
+      "rights": "Alla rättigheter förbehållna"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Staden hittades inte",
+        "fetch_failed": "Kunde inte hämta väderdata",
+        "invalid_input": "Vänligen ange ett giltigt stadens namn",
+        "location_denied": "Platstillgång nekades",
+        "api_key": "Väderdatatjänstkonfigurationsfel",
+        "connection_reset": "Väderdatatjänstanslutning återställd",
+        "invalid_response": "Ogiltiga data mottagna från väderdatatjänsten",
+        "unknown": "Ett okänt fel uppstod"
+      }
+    }
+  },
+  "error": {
+    "title": "Fel",
+    "description": "Något gick fel",
+    "retry": "Försök igen",
+    "back": "Tillbaka"
+  }
+} 

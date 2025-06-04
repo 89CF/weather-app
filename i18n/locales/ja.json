@@ -1,0 +1,314 @@
+{
+  "welcome": {
+    "title": "天気アプリへようこそ",
+    "subtitle": "リアルタイムの天気情報と予報"
+  },
+  "header": {
+    "title": "天気アプリ",
+    "toggleTheme": "テーマ切替"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "より良い開発体験のためのTypeScriptサポート"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "UI開発のためのユーティリティベースのCSSフレームワーク"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "次世代のVue.jsフレームワーク"
+    }
+  },
+  "navigation": {
+    "home": "ホーム",
+    "about": "概要",
+    "settings": "設定"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "WeatherAPI提供",
+    "copyright": "© {year} 天気アプリ。全権利所有。"
+  },
+  "language": {
+    "switch": "言語切替",
+    "current": "現在の言語",
+    "select": "言語選択"
+  },
+  "home": {
+    "title": "天気アプリ",
+    "search_prompt": "都市名を入力するか、現在地を使用して天気情報を取得"
+  },
+  "weather": {
+    "title": "天気",
+    "subtitle": "世界中の都市の正確な天気情報を取得",
+    "cityLabel": "都市名",
+    "cityPlaceholder": "都市名を入力...",
+    "search": {
+      "title": "天気検索",
+      "enterCity": "都市名を入力",
+      "searchButton": "検索",
+      "placeholder": "都市名を入力...",
+      "error": "都市が見つかりません",
+      "useLocation": "現在地を使用",
+      "searching": "検索中..."
+    },
+    "loading": "読み込み中...",
+    "fetchError": "天気データの取得に失敗しました。もう一度お試しください。",
+    "currentWeather": "現在の天気",
+    "feelsLike": "体感温度",
+    "humidity": "湿度",
+    "wind": "風速",
+    "uvIndex": "UV指数",
+    "forecast": {
+      "title": "予報",
+      "daily": "日次予報",
+      "hourly": "時間予報",
+      "nextDays": "今後{days}日間",
+      "nextHours": "今後{hours}時間",
+      "today": "今日",
+      "tomorrow": "明日",
+      "thisWeek": "今週",
+      "thisMonth": "今月",
+      "threeDay": "3日間予報",
+      "temperature": {
+        "high": "最高",
+        "low": "最低",
+        "average": "平均"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "インチ",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "マイル",
+      "m": "m",
+      "ft": "フィート",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "北",
+        "NE": "北東",
+        "E": "東",
+        "SE": "南東",
+        "S": "南",
+        "SW": "南西",
+        "W": "西",
+        "NW": "北西"
+      }
+    },
+    "conditions": {
+      "clear": "晴れ",
+      "sunny": "快晴",
+      "clouds": "曇り",
+      "rain": "雨",
+      "snow": "雪",
+      "thunderstorm": "雷雨",
+      "drizzle": "小雨",
+      "mist": "霧",
+      "fog": "濃霧",
+      "partlyCloudy": "一部曇り",
+      "cloudy": "曇り",
+      "overcast": "厚い雲",
+      "patchyRain": "所々雨",
+      "patchySnow": "所々雪",
+      "patchySleet": "所々みぞれ",
+      "patchyFreezingDrizzle": "所々凍雨",
+      "thunderyOutbreaks": "所々雷",
+      "blowingSnow": "吹雪",
+      "blizzard": "猛吹雪",
+      "freezingFog": "凍霧",
+      "patchyLightDrizzle": "所々小雨",
+      "lightDrizzle": "小雨",
+      "freezingDrizzle": "凍雨",
+      "heavyFreezingDrizzle": "強い凍雨",
+      "patchyLightRain": "所々弱い雨",
+      "lightRain": "弱い雨",
+      "moderateRain": "やや強い雨",
+      "heavyRain": "強い雨",
+      "lightFreezingRain": "弱い凍雨",
+      "moderateOrHeavyFreezingRain": "やや強いまたは強い凍雨",
+      "lightSleet": "弱いみぞれ",
+      "moderateOrHeavySleet": "やや強いまたは強いみぞれ",
+      "patchyLightSnow": "所々弱い雪",
+      "lightSnow": "弱い雪",
+      "moderateSnow": "やや強い雪",
+      "heavySnow": "強い雪",
+      "icePellets": "あられ",
+      "lightRainShower": "弱いにわか雨",
+      "moderateOrHeavyRainShower": "やや強いまたは強いにわか雨",
+      "torrentialRainShower": "猛烈なにわか雨",
+      "lightSleetShowers": "弱いにわかみぞれ",
+      "moderateOrHeavySleetShowers": "やや強いまたは強いにわかみぞれ",
+      "lightSnowShowers": "弱いにわか雪",
+      "moderateOrHeavySnowShowers": "やや強いまたは強いにわか雪",
+      "lightShowersOfIcePellets": "弱いにわかあられ",
+      "moderateOrHeavyShowersOfIcePellets": "やや強いまたは強いにわかあられ",
+      "patchyLightRainWithThunder": "所々弱い雨と雷",
+      "moderateOrHeavyRainWithThunder": "やや強いまたは強い雨と雷",
+      "patchyLightSnowWithThunder": "所々弱い雪と雷",
+      "moderateOrHeavySnowWithThunder": "やや強いまたは強い雪と雷"
+    },
+    "alerts": {
+      "title": "天気警報",
+      "expand": "詳細表示",
+      "collapse": "詳細を隠す",
+      "affectedAreas": "影響地域",
+      "severity": {
+        "Minor": "軽度",
+        "Moderate": "中度",
+        "Severe": "重度",
+        "Extreme": "極度"
+      }
+    },
+    "enterCity": "都市名を入力...",
+    "errors": {
+      "enterCity": "都市名を入力してください",
+      "fetchFailed": "天気データの取得に失敗しました。もう一度お試しください。",
+      "fetchError": "天気情報の取得に失敗しました"
+    },
+    "refresh": "更新",
+    "uvIndexDescription": "レベル{level}（UV: {value}）",
+    "temperature": {
+      "title": "気温",
+      "current": "現在の気温",
+      "min": "最低気温",
+      "max": "最高気温",
+      "average": "平均気温",
+      "feelsLike": "体感温度"
+    },
+    "visibility": {
+      "title": "視程",
+      "current": "現在の視程",
+      "good": "良好",
+      "moderate": "普通",
+      "poor": "悪い",
+      "veryPoor": "非常に悪い",
+      "foggy": "霧"
+    },
+    "uvIndex": {
+      "title": "UV指数",
+      "current": "現在のUV指数",
+      "levels": {
+        "low": "低い（0-2）",
+        "moderate": "中程度（3-5）",
+        "high": "高い（6-7）",
+        "veryHigh": "非常に高い（8-10）",
+        "extreme": "極端に高い（11+）"
+      },
+      "protection": {
+        "low": "保護は不要",
+        "moderate": "保護を推奨",
+        "high": "保護が必要",
+        "veryHigh": "追加の保護が必要",
+        "extreme": "日光を避ける"
+      }
+    },
+    "timeNotAvailable": "時間情報は利用できません",
+    "details": {
+      "sunrise": "日の出",
+      "sunset": "日の入り",
+      "wind": "風",
+      "pressure": "気圧",
+      "uvIndex": "UV指数",
+      "uvLevels": {
+        "low": "低い",
+        "moderate": "中程度",
+        "high": "高い",
+        "veryHigh": "非常に高い",
+        "extreme": "極端に高い"
+      },
+      "moonPhase": "月の満ち欠け",
+      "visibility": "視程",
+      "moonrise": "月の出",
+      "moonset": "月の入り",
+      "dewPoint": "露点",
+      "precipitation": "降水量",
+      "precipitationProbability": "降水確率",
+      "cloudCover": "雲量",
+      "windGust": "突風",
+      "windDirection": "風向",
+      "airQuality": "大気質",
+      "airQualityLevels": {
+        "good": "良好",
+        "moderate": "普通",
+        "unhealthyForSensitive": "敏感な人には不健康",
+        "unhealthy": "不健康",
+        "veryUnhealthy": "非常に不健康",
+        "hazardous": "危険"
+      }
+    }
+  },
+  "app": {
+    "name": "天気",
+    "description": "世界中の都市の天気予報とリアルタイム更新",
+    "theme": {
+      "dark": "ダークモード",
+      "light": "ライトモード",
+      "system": "システム設定"
+    },
+    "language": {
+      "switch": "言語切替",
+      "en": "英語",
+      "tr": "トルコ語",
+      "es": "スペイン語",
+      "fr": "フランス語",
+      "de": "ドイツ語",
+      "it": "イタリア語",
+      "ru": "ロシア語",
+      "pl": "ポーランド語",
+      "nl": "オランダ語",
+      "uk": "ウクライナ語",
+      "ar": "アラビア語",
+      "zh": "中国語",
+      "hi": "ヒンディー語",
+      "ja": "日本語",
+      "ko": "韓国語",
+      "pt": "ポルトガル語",
+      "sv": "スウェーデン語",
+      "da": "デンマーク語",
+      "fi": "フィンランド語",
+      "no": "ノルウェー語",
+      "el": "ギリシャ語",
+      "cs": "チェコ語",
+      "he": "ヘブライ語",
+      "id": "インドネシア語",
+      "ms": "マレー語",
+      "th": "タイ語",
+      "hu": "ハンガリー語",
+      "vi": "ベトナム語"
+    },
+    "footer": {
+      "rights": "全権利所有"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "都市が見つかりません",
+        "fetch_failed": "天気データの取得に失敗しました",
+        "invalid_input": "有効な都市名を入力してください",
+        "location_denied": "位置情報へのアクセスが拒否されました",
+        "api_key": "天気サービスの設定エラー",
+        "connection_reset": "天気サービスの接続がリセットされました",
+        "invalid_response": "天気サービスから無効なデータを受信しました",
+        "unknown": "不明なエラーが発生しました"
+      }
+    }
+  },
+  "error": {
+    "title": "エラー",
+    "description": "エラーが発生しました",
+    "retry": "再試行",
+    "back": "戻る"
+  },
+  "common": {
+    "retry": "再試行",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました"
+  }
+} 

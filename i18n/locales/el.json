@@ -1,0 +1,345 @@
+{
+  "welcome": {
+    "title": "Καλώς ήρθατε στην εφαρμογή Καιρού",
+    "subtitle": "Πληροφορίες και προβλέψεις καιρού σε πραγματικό χρόνο"
+  },
+  "header": {
+    "title": "Εφαρμογή Καιρού",
+    "toggleTheme": "Εναλλαγή Θέματος"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Ενσωματωμένη υποστήριξη TypeScript για καλύτερη εμπειρία ανάπτυξης"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Πλαίσιο CSS με βάση τα utilities για γρήγορη ανάπτυξη διεπαφής"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Η επόμενη γενιά του πλαισίου Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "Αρχική",
+    "about": "Σχετικά",
+    "settings": "Ρυθμίσεις"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "Με την υποστήριξη του WeatherAPI",
+    "copyright": "Με επιφύλαξη παντός δικαιώματος"
+  },
+  "language": {
+    "switch": "Αλλαγή γλώσσας",
+    "current": "Τρέχουσα γλώσσα",
+    "select": "Επιλέξτε γλώσσα"
+  },
+  "home": {
+    "title": "Εφαρμογή Καιρού",
+    "search_prompt": "Εισάγετε όνομα πόλης ή χρησιμοποιήστε την τοποθεσία σας για πληροφορίες καιρού"
+  },
+  "weather": {
+    "title": "Καιρός",
+    "subtitle": "Λάβετε ακριβείς πληροφορίες καιρού για οποιαδήποτε πόλη",
+    "cityLabel": "Όνομα πόλης",
+    "cityPlaceholder": "Εισάγετε όνομα πόλης...",
+    "search": {
+      "title": "Αναζήτηση καιρού",
+      "enterCity": "Εισάγετε όνομα πόλης",
+      "searchButton": "Αναζήτηση",
+      "placeholder": "Εισάγετε όνομα πόλης...",
+      "error": "Η πόλη δεν βρέθηκε",
+      "useLocation": "Χρήση της τοποθεσίας μου",
+      "searching": "Αναζήτηση..."
+    },
+    "loading": "Φόρτωση...",
+    "fetchError": "Αδυναμία λήψης δεδομένων καιρού. Παρακαλώ δοκιμάστε ξανά.",
+    "currentWeather": "Τρέχων καιρός",
+    "feelsLike": "Αίσθηση",
+    "humidity": "Υγρασία",
+    "wind": "Ταχύτητα ανέμου",
+    "uvIndex": "Δείκτης UV",
+    "forecast": {
+      "title": "Πρόβλεψη",
+      "daily": "Ημερήσια πρόβλεψη",
+      "hourly": "Ωριαία πρόβλεψη",
+      "nextDays": "Επόμενες {days} ημέρες",
+      "nextHours": "Επόμενες {hours} ώρες",
+      "today": "Σήμερα",
+      "tomorrow": "Αύριο",
+      "thisWeek": "Αυτή την εβδομάδα",
+      "thisMonth": "Αυτόν τον μήνα",
+      "threeDay": "Πρόβλεψη 3 ημερών",
+      "temperature": {
+        "high": "Μέγιστη",
+        "low": "Ελάχιστη",
+        "average": "Μέση"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "χλμ/ώρα",
+      "mph": "μίλια/ώρα",
+      "mm": "χιλ.",
+      "inch": "ίντσες",
+      "hPa": "hPa",
+      "km": "χλμ",
+      "mi": "μίλια",
+      "m": "μ",
+      "ft": "πόδια",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Βόρεια",
+        "NE": "Βορειοανατολικά",
+        "E": "Ανατολικά",
+        "SE": "Νοτιοανατολικά",
+        "S": "Νότια",
+        "SW": "Νοτιοδυτικά",
+        "W": "Δυτικά",
+        "NW": "Βορειοδυτικά"
+      }
+    },
+    "conditions": {
+      "clear": "Αίθριος",
+      "sunny": "Ηλιόλουστος",
+      "clouds": "Συννεφιασμένος",
+      "rain": "Βροχή",
+      "snow": "Χιόνι",
+      "thunderstorm": "Καταιγίδα",
+      "drizzle": "Ψιλόβροχο",
+      "mist": "Ομίχλη",
+      "fog": "Ομίχλη",
+      "partlyCloudy": "Μερικώς συννεφιασμένος",
+      "cloudy": "Συννεφιασμένος",
+      "overcast": "Πλήρως συννεφιασμένος",
+      "patchyRain": "Τοπική βροχή",
+      "patchySnow": "Τοπικό χιόνι",
+      "patchySleet": "Τοπική χιονοβροχή",
+      "patchyFreezingDrizzle": "Τοπικός παγετώδης ψιλόβροχος",
+      "thunderyOutbreaks": "Τοπικές καταιγίδες",
+      "blowingSnow": "Χιονοθύελλα",
+      "blizzard": "Χιονοθύελλα",
+      "freezingFog": "Παγετώδης ομίχλη",
+      "patchyLightDrizzle": "Τοπικός ελαφρύς ψιλόβροχος",
+      "lightDrizzle": "Ελαφρύς ψιλόβροχος",
+      "freezingDrizzle": "Παγετώδης ψιλόβροχος",
+      "heavyFreezingDrizzle": "Ισχυρός παγετώδης ψιλόβροχος",
+      "patchyLightRain": "Τοπική ελαφριά βροχή",
+      "lightRain": "Ελαφριά βροχή",
+      "moderateRain": "Μέτρια βροχή",
+      "heavyRain": "Ισχυρή βροχή",
+      "lightFreezingRain": "Ελαφριά παγετώδης βροχή",
+      "moderateOrHeavyFreezingRain": "Μέτρια ή ισχυρή παγετώδης βροχή",
+      "lightSleet": "Ελαφριά χιονοβροχή",
+      "moderateOrHeavySleet": "Μέτρια ή ισχυρή χιονοβροχή",
+      "patchyLightSnow": "Τοπικό ελαφρύ χιόνι",
+      "lightSnow": "Ελαφρύ χιόνι",
+      "moderateSnow": "Μέτριο χιόνι",
+      "heavySnow": "Ισχυρό χιόνι",
+      "icePellets": "Χαλαζόβροχο",
+      "lightRainShower": "Ελαφριές βροχοπτώσεις",
+      "moderateOrHeavyRainShower": "Μέτριες ή ισχυρές βροχοπτώσεις",
+      "torrentialRainShower": "Καταρρακτώδης βροχή",
+      "lightSleetShowers": "Ελαφριές χιονοβροχές",
+      "moderateOrHeavySleetShowers": "Μέτριες ή ισχυρές χιονοβροχές",
+      "lightSnowShowers": "Ελαφριές χιονοπτώσεις",
+      "moderateOrHeavySnowShowers": "Μέτριες ή ισχυρές χιονοπτώσεις",
+      "lightShowersOfIcePellets": "Ελαφριές χαλαζοπτώσεις",
+      "moderateOrHeavyShowersOfIcePellets": "Μέτριες ή ισχυρές χαλαζοπτώσεις",
+      "patchyLightRainWithThunder": "Τοπική ελαφριά βροχή με βροντή",
+      "moderateOrHeavyRainWithThunder": "Μέτρια ή ισχυρή βροχή με βροντή",
+      "patchyLightSnowWithThunder": "Τοπικό ελαφρύ χιόνι με βροντή",
+      "moderateOrHeavySnowWithThunder": "Μέτριο ή ισχυρό χιόνι με βροντή",
+      "fog": "Ομίχλη",
+      "freezing fog": "Παγετώδης ομίχλη",
+      "blowing snow": "Χιονοθύελλα",
+      "blizzard": "Χιονοθύελλα",
+      "thundery outbreaks in nearby": "Καταιγίδες κοντά",
+      "patchy light drizzle": "Τοπικός ελαφρύς ψιλόβροχος",
+      "light drizzle": "Ελαφρύς ψιλόβροχος",
+      "freezing drizzle": "Παγετώδης ψιλόβροχος",
+      "heavy freezing drizzle": "Ισχυρός παγετώδης ψιλόβροχος",
+      "patchy rain possible": "Πιθανή τοπική βροχή",
+      "patchy snow possible": "Πιθανό τοπικό χιόνι",
+      "patchy sleet possible": "Πιθανή τοπική χιονοβροχή",
+      "patchy freezing drizzle possible": "Πιθανός τοπικός παγετώδης ψιλόβροχος",
+      "thundery outbreaks possible": "Πιθανές καταιγίδες"
+    },
+    "alerts": {
+      "title": "Ειδοποιήσεις καιρού",
+      "expand": "Εμφάνιση λεπτομερειών",
+      "collapse": "Απόκρυψη λεπτομερειών",
+      "affectedAreas": "Περιοχές που επηρεάζονται",
+      "severity": {
+        "Minor": "Μικρή",
+        "Moderate": "Μέτρια",
+        "Severe": "Σοβαρή",
+        "Extreme": "Ακραία"
+      }
+    },
+    "enterCity": "Εισάγετε όνομα πόλης...",
+    "errors": {
+      "enterCity": "Παρακαλώ εισάγετε όνομα πόλης",
+      "fetchFailed": "Αδυναμία λήψης δεδομένων καιρού. Παρακαλώ δοκιμάστε ξανά.",
+      "fetchError": "Αδυναμία λήψης πληροφοριών καιρού"
+    },
+    "refresh": "Ανανέωση",
+    "uvIndexDescription": "Επίπεδο {level} (UV: {value})",
+    "temperature": {
+      "title": "Θερμοκρασία",
+      "current": "Τρέχουσα θερμοκρασία",
+      "min": "Ελάχιστη",
+      "max": "Μέγιστη",
+      "average": "Μέση",
+      "feelsLike": "Αίσθηση"
+    },
+    "visibility": {
+      "title": "Ορατότητα",
+      "current": "Τρέχουσα ορατότητα",
+      "good": "Καλή",
+      "moderate": "Μέτρια",
+      "poor": "Κακή",
+      "veryPoor": "Πολύ κακή",
+      "foggy": "Ομιχλώδης"
+    },
+    "uvIndex": {
+      "title": "Δείκτης UV",
+      "current": "Τρέχων δείκτης UV",
+      "details": "Λεπτομέρειες δείκτη UV",
+      "levels": {
+        "low": "Χαμηλός (0-2)",
+        "moderate": "Μέτριος (3-5)",
+        "high": "Υψηλός (6-7)",
+        "veryHigh": "Πολύ υψηλός (8-10)",
+        "extreme": "Ακραίος (11+)"
+      },
+      "protection": {
+        "low": "Δεν απαιτείται προστασία",
+        "moderate": "Συνιστάται προστασία",
+        "high": "Απαιτείται προστασία",
+        "veryHigh": "Απαιτείται επιπλέον προστασία",
+        "extreme": "Αποφύγετε την έκθεση στον ήλιο"
+      }
+    },
+    "timeNotAvailable": "Οι πληροφορίες ώρας δεν είναι διαθέσιμες",
+    "iconAltText": {
+      "clear": "Αίθριος ουρανός",
+      "sunny": "Ηλιόλουστος",
+      "partly cloudy": "Μερικώς συννεφιασμένος",
+      "cloudy": "Συννεφιασμένος",
+      "overcast": "Πλήρως συννεφιασμένος",
+      "mist": "Ομιχλώδης",
+      "patchy rain nearby": "Τοπική βροχή κοντά",
+      "patchy light rain": "Τοπική ελαφριά βροχή",
+      "light rain": "Ελαφριά βροχή",
+      "moderate rain": "Μέτρια βροχή",
+      "heavy rain": "Ισχυρή βροχή",
+      "light freezing rain": "Ελαφριά παγετώδης βροχή",
+      "moderate or heavy freezing rain": "Μέτρια ή ισχυρή παγετώδης βροχή",
+      "light sleet": "Ελαφριά χιονοβροχή",
+      "moderate or heavy sleet": "Μέτρια ή ισχυρή χιονοβροχή",
+      "patchy light snow": "Τοπικό ελαφρύ χιόνι",
+      "light snow": "Ελαφρύ χιόνι",
+      "patchy moderate snow": "Τοπικό μέτριο χιόνι",
+      "moderate snow": "Μέτριο χιόνι",
+      "patchy heavy snow": "Τοπικό ισχυρό χιόνι",
+      "heavy snow": "Ισχυρό χιόνι",
+      "ice pellets": "Χαλαζόβροχο",
+      "light rain shower": "Ελαφριές βροχοπτώσεις",
+      "moderate or heavy rain shower": "Μέτριες ή ισχυρές βροχοπτώσεις",
+      "torrential rain shower": "Καταρρακτώδης βροχή",
+      "light sleet showers": "Ελαφριές χιονοβροχές",
+      "moderate or heavy sleet showers": "Μέτριες ή ισχυρές χιονοβροχές",
+      "light snow showers": "Ελαφριές χιονοπτώσεις",
+      "moderate or heavy snow showers": "Μέτριες ή ισχυρές χιονοπτώσεις",
+      "light showers of ice pellets": "Ελαφριές χαλαζοπτώσεις",
+      "moderate or heavy showers of ice pellets": "Μέτριες ή ισχυρές χαλαζοπτώσεις",
+      "patchy light rain with thunder": "Τοπική ελαφριά βροχή με βροντή",
+      "moderate or heavy rain with thunder": "Μέτρια ή ισχυρή βροχή με βροντή",
+      "patchy light snow with thunder": "Τοπικό ελαφρύ χιόνι με βροντή",
+      "moderate or heavy snow with thunder": "Μέτριο ή ισχυρό χιόνι με βροντή",
+      "fog": "Ομίχλη",
+      "freezing fog": "Παγετώδης ομίχλη",
+      "blowing snow": "Χιονοθύελλα",
+      "blizzard": "Χιονοθύελλα",
+      "thundery outbreaks in nearby": "Καταιγίδες κοντά",
+      "patchy light drizzle": "Τοπικός ελαφρύς ψιλόβροχος",
+      "light drizzle": "Ελαφρύς ψιλόβροχος",
+      "freezing drizzle": "Παγετώδης ψιλόβροχος",
+      "heavy freezing drizzle": "Ισχυρός παγετώδης ψιλόβροχος",
+      "patchy rain possible": "Πιθανή τοπική βροχή",
+      "patchy snow possible": "Πιθανό τοπικό χιόνι",
+      "patchy sleet possible": "Πιθανή τοπική χιονοβροχή",
+      "patchy freezing drizzle possible": "Πιθανός τοπικός παγετώδης ψιλόβροχος",
+      "thundery outbreaks possible": "Πιθανές καταιγίδες"
+    },
+    "details": {
+      "uvIndex": "Δείκτης UV"
+    }
+  },
+  "app": {
+    "name": "Καιρός",
+    "description": "Προβλέψεις καιρού και ενημερώσεις σε πραγματικό χρόνο για πόλεις σε όλο τον κόσμο",
+    "theme": {
+      "dark": "Σκούρο θέμα",
+      "light": "Φωτεινό θέμα",
+      "system": "Σύστημα"
+    },
+    "language": {
+      "switch": "Αλλαγή γλώσσας",
+      "en": "Αγγλικά",
+      "tr": "Τουρκικά",
+      "es": "Ισπανικά",
+      "fr": "Γαλλικά",
+      "de": "Γερμανικά",
+      "it": "Ιταλικά",
+      "ru": "Ρωσικά",
+      "pl": "Πολωνικά",
+      "nl": "Ολλανδικά",
+      "uk": "Ουκρανικά",
+      "ar": "Αραβικά",
+      "zh": "Κινέζικα",
+      "hi": "Χίντι",
+      "ja": "Ιαπωνικά",
+      "ko": "Κορεατικά",
+      "pt": "Πορτογαλικά",
+      "sv": "Σουηδικά",
+      "da": "Δανικά",
+      "fi": "Φινλανδικά",
+      "no": "Νορβηγικά",
+      "el": "Ελληνικά",
+      "cs": "Τσέχικα",
+      "he": "Εβραϊκά",
+      "id": "Ινδονησιακά",
+      "ms": "Μαλαισιανά",
+      "th": "Ταϊλανδικά",
+      "hu": "Ουγγρικά",
+      "vi": "Βιετναμικά"
+    },
+    "footer": {
+      "rights": "Με επιφύλαξη παντός δικαιώματος"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Η πόλη δεν βρέθηκε",
+        "fetch_failed": "Αδυναμία λήψης δεδομένων καιρού",
+        "invalid_input": "Παρακαλώ εισάγετε έγκυρο όνομα πόλης",
+        "location_denied": "Απόρριψη πρόσβασης στην τοποθεσία",
+        "api_key": "Σφάλμα στη διαμόρφωση της υπηρεσίας καιρού",
+        "connection_reset": "Η σύνδεση με την υπηρεσία καιρού επαναφέρθηκε",
+        "invalid_response": "Λήψη μη έγκυρων δεδομένων από την υπηρεσία καιρού",
+        "unknown": "Παρουσιάστηκε απρόσμενο σφάλμα"
+      }
+    }
+  },
+  "error": {
+    "title": "Σφάλμα",
+    "description": "Κάτι πήγε στραβά",
+    "retry": "Επανάληψη",
+    "back": "Πίσω"
+  }
+} 

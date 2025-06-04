@@ -1,0 +1,358 @@
+{
+  "welcome": {
+    "title": "Welkom bij de Weer App",
+    "subtitle": "Realtime weersinformatie en voorspellingen"
+  },
+  "header": {
+    "title": "Weer App",
+    "toggleTheme": "Wissel Thema"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Ingebouwde TypeScript-ondersteuning voor een betere ontwikkelingservaring"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-first CSS-framework voor snelle UI-ontwikkeling"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Next-generation Vue.js framework"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Over",
+    "settings": "Instellingen"
+  },
+  "footer": {
+    "copyright": "© {year} Weer App. Alle rechten voorbehouden."
+  },
+  "language": {
+    "switch": "Wissel Taal",
+    "current": "Huidige Taal",
+    "select": "Selecteer Taal"
+  },
+  "home": {
+    "title": "Weer App",
+    "search_prompt": "Voer een stadnaam in of gebruik je locatie om het weer te bekijken"
+  },
+  "weather": {
+    "title": "Weer",
+    "subtitle": "Bekijk nauwkeurige weersinformatie voor alle steden",
+    "cityLabel": "Stadnaam",
+    "cityPlaceholder": "Voer stadnaam in...",
+    "search": {
+      "title": "Weer Zoeken",
+      "enterCity": "Voer stadnaam in",
+      "searchButton": "Zoeken",
+      "placeholder": "Voer stadnaam in...",
+      "error": "Stad niet gevonden",
+      "useLocation": "Gebruik Mijn Locatie",
+      "searching": "Zoeken..."
+    },
+    "loading": "Laden...",
+    "fetchError": "Kan weergegevens niet ophalen. Probeer het opnieuw.",
+    "currentWeather": "Huidig Weer",
+    "feelsLike": "Voelt Als",
+    "humidity": "Luchtvochtigheid",
+    "wind": "Windsnelheid",
+    "uvIndex": "UV-index",
+    "forecast": {
+      "title": "Voorspelling",
+      "daily": "Dagelijkse Voorspelling",
+      "hourly": "Uurlijkse Voorspelling",
+      "nextDays": "Volgende {days} Dagen",
+      "nextHours": "Volgende {hours} Uren",
+      "today": "Vandaag",
+      "tomorrow": "Morgen",
+      "thisWeek": "Deze Week",
+      "thisMonth": "Deze Maand",
+      "threeDay": "3-Daagse Voorspelling",
+      "temperature": {
+        "high": "Hoogste",
+        "low": "Laagste",
+        "average": "Gemiddeld"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/u",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "inch",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mijl",
+      "m": "m",
+      "ft": "ft",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "N",
+        "NE": "NO",
+        "E": "O",
+        "SE": "ZO",
+        "S": "Z",
+        "SW": "ZW",
+        "W": "W",
+        "NW": "NW"
+      }
+    },
+    "conditions": {
+      "clear": "Helder",
+      "sunny": "Zonnig",
+      "clouds": "Bewolkt",
+      "rain": "Regen",
+      "snow": "Sneeuw",
+      "thunderstorm": "Onweer",
+      "drizzle": "Motregen",
+      "mist": "Mist",
+      "fog": "Dichte Mist",
+      "partlyCloudy": "Gedeeltelijk Bewolkt",
+      "cloudy": "Bewolkt",
+      "overcast": "Betrokken",
+      "patchyRain": "Plaatselijke Regen",
+      "patchySnow": "Plaatselijke Sneeuw",
+      "patchySleet": "Plaatselijke Sneeuwregen",
+      "patchyFreezingDrizzle": "Plaatselijke IJzel",
+      "thunderyOutbreaks": "Onweersbuien",
+      "blowingSnow": "Sneeuwjacht",
+      "blizzard": "Sneeuwstorm",
+      "freezingFog": "IJsmist",
+      "patchyLightDrizzle": "Plaatselijke Lichte Motregen",
+      "lightDrizzle": "Lichte Motregen",
+      "freezingDrizzle": "IJzel",
+      "heavyFreezingDrizzle": "Zware IJzel",
+      "patchyLightRain": "Plaatselijke Lichte Regen",
+      "lightRain": "Lichte Regen",
+      "moderateRain": "Matige Regen",
+      "heavyRain": "Zware Regen",
+      "lightFreezingRain": "Lichte IJzel",
+      "moderateOrHeavyFreezingRain": "Matige/Zware IJzel",
+      "lightSleet": "Lichte Sneeuwregen",
+      "moderateOrHeavySleet": "Matige/Zware Sneeuwregen",
+      "patchyLightSnow": "Plaatselijke Lichte Sneeuw",
+      "lightSnow": "Lichte Sneeuw",
+      "moderateSnow": "Matige Sneeuw",
+      "heavySnow": "Zware Sneeuw",
+      "icePellets": "IJsregen",
+      "lightRainShower": "Lichte Regenbui",
+      "moderateOrHeavyRainShower": "Matige/Zware Regenbui",
+      "torrentialRainShower": "Stortbui",
+      "lightSleetShowers": "Lichte Sneeuwregenbui",
+      "moderateOrHeavySleetShowers": "Matige/Zware Sneeuwregenbui",
+      "lightSnowShowers": "Lichte Sneeuwbui",
+      "moderateOrHeavySnowShowers": "Matige/Zware Sneeuwbui",
+      "lightShowersOfIcePellets": "Lichte IJsregenbui",
+      "moderateOrHeavyShowersOfIcePellets": "Matige/Zware IJsregenbui",
+      "patchyLightRainWithThunder": "Plaatselijke Lichte Regen met Onweer",
+      "moderateOrHeavyRainWithThunder": "Matige/Zware Regen met Onweer",
+      "patchyLightSnowWithThunder": "Plaatselijke Lichte Sneeuw met Onweer",
+      "moderateOrHeavySnowWithThunder": "Matige/Zware Sneeuw met Onweer"
+    },
+    "alerts": {
+      "title": "Weerswaarschuwingen",
+      "expand": "Details Tonen",
+      "collapse": "Inklappen",
+      "affectedAreas": "Getroffen Gebieden",
+      "severity": {
+        "Minor": "Klein",
+        "Moderate": "Matig",
+        "Severe": "Ernstig",
+        "Extreme": "Extreem"
+      }
+    },
+    "enterCity": "Voer stadnaam in...",
+    "errors": {
+      "enterCity": "Voer een stadnaam in",
+      "fetchFailed": "Kan weergegevens niet ophalen. Probeer het opnieuw.",
+      "fetchError": "Kan weersinformatie niet ophalen"
+    },
+    "refresh": "Vernieuwen",
+    "uvIndexDescription": "Niveau {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperatuur",
+      "current": "Huidige Temperatuur",
+      "min": "Minimum Temperatuur",
+      "max": "Maximum Temperatuur",
+      "average": "Gemiddelde Temperatuur",
+      "feelsLike": "Voelt Als"
+    },
+    "visibility": {
+      "title": "Zichtbaarheid",
+      "current": "Huidige Zichtbaarheid",
+      "good": "Goed",
+      "moderate": "Matig",
+      "poor": "Slecht",
+      "veryPoor": "Zeer Slecht",
+      "foggy": "Mistig"
+    },
+    "uvIndex": {
+      "title": "UV-index",
+      "current": "Huidige UV-index",
+      "levels": {
+        "low": "Laag (0-2)",
+        "moderate": "Matig (3-5)",
+        "high": "Hoog (6-7)",
+        "veryHigh": "Zeer Hoog (8-10)",
+        "extreme": "Extreem (11+)"
+      },
+      "protection": {
+        "low": "Geen bescherming nodig",
+        "moderate": "Bescherming aanbevolen",
+        "high": "Bescherming vereist",
+        "veryHigh": "Extra bescherming vereist",
+        "extreme": "Vermijd directe blootstelling"
+      }
+    },
+    "timeNotAvailable": "Tijdsinformatie niet beschikbaar",
+    "iconAltText": {
+      "clear": "Helder",
+      "sunny": "Zonnig",
+      "partly cloudy": "Gedeeltelijk Bewolkt",
+      "cloudy": "Bewolkt",
+      "overcast": "Betrokken",
+      "mist": "Mist",
+      "patchy rain nearby": "Plaatselijke Regen in de Buurt",
+      "patchy light rain": "Plaatselijke Lichte Regen",
+      "light rain": "Lichte Regen",
+      "moderate rain": "Matige Regen",
+      "heavy rain": "Zware Regen",
+      "light freezing rain": "Lichte IJzel",
+      "moderate or heavy freezing rain": "Matige/Zware IJzel",
+      "light sleet": "Lichte Sneeuwregen",
+      "moderate or heavy sleet": "Matige/Zware Sneeuwregen",
+      "patchy light snow": "Plaatselijke Lichte Sneeuw",
+      "light snow": "Lichte Sneeuw",
+      "patchy moderate snow": "Plaatselijke Matige Sneeuw",
+      "moderate snow": "Matige Sneeuw",
+      "patchy heavy snow": "Plaatselijke Zware Sneeuw",
+      "heavy snow": "Zware Sneeuw",
+      "ice pellets": "IJsregen",
+      "light rain shower": "Lichte Regenbui",
+      "moderate or heavy rain shower": "Matige/Zware Regenbui",
+      "torrential rain shower": "Stortbui",
+      "light sleet showers": "Lichte Sneeuwregenbui",
+      "moderate or heavy sleet showers": "Matige/Zware Sneeuwregenbui",
+      "light snow showers": "Lichte Sneeuwbui",
+      "moderate or heavy snow showers": "Matige/Zware Sneeuwbui",
+      "light showers of ice pellets": "Lichte IJsregenbui",
+      "moderate or heavy showers of ice pellets": "Matige/Zware IJsregenbui",
+      "patchy light rain with thunder": "Plaatselijke Lichte Regen met Onweer",
+      "moderate or heavy rain with thunder": "Matige/Zware Regen met Onweer",
+      "patchy light snow with thunder": "Plaatselijke Lichte Sneeuw met Onweer",
+      "moderate or heavy snow with thunder": "Matige/Zware Sneeuw met Onweer",
+      "fog": "Mist",
+      "freezing fog": "IJsmist",
+      "blowing snow": "Sneeuwjacht",
+      "blizzard": "Sneeuwstorm",
+      "thundery outbreaks in nearby": "Onweersbuien in de Buurt",
+      "patchy light drizzle": "Plaatselijke Lichte Motregen",
+      "light drizzle": "Lichte Motregen",
+      "freezing drizzle": "IJzel",
+      "heavy freezing drizzle": "Zware IJzel",
+      "patchy rain possible": "Mogelijk Plaatselijke Regen",
+      "patchy snow possible": "Mogelijk Plaatselijke Sneeuw",
+      "patchy sleet possible": "Mogelijk Plaatselijke Sneeuwregen",
+      "patchy freezing drizzle possible": "Mogelijk Plaatselijke IJzel",
+      "thundery outbreaks possible": "Mogelijk Onweersbuien"
+    },
+    "details": {
+      "sunrise": "Zonsopgang",
+      "sunset": "Zonsondergang",
+      "wind": "Wind",
+      "pressure": "Luchtdruk",
+      "uvIndex": "UV-index",
+      "uvLevels": {
+        "low": "Laag",
+        "moderate": "Matig",
+        "high": "Hoog",
+        "veryHigh": "Zeer Hoog",
+        "extreme": "Extreem"
+      },
+      "moonPhase": "Maanfase",
+      "visibility": "Zichtbaarheid",
+      "moonrise": "Maanopkomst",
+      "moonset": "Maanondergang",
+      "dewPoint": "Dauwpunt",
+      "precipitation": "Neerslag",
+      "precipitationProbability": "Neerslagkans",
+      "cloudCover": "Bewolking",
+      "windGust": "Windvlaag",
+      "windDirection": "Windrichting",
+      "airQuality": "Luchtkwaliteit",
+      "airQualityLevels": {
+        "good": "Goed",
+        "moderate": "Matig",
+        "unhealthyForSensitive": "Ongezond voor Gevoelige Groepen",
+        "unhealthy": "Ongezond",
+        "veryUnhealthy": "Zeer Ongezond",
+        "hazardous": "Gevaarlijk"
+      }
+    }
+  },
+  "app": {
+    "name": "Weer",
+    "description": "Realtime weersvoorspellingen en updates voor steden wereldwijd",
+    "theme": {
+      "dark": "Donker Thema",
+      "light": "Licht Thema",
+      "system": "Systeem Thema"
+    },
+    "language": {
+      "switch": "Wissel Taal",
+      "en": "Engels",
+      "tr": "Turks",
+      "es": "Spaans",
+      "fr": "Frans",
+      "de": "Duits",
+      "it": "Italiaans",
+      "ru": "Russisch",
+      "pl": "Pools",
+      "nl": "Nederlands",
+      "uk": "Oekraïens",
+      "ar": "Arabisch",
+      "zh": "Chinees",
+      "hi": "Hindi",
+      "ja": "Japans",
+      "ko": "Koreaans",
+      "pt": "Portugees",
+      "sv": "Zweeds",
+      "da": "Deens",
+      "fi": "Fins",
+      "no": "Noors",
+      "el": "Grieks",
+      "cs": "Tsjechisch",
+      "he": "Hebreeuws",
+      "id": "Indonesisch",
+      "ms": "Maleis",
+      "th": "Thais",
+      "hu": "Hongaars",
+      "vi": "Vietnamees"
+    },
+    "footer": {
+      "rights": "Alle rechten voorbehouden"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Stad niet gevonden",
+        "fetch_failed": "Kan weergegevens niet ophalen",
+        "invalid_input": "Voer een geldige stadnaam in",
+        "location_denied": "Locatietoegang geweigerd",
+        "api_key": "Weerservice configuratiefout",
+        "connection_reset": "Weerservice verbinding is gereset",
+        "invalid_response": "Ongeldige gegevens ontvangen van weerservice",
+        "unknown": "Er is een onbekende fout opgetreden"
+      }
+    }
+  },
+  "error": {
+    "title": "Fout",
+    "description": "Er is iets misgegaan",
+    "retry": "Opnieuw Proberen",
+    "back": "Terug"
+  }
+} 
