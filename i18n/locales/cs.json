@@ -1,0 +1,331 @@
+{
+  "welcome": {
+    "title": "Vítejte v aplikaci Počasí",
+    "subtitle": "Aktuální předpověď počasí a informace"
+  },
+  "header": {
+    "title": "Aplikace Počasí",
+    "toggleTheme": "Přepnout Téma"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Vestavěná podpora TypeScriptu pro lepší vývojářský zážitek"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-first CSS framework pro rychlý vývoj UI"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Nová generace Vue.js frameworku"
+    }
+  },
+  "navigation": {
+    "home": "Domů",
+    "about": "O aplikaci",
+    "settings": "Nastavení"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "Poháněno WeatherAPI",
+    "copyright": "Všechna práva vyhrazena"
+  },
+  "language": {
+    "switch": "Změnit jazyk",
+    "current": "Aktuální jazyk",
+    "select": "Vyberte jazyk"
+  },
+  "home": {
+    "title": "Aplikace Počasí",
+    "search_prompt": "Zadejte název města nebo použijte svou polohu pro získání informací o počasí"
+  },
+  "weather": {
+    "title": "Počasí",
+    "subtitle": "Získejte přesné informace o počasí pro jakékoliv město",
+    "cityLabel": "Název města",
+    "cityPlaceholder": "Zadejte název města...",
+    "search": {
+      "title": "Vyhledat počasí",
+      "enterCity": "Zadejte název města",
+      "searchButton": "Hledat",
+      "placeholder": "Zadejte název města...",
+      "error": "Město nebylo nalezeno",
+      "useLocation": "Použít mou polohu",
+      "searching": "Vyhledávání..."
+    },
+    "loading": "Načítání...",
+    "fetchError": "Nepodařilo se získat data o počasí. Zkuste to prosím znovu.",
+    "currentWeather": "Aktuální počasí",
+    "feelsLike": "Pocitová teplota",
+    "humidity": "Vlhkost",
+    "wind": "Rychlost větru",
+    "uvIndex": "UV index",
+    "forecast": {
+      "title": "Předpověď",
+      "daily": "Denní předpověď",
+      "hourly": "Hodinová předpověď",
+      "nextDays": "Příštích {days} dní",
+      "nextHours": "Příštích {hours} hodin",
+      "today": "Dnes",
+      "tomorrow": "Zítra",
+      "thisWeek": "Tento týden",
+      "thisMonth": "Tento měsíc",
+      "threeDay": "3denní předpověď",
+      "temperature": {
+        "high": "Maximum",
+        "low": "Minimum",
+        "average": "Průměr"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "in",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mi",
+      "m": "m",
+      "ft": "ft",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Sever",
+        "NE": "Severovýchod",
+        "E": "Východ",
+        "SE": "Jihovýchod",
+        "S": "Jih",
+        "SW": "Jihozápad",
+        "W": "Západ",
+        "NW": "Severozápad"
+      }
+    },
+    "conditions": {
+      "clear": "Jasno",
+      "sunny": "Slunečno",
+      "clouds": "Oblačno",
+      "rain": "Déšť",
+      "snow": "Sníh",
+      "thunderstorm": "Bouřka",
+      "drizzle": "Mrholení",
+      "mist": "Mlhavo",
+      "fog": "Mlha",
+      "partlyCloudy": "Částečně oblačno",
+      "cloudy": "Oblačno",
+      "overcast": "Zataženo",
+      "patchyRain": "Místy déšť",
+      "patchySnow": "Místy sníh",
+      "patchySleet": "Místy déšť se sněhem",
+      "patchyFreezingDrizzle": "Místy mrznoucí mrholení",
+      "thunderyOutbreaks": "Místy bouřky",
+      "blowingSnow": "Sněžení s větrem",
+      "blizzard": "Sněhová bouře",
+      "freezingFog": "Mrznoucí mlha",
+      "patchyLightDrizzle": "Místy slabé mrholení",
+      "lightDrizzle": "Slabé mrholení",
+      "freezingDrizzle": "Mrznoucí mrholení",
+      "heavyFreezingDrizzle": "Silné mrznoucí mrholení",
+      "patchyLightRain": "Místy slabý déšť",
+      "lightRain": "Slabý déšť",
+      "moderateRain": "Mírný déšť",
+      "heavyRain": "Silný déšť",
+      "lightFreezingRain": "Slabý mrznoucí déšť",
+      "moderateOrHeavyFreezingRain": "Mírný nebo silný mrznoucí déšť",
+      "lightSleet": "Slabý déšť se sněhem",
+      "moderateOrHeavySleet": "Mírný nebo silný déšť se sněhem",
+      "patchyLightSnow": "Místy slabý sníh",
+      "lightSnow": "Slabý sníh",
+      "moderateSnow": "Mírný sníh",
+      "heavySnow": "Silný sníh",
+      "icePellets": "Kroupy",
+      "lightRainShower": "Slabé přeháňky",
+      "moderateOrHeavyRainShower": "Mírné nebo silné přeháňky",
+      "torrentialRainShower": "Přívalové přeháňky",
+      "lightSleetShowers": "Slabé přeháňky se sněhem",
+      "moderateOrHeavySleetShowers": "Mírné nebo silné přeháňky se sněhem",
+      "lightSnowShowers": "Slabé sněhové přeháňky",
+      "moderateOrHeavySnowShowers": "Mírné nebo silné sněhové přeháňky",
+      "lightShowersOfIcePellets": "Slabé přeháňky krup",
+      "moderateOrHeavyShowersOfIcePellets": "Mírné nebo silné přeháňky krup",
+      "patchyLightRainWithThunder": "Místy slabý déšť s bouřkou",
+      "moderateOrHeavyRainWithThunder": "Mírný nebo silný déšť s bouřkou",
+      "patchyLightSnowWithThunder": "Místy slabý sníh s bouřkou",
+      "moderateOrHeavySnowWithThunder": "Mírný nebo silný sníh s bouřkou"
+    },
+    "alerts": {
+      "title": "Výstrahy počasí",
+      "expand": "Zobrazit detaily",
+      "collapse": "Skrýt detaily",
+      "affectedAreas": "Zasažené oblasti",
+      "severity": {
+        "Minor": "Mírná",
+        "Moderate": "Střední",
+        "Severe": "Silná",
+        "Extreme": "Extrémní"
+      }
+    },
+    "enterCity": "Zadejte název města...",
+    "errors": {
+      "enterCity": "Prosím zadejte název města",
+      "fetchFailed": "Nepodařilo se získat data o počasí. Zkuste to prosím znovu.",
+      "fetchError": "Nepodařilo se získat informace o počasí"
+    },
+    "refresh": "Obnovit",
+    "uvIndexDescription": "Úroveň {level} (UV: {value})",
+    "temperature": {
+      "title": "Teplota",
+      "current": "Aktuální teplota",
+      "min": "Minimum",
+      "max": "Maximum",
+      "average": "Průměr",
+      "feelsLike": "Pocitová teplota"
+    },
+    "visibility": {
+      "title": "Viditelnost",
+      "current": "Aktuální viditelnost",
+      "good": "Dobrá",
+      "moderate": "Střední",
+      "poor": "Špatná",
+      "veryPoor": "Velmi špatná",
+      "foggy": "Mlhavá"
+    },
+    "uvIndex": {
+      "title": "UV index",
+      "current": "Aktuální UV index",
+      "details": "Podrobnosti UV indexu",
+      "levels": {
+        "low": "Nízký (0-2)",
+        "moderate": "Střední (3-5)",
+        "high": "Vysoký (6-7)",
+        "veryHigh": "Velmi vysoký (8-10)",
+        "extreme": "Extrémní (11+)"
+      },
+      "protection": {
+        "low": "Není potřeba ochrana",
+        "moderate": "Doporučuje se ochrana",
+        "high": "Ochrana je nutná",
+        "veryHigh": "Je nutná zvýšená ochrana",
+        "extreme": "Vyhněte se pobytu na slunci"
+      }
+    },
+    "timeNotAvailable": "Informace o čase není k dispozici",
+    "iconAltText": {
+      "clear": "Jasno",
+      "sunny": "Slunečno",
+      "partly cloudy": "Částečně oblačno",
+      "cloudy": "Oblačno",
+      "overcast": "Zataženo",
+      "mist": "Mlhavo",
+      "patchy rain nearby": "Místy déšť v okolí",
+      "patchy light rain": "Místy slabý déšť",
+      "light rain": "Slabý déšť",
+      "moderate rain": "Mírný déšť",
+      "heavy rain": "Silný déšť",
+      "light freezing rain": "Slabý mrznoucí déšť",
+      "moderate or heavy freezing rain": "Mírný nebo silný mrznoucí déšť",
+      "light sleet": "Slabý déšť se sněhem",
+      "moderate or heavy sleet": "Mírný nebo silný déšť se sněhem",
+      "patchy light snow": "Místy slabý sníh",
+      "light snow": "Slabý sníh",
+      "patchy moderate snow": "Místy mírný sníh",
+      "moderate snow": "Mírný sníh",
+      "patchy heavy snow": "Místy silný sníh",
+      "heavy snow": "Silný sníh",
+      "ice pellets": "Kroupy",
+      "light rain shower": "Slabé přeháňky",
+      "moderate or heavy rain shower": "Mírné nebo silné přeháňky",
+      "torrential rain shower": "Přívalové přeháňky",
+      "light sleet showers": "Slabé přeháňky se sněhem",
+      "moderate or heavy sleet showers": "Mírné nebo silné přeháňky se sněhem",
+      "light snow showers": "Slabé sněhové přeháňky",
+      "moderate or heavy snow showers": "Mírné nebo silné sněhové přeháňky",
+      "light showers of ice pellets": "Slabé přeháňky krup",
+      "moderate or heavy showers of ice pellets": "Mírné nebo silné přeháňky krup",
+      "patchy light rain with thunder": "Místy slabý déšť s bouřkou",
+      "moderate or heavy rain with thunder": "Mírný nebo silný déšť s bouřkou",
+      "patchy light snow with thunder": "Místy slabý sníh s bouřkou",
+      "moderate or heavy snow with thunder": "Mírný nebo silný sníh s bouřkou",
+      "fog": "Mlha",
+      "freezing fog": "Mrznoucí mlha",
+      "blowing snow": "Sněžení s větrem",
+      "blizzard": "Sněhová bouře",
+      "thundery outbreaks in nearby": "Bouřky v okolí",
+      "patchy light drizzle": "Místy slabé mrholení",
+      "light drizzle": "Slabé mrholení",
+      "freezing drizzle": "Mrznoucí mrholení",
+      "heavy freezing drizzle": "Silné mrznoucí mrholení",
+      "patchy rain possible": "Možnost místních srážek",
+      "patchy snow possible": "Možnost místního sněžení",
+      "patchy sleet possible": "Možnost místního deště se sněhem",
+      "patchy freezing drizzle possible": "Možnost místního mrznoucího mrholení",
+      "thundery outbreaks possible": "Možnost bouřek"
+    },
+    "details": {
+      "uvIndex": "UV index"
+    }
+  },
+  "app": {
+    "name": "Počasí",
+    "description": "Předpověď počasí a aktualizace v reálném čase pro města po celém světě",
+    "theme": {
+      "dark": "Tmavý režim",
+      "light": "Světlý režim",
+      "system": "Systémové nastavení"
+    },
+    "language": {
+      "switch": "Změnit jazyk",
+      "en": "Angličtina",
+      "tr": "Turečtina",
+      "es": "Španělština",
+      "fr": "Francouzština",
+      "de": "Němčina",
+      "it": "Italština",
+      "ru": "Ruština",
+      "pl": "Polština",
+      "nl": "Holandština",
+      "uk": "Ukrajinština",
+      "ar": "Arabština",
+      "zh": "Čínština",
+      "hi": "Hindština",
+      "ja": "Japonština",
+      "ko": "Korejština",
+      "pt": "Portugalština",
+      "sv": "Švédština",
+      "da": "Dánština",
+      "fi": "Finština",
+      "no": "Norština",
+      "el": "Řečtina",
+      "cs": "Čeština",
+      "he": "Hebrejština",
+      "id": "Indonéština",
+      "ms": "Malajština",
+      "th": "Thajština",
+      "hu": "Maďarština",
+      "vi": "Vietnamština"
+    },
+    "footer": {
+      "rights": "Všechna práva vyhrazena"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Město nebylo nalezeno",
+        "fetch_failed": "Nepodařilo se získat data o počasí",
+        "invalid_input": "Prosím zadejte platný název města",
+        "location_denied": "Přístup k poloze byl zamítnut",
+        "api_key": "Chyba v konfiguraci služby počasí",
+        "connection_reset": "Připojení ke službě počasí bylo resetováno",
+        "invalid_response": "Přijata neplatná data ze služby počasí",
+        "unknown": "Došlo k neočekávané chybě"
+      }
+    }
+  },
+  "error": {
+    "title": "Chyba",
+    "description": "Něco se pokazilo",
+    "retry": "Zkusit znovu",
+    "back": "Zpět"
+  }
+} 

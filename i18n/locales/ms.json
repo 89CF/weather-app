@@ -1,0 +1,358 @@
+{
+  "welcome": {
+    "title": "Selamat Datang ke Aplikasi Cuaca",
+    "subtitle": "Maklumat dan ramalan cuaca masa nyata"
+  },
+  "header": {
+    "title": "Aplikasi Cuaca",
+    "toggleTheme": "Tukar Tema"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Sokongan TypeScript terbina dalam untuk pengalaman pembangunan yang lebih baik"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Rangka kerja CSS utiliti-pertama untuk pembangunan UI yang pantas"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Rangka kerja Vue.js generasi seterusnya"
+    }
+  },
+  "navigation": {
+    "home": "Utama",
+    "about": "Tentang",
+    "settings": "Tetapan"
+  },
+  "footer": {
+    "copyright": "© {year} Aplikasi Cuaca. Hak Cipta Terpelihara."
+  },
+  "language": {
+    "switch": "Tukar Bahasa",
+    "current": "Bahasa Semasa",
+    "select": "Pilih Bahasa"
+  },
+  "home": {
+    "title": "Aplikasi Cuaca",
+    "search_prompt": "Masukkan nama bandar atau gunakan lokasi anda untuk melihat cuaca"
+  },
+  "weather": {
+    "title": "Cuaca",
+    "subtitle": "Lihat maklumat cuaca yang tepat untuk semua bandar",
+    "cityLabel": "Nama Bandar",
+    "cityPlaceholder": "Masukkan nama bandar...",
+    "search": {
+      "title": "Cari Cuaca",
+      "enterCity": "Masukkan nama bandar",
+      "searchButton": "Cari",
+      "placeholder": "Masukkan nama bandar...",
+      "error": "Bandar tidak dijumpai",
+      "useLocation": "Gunakan Lokasi Saya",
+      "searching": "Mencari..."
+    },
+    "loading": "Memuatkan...",
+    "fetchError": "Tidak dapat mendapatkan data cuaca. Sila cuba lagi.",
+    "currentWeather": "Cuaca Semasa",
+    "feelsLike": "Terasa Seperti",
+    "humidity": "Kelembapan",
+    "wind": "Kelajuan Angin",
+    "uvIndex": "Indeks UV",
+    "forecast": {
+      "title": "Ramalan",
+      "daily": "Ramalan Harian",
+      "hourly": "Ramalan Setiap Jam",
+      "nextDays": "{days} Hari Akan Datang",
+      "nextHours": "{hours} Jam Akan Datang",
+      "today": "Hari Ini",
+      "tomorrow": "Esok",
+      "thisWeek": "Minggu Ini",
+      "thisMonth": "Bulan Ini",
+      "threeDay": "Ramalan 3 Hari",
+      "temperature": {
+        "high": "Tertinggi",
+        "low": "Terendah",
+        "average": "Purata"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/j",
+      "mph": "bph",
+      "mm": "mm",
+      "inch": "inci",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "batu",
+      "m": "m",
+      "ft": "kaki",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "U",
+        "NE": "TL",
+        "E": "T",
+        "SE": "TS",
+        "S": "S",
+        "SW": "BS",
+        "W": "B",
+        "NW": "BL"
+      }
+    },
+    "conditions": {
+      "clear": "Jernih",
+      "sunny": "Cerah",
+      "clouds": "Berawan",
+      "rain": "Hujan",
+      "snow": "Salji",
+      "thunderstorm": "Ribut Petir",
+      "drizzle": "Hujan Rintik-rintik",
+      "mist": "Kabut",
+      "fog": "Kabus Tebal",
+      "partlyCloudy": "Sebahagian Berawan",
+      "cloudy": "Berawan",
+      "overcast": "Mendung",
+      "patchyRain": "Hujan Tempatan",
+      "patchySnow": "Salji Tempatan",
+      "patchySleet": "Hujan Salji Tempatan",
+      "patchyFreezingDrizzle": "Hujan Rintik-rintik Beku Tempatan",
+      "thunderyOutbreaks": "Ribut Petir",
+      "blowingSnow": "Salji Ditiup",
+      "blizzard": "Ribut Salji",
+      "freezingFog": "Kabut Beku",
+      "patchyLightDrizzle": "Hujan Rintik-rintik Ringan Tempatan",
+      "lightDrizzle": "Hujan Rintik-rintik Ringan",
+      "freezingDrizzle": "Hujan Rintik-rintik Beku",
+      "heavyFreezingDrizzle": "Hujan Rintik-rintik Beku Lebat",
+      "patchyLightRain": "Hujan Ringan Tempatan",
+      "lightRain": "Hujan Ringan",
+      "moderateRain": "Hujan Sederhana",
+      "heavyRain": "Hujan Lebat",
+      "lightFreezingRain": "Hujan Beku Ringan",
+      "moderateOrHeavyFreezingRain": "Hujan Beku Sederhana/Lebat",
+      "lightSleet": "Hujan Salji Ringan",
+      "moderateOrHeavySleet": "Hujan Salji Sederhana/Lebat",
+      "patchyLightSnow": "Salji Ringan Tempatan",
+      "lightSnow": "Salji Ringan",
+      "moderateSnow": "Salji Sederhana",
+      "heavySnow": "Salji Lebat",
+      "icePellets": "Hujan Ais",
+      "lightRainShower": "Hujan Ringan",
+      "moderateOrHeavyRainShower": "Hujan Sederhana/Lebat",
+      "torrentialRainShower": "Hujan Lebat",
+      "lightSleetShowers": "Hujan Salji Ringan",
+      "moderateOrHeavySleetShowers": "Hujan Salji Sederhana/Lebat",
+      "lightSnowShowers": "Salji Ringan",
+      "moderateOrHeavySnowShowers": "Salji Sederhana/Lebat",
+      "lightShowersOfIcePellets": "Hujan Ais Ringan",
+      "moderateOrHeavyShowersOfIcePellets": "Hujan Ais Sederhana/Lebat",
+      "patchyLightRainWithThunder": "Hujan Ringan Tempatan dengan Petir",
+      "moderateOrHeavyRainWithThunder": "Hujan Sederhana/Lebat dengan Petir",
+      "patchyLightSnowWithThunder": "Salji Ringan Tempatan dengan Petir",
+      "moderateOrHeavySnowWithThunder": "Salji Sederhana/Lebat dengan Petir"
+    },
+    "alerts": {
+      "title": "Amaran Cuaca",
+      "expand": "Lihat Butiran",
+      "collapse": "Tutup",
+      "affectedAreas": "Kawasan Terjejas",
+      "severity": {
+        "Minor": "Ringan",
+        "Moderate": "Sederhana",
+        "Severe": "Teruk",
+        "Extreme": "Melampau"
+      }
+    },
+    "enterCity": "Masukkan nama bandar...",
+    "errors": {
+      "enterCity": "Sila masukkan nama bandar",
+      "fetchFailed": "Tidak dapat mendapatkan data cuaca. Sila cuba lagi.",
+      "fetchError": "Tidak dapat mendapatkan maklumat cuaca"
+    },
+    "refresh": "Muat Semula",
+    "uvIndexDescription": "Tahap {level} (UV: {value})",
+    "temperature": {
+      "title": "Suhu",
+      "current": "Suhu Semasa",
+      "min": "Suhu Minimum",
+      "max": "Suhu Maksimum",
+      "average": "Suhu Purata",
+      "feelsLike": "Terasa Seperti"
+    },
+    "visibility": {
+      "title": "Keterlihatan",
+      "current": "Keterlihatan Semasa",
+      "good": "Baik",
+      "moderate": "Sederhana",
+      "poor": "Lemah",
+      "veryPoor": "Sangat Lemah",
+      "foggy": "Berkabus"
+    },
+    "uvIndex": {
+      "title": "Indeks UV",
+      "current": "Indeks UV Semasa",
+      "levels": {
+        "low": "Rendah (0-2)",
+        "moderate": "Sederhana (3-5)",
+        "high": "Tinggi (6-7)",
+        "veryHigh": "Sangat Tinggi (8-10)",
+        "extreme": "Melampau (11+)"
+      },
+      "protection": {
+        "low": "Tiada perlindungan diperlukan",
+        "moderate": "Perlindungan disyorkan",
+        "high": "Perlindungan diperlukan",
+        "veryHigh": "Perlindungan tambahan diperlukan",
+        "extreme": "Elakkan pendedahan langsung"
+      }
+    },
+    "timeNotAvailable": "Maklumat masa tidak tersedia",
+    "iconAltText": {
+      "clear": "Jernih",
+      "sunny": "Cerah",
+      "partly cloudy": "Sebahagian Berawan",
+      "cloudy": "Berawan",
+      "overcast": "Mendung",
+      "mist": "Kabut",
+      "patchy rain nearby": "Hujan Tempatan Berdekatan",
+      "patchy light rain": "Hujan Ringan Tempatan",
+      "light rain": "Hujan Ringan",
+      "moderate rain": "Hujan Sederhana",
+      "heavy rain": "Hujan Lebat",
+      "light freezing rain": "Hujan Beku Ringan",
+      "moderate or heavy freezing rain": "Hujan Beku Sederhana/Lebat",
+      "light sleet": "Hujan Salji Ringan",
+      "moderate or heavy sleet": "Hujan Salji Sederhana/Lebat",
+      "patchy light snow": "Salji Ringan Tempatan",
+      "light snow": "Salji Ringan",
+      "patchy moderate snow": "Salji Sederhana Tempatan",
+      "moderate snow": "Salji Sederhana",
+      "patchy heavy snow": "Salji Lebat Tempatan",
+      "heavy snow": "Salji Lebat",
+      "ice pellets": "Hujan Ais",
+      "light rain shower": "Hujan Ringan",
+      "moderate or heavy rain shower": "Hujan Sederhana/Lebat",
+      "torrential rain shower": "Hujan Lebat",
+      "light sleet showers": "Hujan Salji Ringan",
+      "moderate or heavy sleet showers": "Hujan Salji Sederhana/Lebat",
+      "light snow showers": "Salji Ringan",
+      "moderate or heavy snow showers": "Salji Sederhana/Lebat",
+      "light showers of ice pellets": "Hujan Ais Ringan",
+      "moderate or heavy showers of ice pellets": "Hujan Ais Sederhana/Lebat",
+      "patchy light rain with thunder": "Hujan Ringan Tempatan dengan Petir",
+      "moderate or heavy rain with thunder": "Hujan Sederhana/Lebat dengan Petir",
+      "patchy light snow with thunder": "Salji Ringan Tempatan dengan Petir",
+      "moderate or heavy snow with thunder": "Salji Sederhana/Lebat dengan Petir",
+      "fog": "Kabus",
+      "freezing fog": "Kabut Beku",
+      "blowing snow": "Salji Ditiup",
+      "blizzard": "Ribut Salji",
+      "thundery outbreaks in nearby": "Ribut Petir Berdekatan",
+      "patchy light drizzle": "Hujan Rintik-rintik Ringan Tempatan",
+      "light drizzle": "Hujan Rintik-rintik Ringan",
+      "freezing drizzle": "Hujan Rintik-rintik Beku",
+      "heavy freezing drizzle": "Hujan Rintik-rintik Beku Lebat",
+      "patchy rain possible": "Hujan Tempatan Mungkin",
+      "patchy snow possible": "Salji Tempatan Mungkin",
+      "patchy sleet possible": "Hujan Salji Tempatan Mungkin",
+      "patchy freezing drizzle possible": "Hujan Rintik-rintik Beku Tempatan Mungkin",
+      "thundery outbreaks possible": "Ribut Petir Mungkin"
+    },
+    "details": {
+      "sunrise": "Matahari Terbit",
+      "sunset": "Matahari Terbenam",
+      "wind": "Angin",
+      "pressure": "Tekanan",
+      "uvIndex": "Indeks UV",
+      "uvLevels": {
+        "low": "Rendah",
+        "moderate": "Sederhana",
+        "high": "Tinggi",
+        "veryHigh": "Sangat Tinggi",
+        "extreme": "Melampau"
+      },
+      "moonPhase": "Fasa Bulan",
+      "visibility": "Keterlihatan",
+      "moonrise": "Bulan Terbit",
+      "moonset": "Bulan Terbenam",
+      "dewPoint": "Titik Embun",
+      "precipitation": "Kerpasan",
+      "precipitationProbability": "Kebarangkalian Kerpasan",
+      "cloudCover": "Liputan Awan",
+      "windGust": "Tiupan Angin",
+      "windDirection": "Arah Angin",
+      "airQuality": "Kualiti Udara",
+      "airQualityLevels": {
+        "good": "Baik",
+        "moderate": "Sederhana",
+        "unhealthyForSensitive": "Tidak Sihat untuk Kumpulan Sensitif",
+        "unhealthy": "Tidak Sihat",
+        "veryUnhealthy": "Sangat Tidak Sihat",
+        "hazardous": "Berbahaya"
+      }
+    }
+  },
+  "app": {
+    "name": "Cuaca",
+    "description": "Ramalan dan kemas kini cuaca masa nyata untuk bandar-bandar di seluruh dunia",
+    "theme": {
+      "dark": "Mod Gelap",
+      "light": "Mod Cerah",
+      "system": "Tema Sistem"
+    },
+    "language": {
+      "switch": "Tukar Bahasa",
+      "en": "Bahasa Inggeris",
+      "tr": "Bahasa Turki",
+      "es": "Bahasa Sepanyol",
+      "fr": "Bahasa Perancis",
+      "de": "Bahasa Jerman",
+      "it": "Bahasa Itali",
+      "ru": "Bahasa Rusia",
+      "pl": "Bahasa Poland",
+      "nl": "Bahasa Belanda",
+      "uk": "Bahasa Ukraine",
+      "ar": "Bahasa Arab",
+      "zh": "Bahasa Cina",
+      "hi": "Bahasa Hindi",
+      "ja": "Bahasa Jepun",
+      "ko": "Bahasa Korea",
+      "pt": "Bahasa Portugis",
+      "sv": "Bahasa Sweden",
+      "da": "Bahasa Denmark",
+      "fi": "Bahasa Finland",
+      "no": "Bahasa Norway",
+      "el": "Bahasa Greek",
+      "cs": "Bahasa Czech",
+      "he": "Bahasa Ibrani",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "th": "Bahasa Thai",
+      "hu": "Bahasa Hungary",
+      "vi": "Bahasa Vietnam"
+    },
+    "footer": {
+      "rights": "Hak Cipta Terpelihara"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Bandar tidak dijumpai",
+        "fetch_failed": "Tidak dapat mendapatkan data cuaca",
+        "invalid_input": "Sila masukkan nama bandar yang sah",
+        "location_denied": "Akses lokasi ditolak",
+        "api_key": "Ralat konfigurasi perkhidmatan cuaca",
+        "connection_reset": "Sambungan perkhidmatan cuaca telah diset semula",
+        "invalid_response": "Data tidak sah diterima dari perkhidmatan cuaca",
+        "unknown": "Ralat tidak diketahui telah berlaku"
+      }
+    }
+  },
+  "error": {
+    "title": "Ralat",
+    "description": "Sesuatu telah berlaku",
+    "retry": "Cuba Lagi",
+    "back": "Kembali"
+  }
+} 

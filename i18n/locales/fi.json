@@ -1,0 +1,325 @@
+{
+  "welcome": {
+    "title": "Tervetuloa Sää-sovellukseen",
+    "subtitle": "Reaaliaikaiset säätiedot ja ennusteet"
+  },
+  "header": {
+    "title": "Sää-sovellus"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Sisäänrakennettu TypeScript-tuki paremman kehityskokemuksen saavuttamiseksi"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-first CSS-kehys nopeaa käyttöliittymän kehitystä varten"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Vue.js-kehyksen seuraava sukupolvi"
+    }
+  },
+  "navigation": {
+    "home": "Koti",
+    "about": "Tietoja",
+    "settings": "Asetukset"
+  },
+  "footer": {
+    "copyright": "© {year} Sää-sovellus. Kaikki oikeudet pidätetään."
+  },
+  "language": {
+    "switch": "Vaihda Kieltä",
+    "current": "Nykyinen Kieli",
+    "select": "Valitse Kieli"
+  },
+  "home": {
+    "title": "Sää-sovellus",
+    "search_prompt": "Syötä kaupungin nimi tai käytä sijaintiasi säätietojen saamiseksi"
+  },
+  "weather": {
+    "title": "Sää",
+    "subtitle": "Saa tarkkoja säätietoja mille tahansa kaupungille",
+    "cityLabel": "Kaupungin Nimi",
+    "cityPlaceholder": "Syötä kaupungin nimi...",
+    "search": {
+      "title": "Sään Haku",
+      "enterCity": "Syötä kaupungin nimi",
+      "searchButton": "Hae",
+      "placeholder": "Syötä kaupungin nimi...",
+      "error": "Kaupunkia ei löytynyt",
+      "useLocation": "Käytä sijaintiani",
+      "searching": "Haetaan..."
+    },
+    "loading": "Ladataan...",
+    "fetchError": "Säätietoja ei voitu hakea. Yritä uudelleen.",
+    "currentWeather": "Nykyinen Sää",
+    "feelsLike": "Tuntuu Kuin",
+    "humidity": "Kosteus",
+    "wind": "Tuulen Nopeus",
+    "uvIndex": "UV-indeksi",
+    "forecast": {
+      "title": "Ennuste",
+      "daily": "Päivittäinen Ennuste",
+      "hourly": "Tuntikohtainen Ennuste",
+      "nextDays": "Seuraavat {days} Päivää",
+      "nextHours": "Seuraavat {hours} Tuntia",
+      "today": "Tänään",
+      "tomorrow": "Huomenna",
+      "thisWeek": "Tämä Viikko",
+      "thisMonth": "Tämä Kuukausi",
+      "threeDay": "3 päivän ennuste",
+      "temperature": {
+        "high": "Korkein",
+        "low": "Matalin",
+        "average": "Keskiarvo"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "tuuma",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mailia",
+      "m": "m",
+      "ft": "jalkaa",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Pohjoinen",
+        "NE": "Koillinen",
+        "E": "Itä",
+        "SE": "Kaakko",
+        "S": "Etelä",
+        "SW": "Lounas",
+        "W": "Länsi",
+        "NW": "Luode"
+      }
+    },
+    "conditions": {
+      "clear": "Selkeä",
+      "sunny": "Aurinkoinen",
+      "clouds": "Pilvinen",
+      "rain": "Sade",
+      "snow": "Lumi",
+      "thunderstorm": "Ukkosmyrsky",
+      "drizzle": "Tihkusade",
+      "mist": "Sumu",
+      "fog": "Sumu",
+      "partlyCloudy": "Osittain Pilvinen",
+      "cloudy": "Pilvinen",
+      "overcast": "Täysin Pilvinen",
+      "patchyRain": "Hajanaista Sadetta",
+      "patchySnow": "Hajanaista Lunta",
+      "patchySleet": "Hajanaista Räntää",
+      "patchyFreezingDrizzle": "Hajanaista Jäätävää Tihkua",
+      "thunderyOutbreaks": "Ukkospuuskia",
+      "blowingSnow": "Tuulen Ajamaa Lunta",
+      "blizzard": "Lumimyrsky",
+      "freezingFog": "Jäätävä Sumu",
+      "patchyLightDrizzle": "Hajanaista Kevyttä Tihkua",
+      "lightDrizzle": "Kevyt Tihku",
+      "freezingDrizzle": "Jäätävä Tihku",
+      "heavyFreezingDrizzle": "Voimakas Jäätävä Tihku",
+      "patchyLightRain": "Hajanaista Kevyttä Sadetta",
+      "lightRain": "Kevyt Sade",
+      "moderateRain": "Kohtalainen Sade",
+      "heavyRain": "Voimakas Sade",
+      "lightFreezingRain": "Kevyt Jäätävä Sade",
+      "moderateOrHeavyFreezingRain": "Kohtalainen tai Voimakas Jäätävä Sade",
+      "lightSleet": "Kevyt Räntä",
+      "moderateOrHeavySleet": "Kohtalainen tai Voimakas Räntä",
+      "patchyLightSnow": "Hajanaista Kevyttä Lunta",
+      "lightSnow": "Kevyt Lumi",
+      "moderateSnow": "Kohtalainen Lumi",
+      "heavySnow": "Voimakas Lumi",
+      "icePellets": "Jääjyvät",
+      "lightRainShower": "Kevyt Sadekuuro",
+      "moderateOrHeavyRainShower": "Kohtalainen tai Voimakas Sadekuuro",
+      "torrentialRainShower": "Kaatosadekuuro",
+      "lightSleetShowers": "Kevyt Räntäkuuro",
+      "moderateOrHeavySleetShowers": "Kohtalainen tai Voimakas Räntäkuuro",
+      "lightSnowShowers": "Kevyt Lumikuuro",
+      "moderateOrHeavySnowShowers": "Kohtalainen tai Voimakas Lumikuuro",
+      "lightShowersOfIcePellets": "Kevyt Jääjyväkuuro",
+      "moderateOrHeavyShowersOfIcePellets": "Kohtalainen tai Voimakas Jääjyväkuuro",
+      "patchyLightRainWithThunder": "Hajanaista Kevyttä Sadetta Ukkosella",
+      "moderateOrHeavyRainWithThunder": "Kohtalainen tai Voimakas Sade Ukkosella",
+      "patchyLightSnowWithThunder": "Hajanaista Kevyttä Lunta Ukkosella",
+      "moderateOrHeavySnowWithThunder": "Kohtalainen tai Voimakas Lumi Ukkosella"
+    },
+    "alerts": {
+      "title": "Säävaroitukset",
+      "expand": "Näytä Tiedot",
+      "collapse": "Piilota Tiedot",
+      "affectedAreas": "Vaikutusalueet",
+      "severity": {
+        "Minor": "Vähäinen",
+        "Moderate": "Kohtalainen",
+        "Severe": "Vakava",
+        "Extreme": "Äärimmäinen"
+      }
+    },
+    "enterCity": "Syötä kaupungin nimi...",
+    "errors": {
+      "enterCity": "Ole hyvä ja syötä kaupungin nimi",
+      "fetchFailed": "Säätietoja ei voitu hakea. Yritä uudelleen.",
+      "fetchError": "Säätietoja ei voitu hakea"
+    },
+    "refresh": "Päivitä",
+    "uvIndexDescription": "Taso {level} (UV: {value})",
+    "temperature": {
+      "title": "Lämpötila",
+      "current": "Nykyinen Lämpötila",
+      "min": "Matalin",
+      "max": "Korkein",
+      "average": "Keskiarvo",
+      "feelsLike": "Tuntuu Kuin"
+    },
+    "visibility": {
+      "title": "Näkyvyys",
+      "current": "Nykyinen Näkyvyys",
+      "good": "Hyvä",
+      "moderate": "Kohtalainen",
+      "poor": "Huono",
+      "veryPoor": "Erittäin Huono",
+      "foggy": "Sumuinen"
+    },
+    "uvIndex": {
+      "title": "UV-indeksi",
+      "current": "Nykyinen UV-indeksi",
+      "details": "UV-indeksin tiedot",
+      "levels": {
+        "low": "Matala (0-2)",
+        "moderate": "Kohtalainen (3-5)",
+        "high": "Korkea (6-7)",
+        "veryHigh": "Erittäin Korkea (8-10)",
+        "extreme": "Äärimmäinen (11+)"
+      },
+      "protection": {
+        "low": "Suojausta ei tarvita",
+        "moderate": "Suojausta suositellaan",
+        "high": "Suojausta vaaditaan",
+        "veryHigh": "Lisäsuojausta vaaditaan",
+        "extreme": "Vältä auringonvaloa"
+      }
+    },
+    "timeNotAvailable": "Aikatietoja ei saatavilla",
+    "iconAltText": {
+      "clear": "Selkeä taivas",
+      "sunny": "Aurinkoinen",
+      "partly cloudy": "Osittain pilvinen",
+      "cloudy": "Pilvinen",
+      "overcast": "Täysin pilvinen",
+      "mist": "Sumuinen",
+      "patchy rain nearby": "Hajanaista sadetta lähellä",
+      "patchy light rain": "Hajanaista kevyttä sadetta",
+      "light rain": "Kevyt sade",
+      "moderate rain": "Kohtalainen sade",
+      "heavy rain": "Voimakas sade",
+      "light freezing rain": "Kevyt jäätävä sade",
+      "moderate or heavy freezing rain": "Kohtalainen tai voimakas jäätävä sade",
+      "light sleet": "Kevyt räntä",
+      "moderate or heavy sleet": "Kohtalainen tai voimakas räntä",
+      "patchy light snow": "Hajanaista kevyttä lunta",
+      "light snow": "Kevyt lumi",
+      "patchy moderate snow": "Hajanaista kohtalaista lunta",
+      "moderate snow": "Kohtalainen lumi",
+      "patchy heavy snow": "Hajanaista voimakasta lunta",
+      "heavy snow": "Voimakas lumi",
+      "ice pellets": "Jääjyvät",
+      "light rain shower": "Kevyt sadekuuro",
+      "moderate or heavy rain shower": "Kohtalainen tai voimakas sadekuuro",
+      "torrential rain shower": "Kaatosadekuuro",
+      "light sleet showers": "Kevyt räntäkuuro",
+      "moderate or heavy sleet showers": "Kohtalainen tai voimakas räntäkuuro",
+      "light snow showers": "Kevyt lumikuuro",
+      "moderate or heavy snow showers": "Kohtalainen tai voimakas lumikuuro",
+      "light showers of ice pellets": "Kevyt jääjyväkuuro",
+      "moderate or heavy showers of ice pellets": "Kohtalainen tai voimakas jääjyväkuuro",
+      "patchy light rain with thunder": "Hajanaista kevyttä sadetta ukkosella",
+      "moderate or heavy rain with thunder": "Kohtalainen tai voimakas sade ukkosella",
+      "patchy light snow with thunder": "Hajanaista kevyttä lunta ukkosella",
+      "moderate or heavy snow with thunder": "Kohtalainen tai voimakas lumi ukkosella",
+      "fog": "Sumu",
+      "freezing fog": "Jäätävä sumu",
+      "blowing snow": "Tuulen ajamaa lunta",
+      "blizzard": "Lumimyrsky",
+      "thundery outbreaks in nearby": "Ukkospuuskia lähellä",
+      "patchy light drizzle": "Hajanaista kevyttä tihkua",
+      "light drizzle": "Kevyt tihku",
+      "freezing drizzle": "Jäätävä tihku",
+      "heavy freezing drizzle": "Voimakas jäätävä tihku",
+      "patchy rain possible": "Mahdollista hajanaista sadetta",
+      "patchy snow possible": "Mahdollista hajanaista lunta",
+      "patchy sleet possible": "Mahdollista hajanaista räntää",
+      "patchy freezing drizzle possible": "Mahdollista hajanaista jäätävää tihkua",
+      "thundery outbreaks possible": "Mahdollisia ukkospuuskia"
+    }
+  },
+  "app": {
+    "name": "Sää",
+    "description": "Säätiedot ja reaaliaikaiset päivitykset kaupungeille ympäri maailmaa",
+    "theme": {
+      "dark": "Tumma Tila",
+      "light": "Vaalea Tila",
+      "system": "Järjestelmä"
+    },
+    "language": {
+      "switch": "Vaihda Kieltä",
+      "en": "Englanti",
+      "tr": "Turkki",
+      "es": "Espanja",
+      "fr": "Ranska",
+      "de": "Saksa",
+      "it": "Italia",
+      "ru": "Venäjä",
+      "pl": "Puola",
+      "nl": "Hollanti",
+      "uk": "Ukraina",
+      "ar": "Arabia",
+      "zh": "Kiina",
+      "hi": "Hindi",
+      "ja": "Japani",
+      "ko": "Korea",
+      "pt": "Portugali",
+      "sv": "Ruotsi",
+      "da": "Tanska",
+      "fi": "Suomi",
+      "no": "Norja",
+      "el": "Kreikka",
+      "cs": "Tšekki",
+      "he": "Heprea",
+      "id": "Indonesia",
+      "ms": "Malaiji",
+      "th": "Thaimaa",
+      "hu": "Unkari",
+      "vi": "Vietnam"
+    },
+    "footer": {
+      "rights": "Kaikki oikeudet pidätetään"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Kaupunkia ei löytynyt",
+        "fetch_failed": "Säätietoja ei voitu hakea",
+        "invalid_input": "Ole hyvä ja syötä kelvollinen kaupungin nimi",
+        "location_denied": "Sijainnin käyttö estetty",
+        "api_key": "Sääpalvelun määritysvirhe",
+        "connection_reset": "Sääpalvelun yhteys nollattu",
+        "invalid_response": "Sääpalvelusta vastaanotettu virheellisiä tietoja",
+        "unknown": "Odottamaton virhe tapahtui"
+      }
+    }
+  },
+  "error": {
+    "title": "Virhe",
+    "description": "Jokin meni pieleen",
+    "retry": "Yritä Uudelleen",
+    "back": "Takaisin"
+  }
+} 

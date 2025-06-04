@@ -1,0 +1,365 @@
+{
+  "welcome": {
+    "title": "ยินดีต้อนรับสู่แอพสภาพอากาศ",
+    "subtitle": "ข้อมูลสภาพอากาศและพยากรณ์อากาศแบบเรียลไทม์"
+  },
+  "header": {
+    "title": "แอพสภาพอากาศ",
+    "toggleTheme": "สลับธีม"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "รองรับ TypeScript ในตัวสำหรับประสบการณ์การพัฒนาที่ดีขึ้น"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "เฟรมเวิร์ค CSS แบบ Utility-first สำหรับการพัฒนา UI ที่รวดเร็ว"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "เฟรมเวิร์ค Vue.js รุ่นใหม่"
+    }
+  },
+  "navigation": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "settings": "การตั้งค่า"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "ขับเคลื่อนโดย WeatherAPI",
+    "copyright": "สงวนลิขสิทธิ์"
+  },
+  "language": {
+    "switch": "เปลี่ยนภาษา",
+    "current": "ภาษาปัจจุบัน",
+    "select": "เลือกภาษา"
+  },
+  "home": {
+    "title": "แอพสภาพอากาศ",
+    "search_prompt": "ป้อนชื่อเมืองหรือใช้ตำแหน่งของคุณเพื่อดูสภาพอากาศ"
+  },
+  "weather": {
+    "title": "สภาพอากาศ",
+    "subtitle": "รับข้อมูลสภาพอากาศที่แม่นยำสำหรับเมืองใดก็ได้",
+    "cityLabel": "ชื่อเมือง",
+    "cityPlaceholder": "ป้อนชื่อเมือง...",
+    "search": {
+      "title": "ค้นหาสภาพอากาศ",
+      "enterCity": "ป้อนชื่อเมือง",
+      "searchButton": "ค้นหา",
+      "placeholder": "ป้อนชื่อเมือง...",
+      "error": "ไม่พบเมือง",
+      "useLocation": "ใช้ตำแหน่งของฉัน",
+      "searching": "กำลังค้นหา..."
+    },
+    "loading": "กำลังโหลด...",
+    "fetchError": "ไม่สามารถดึงข้อมูลสภาพอากาศได้ กรุณาลองใหม่อีกครั้ง",
+    "currentWeather": "สภาพอากาศปัจจุบัน",
+    "feelsLike": "รู้สึกเหมือน",
+    "humidity": "ความชื้น",
+    "wind": "ความเร็วลม",
+    "uvIndex": "ดัชนี UV",
+    "forecast": {
+      "title": "พยากรณ์อากาศ",
+      "daily": "พยากรณ์รายวัน",
+      "hourly": "พยากรณ์รายชั่วโมง",
+      "nextDays": "อีก {days} วันข้างหน้า",
+      "nextHours": "อีก {hours} ชั่วโมงข้างหน้า",
+      "today": "วันนี้",
+      "tomorrow": "พรุ่งนี้",
+      "thisWeek": "สัปดาห์นี้",
+      "thisMonth": "เดือนนี้",
+      "threeDay": "พยากรณ์ 3 วัน",
+      "temperature": {
+        "high": "สูงสุด",
+        "low": "ต่ำสุด",
+        "average": "เฉลี่ย"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "กม./ชม.",
+      "mph": "ไมล์/ชม.",
+      "mm": "มม.",
+      "inch": "นิ้ว",
+      "hPa": "hPa",
+      "km": "กม.",
+      "mi": "ไมล์",
+      "m": "ม.",
+      "ft": "ฟุต",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "เหนือ",
+        "NE": "ตะวันออกเฉียงเหนือ",
+        "E": "ตะวันออก",
+        "SE": "ตะวันออกเฉียงใต้",
+        "S": "ใต้",
+        "SW": "ตะวันตกเฉียงใต้",
+        "W": "ตะวันตก",
+        "NW": "ตะวันตกเฉียงเหนือ"
+      }
+    },
+    "conditions": {
+      "clear": "ท้องฟ้าแจ่มใส",
+      "sunny": "แดดจัด",
+      "clouds": "มีเมฆ",
+      "rain": "ฝนตก",
+      "snow": "หิมะตก",
+      "thunderstorm": "พายุฝนฟ้าคะนอง",
+      "drizzle": "ฝนปรอย",
+      "mist": "หมอกบาง",
+      "fog": "หมอกหนา",
+      "partlyCloudy": "มีเมฆบางส่วน",
+      "cloudy": "มีเมฆมาก",
+      "overcast": "เมฆครึ้ม",
+      "patchyRain": "ฝนตกเป็นแห่ง",
+      "patchySnow": "หิมะตกเป็นแห่ง",
+      "patchySleet": "ฝนหิมะตกเป็นแห่ง",
+      "patchyFreezingDrizzle": "ฝนปรอยเยือกแข็งเป็นแห่ง",
+      "thunderyOutbreaks": "พายุฝนฟ้าคะนองเป็นแห่ง",
+      "blowingSnow": "หิมะปลิว",
+      "blizzard": "พายุหิมะ",
+      "freezingFog": "หมอกเยือกแข็ง",
+      "patchyLightDrizzle": "ฝนปรอยเบาเป็นแห่ง",
+      "lightDrizzle": "ฝนปรอยเบา",
+      "freezingDrizzle": "ฝนปรอยเยือกแข็ง",
+      "heavyFreezingDrizzle": "ฝนปรอยเยือกแข็งหนัก",
+      "patchyLightRain": "ฝนตกเบาเป็นแห่ง",
+      "lightRain": "ฝนตกเบา",
+      "moderateRain": "ฝนตกปานกลาง",
+      "heavyRain": "ฝนตกหนัก",
+      "lightFreezingRain": "ฝนเยือกแข็งเบา",
+      "moderateOrHeavyFreezingRain": "ฝนเยือกแข็งปานกลางหรือหนัก",
+      "lightSleet": "ฝนหิมะเบา",
+      "moderateOrHeavySleet": "ฝนหิมะปานกลางหรือหนัก",
+      "patchyLightSnow": "หิมะตกเบาเป็นแห่ง",
+      "lightSnow": "หิมะตกเบา",
+      "moderateSnow": "หิมะตกปานกลาง",
+      "heavySnow": "หิมะตกหนัก",
+      "icePellets": "ลูกเห็บ",
+      "lightRainShower": "ฝนตกเป็นพักๆ เบา",
+      "moderateOrHeavyRainShower": "ฝนตกเป็นพักๆ ปานกลางหรือหนัก",
+      "torrentialRainShower": "ฝนตกหนักมาก",
+      "lightSleetShowers": "ฝนหิมะตกเป็นพักๆ เบา",
+      "moderateOrHeavySleetShowers": "ฝนหิมะตกเป็นพักๆ ปานกลางหรือหนัก",
+      "lightSnowShowers": "หิมะตกเป็นพักๆ เบา",
+      "moderateOrHeavySnowShowers": "หิมะตกเป็นพักๆ ปานกลางหรือหนัก",
+      "lightShowersOfIcePellets": "ลูกเห็บตกเป็นพักๆ เบา",
+      "moderateOrHeavyShowersOfIcePellets": "ลูกเห็บตกเป็นพักๆ ปานกลางหรือหนัก",
+      "patchyLightRainWithThunder": "ฝนตกเบาเป็นแห่งพร้อมฟ้าคะนอง",
+      "moderateOrHeavyRainWithThunder": "ฝนตกปานกลางหรือหนักพร้อมฟ้าคะนอง",
+      "patchyLightSnowWithThunder": "หิมะตกเบาเป็นแห่งพร้อมฟ้าคะนอง",
+      "moderateOrHeavySnowWithThunder": "หิมะตกปานกลางหรือหนักพร้อมฟ้าคะนอง"
+    },
+    "alerts": {
+      "title": "การแจ้งเตือนสภาพอากาศ",
+      "expand": "แสดงรายละเอียด",
+      "collapse": "ซ่อนรายละเอียด",
+      "affectedAreas": "พื้นที่ได้รับผลกระทบ",
+      "severity": {
+        "Minor": "เล็กน้อย",
+        "Moderate": "ปานกลาง",
+        "Severe": "รุนแรง",
+        "Extreme": "รุนแรงมาก"
+      }
+    },
+    "enterCity": "ป้อนชื่อเมือง...",
+    "errors": {
+      "enterCity": "กรุณาป้อนชื่อเมือง",
+      "fetchFailed": "ไม่สามารถดึงข้อมูลสภาพอากาศได้ กรุณาลองใหม่อีกครั้ง",
+      "fetchError": "ไม่สามารถดึงข้อมูลสภาพอากาศได้"
+    },
+    "refresh": "รีเฟรช",
+    "uvIndexDescription": "ระดับ {level} (UV: {value})",
+    "temperature": {
+      "title": "อุณหภูมิ",
+      "current": "อุณหภูมิปัจจุบัน",
+      "min": "ต่ำสุด",
+      "max": "สูงสุด",
+      "average": "เฉลี่ย",
+      "feelsLike": "รู้สึกเหมือน"
+    },
+    "visibility": {
+      "title": "ทัศนวิสัย",
+      "current": "ทัศนวิสัยปัจจุบัน",
+      "good": "ดี",
+      "moderate": "ปานกลาง",
+      "poor": "ไม่ดี",
+      "veryPoor": "แย่มาก",
+      "foggy": "มีหมอก"
+    },
+    "uvIndex": {
+      "title": "ดัชนี UV",
+      "current": "ดัชนี UV ปัจจุบัน",
+      "levels": {
+        "low": "ต่ำ (0-2)",
+        "moderate": "ปานกลาง (3-5)",
+        "high": "สูง (6-7)",
+        "veryHigh": "สูงมาก (8-10)",
+        "extreme": "รุนแรง (11+)"
+      },
+      "protection": {
+        "low": "ไม่จำเป็นต้องป้องกัน",
+        "moderate": "ควรป้องกัน",
+        "high": "ต้องป้องกัน",
+        "veryHigh": "ต้องป้องกันเพิ่มเติม",
+        "extreme": "หลีกเลี่ยงการโดนแดด"
+      }
+    },
+    "timeNotAvailable": "ข้อมูลเวลาไม่พร้อมใช้งาน",
+    "iconAltText": {
+      "clear": "ท้องฟ้าแจ่มใส",
+      "sunny": "แดดจัด",
+      "partly cloudy": "มีเมฆบางส่วน",
+      "cloudy": "มีเมฆมาก",
+      "overcast": "เมฆครึ้ม",
+      "mist": "หมอกบาง",
+      "patchy rain nearby": "ฝนตกเป็นแห่งในบริเวณใกล้เคียง",
+      "patchy light rain": "ฝนตกเบาเป็นแห่ง",
+      "light rain": "ฝนตกเบา",
+      "moderate rain": "ฝนตกปานกลาง",
+      "heavy rain": "ฝนตกหนัก",
+      "light freezing rain": "ฝนเยือกแข็งเบา",
+      "moderate or heavy freezing rain": "ฝนเยือกแข็งปานกลางหรือหนัก",
+      "light sleet": "ฝนหิมะเบา",
+      "moderate or heavy sleet": "ฝนหิมะปานกลางหรือหนัก",
+      "patchy light snow": "หิมะตกเบาเป็นแห่ง",
+      "light snow": "หิมะตกเบา",
+      "patchy moderate snow": "หิมะตกปานกลางเป็นแห่ง",
+      "moderate snow": "หิมะตกปานกลาง",
+      "patchy heavy snow": "หิมะตกหนักเป็นแห่ง",
+      "heavy snow": "หิมะตกหนัก",
+      "ice pellets": "ลูกเห็บ",
+      "light rain shower": "ฝนตกเป็นพักๆ เบา",
+      "moderate or heavy rain shower": "ฝนตกเป็นพักๆ ปานกลางหรือหนัก",
+      "torrential rain shower": "ฝนตกหนักมาก",
+      "light sleet showers": "ฝนหิมะตกเป็นพักๆ เบา",
+      "moderate or heavy sleet showers": "ฝนหิมะตกเป็นพักๆ ปานกลางหรือหนัก",
+      "light snow showers": "หิมะตกเป็นพักๆ เบา",
+      "moderate or heavy snow showers": "หิมะตกเป็นพักๆ ปานกลางหรือหนัก",
+      "light showers of ice pellets": "ลูกเห็บตกเป็นพักๆ เบา",
+      "moderate or heavy showers of ice pellets": "ลูกเห็บตกเป็นพักๆ ปานกลางหรือหนัก",
+      "patchy light rain with thunder": "ฝนตกเบาเป็นแห่งพร้อมฟ้าคะนอง",
+      "moderate or heavy rain with thunder": "ฝนตกปานกลางหรือหนักพร้อมฟ้าคะนอง",
+      "patchy light snow with thunder": "หิมะตกเบาเป็นแห่งพร้อมฟ้าคะนอง",
+      "moderate or heavy snow with thunder": "หิมะตกปานกลางหรือหนักพร้อมฟ้าคะนอง",
+      "fog": "หมอก",
+      "freezing fog": "หมอกเยือกแข็ง",
+      "blowing snow": "หิมะปลิว",
+      "blizzard": "พายุหิมะ",
+      "thundery outbreaks in nearby": "พายุฝนฟ้าคะนองในบริเวณใกล้เคียง",
+      "patchy light drizzle": "ฝนปรอยเบาเป็นแห่ง",
+      "light drizzle": "ฝนปรอยเบา",
+      "freezing drizzle": "ฝนปรอยเยือกแข็ง",
+      "heavy freezing drizzle": "ฝนปรอยเยือกแข็งหนัก",
+      "patchy rain possible": "อาจมีฝนตกเป็นแห่ง",
+      "patchy snow possible": "อาจมีหิมะตกเป็นแห่ง",
+      "patchy sleet possible": "อาจมีฝนหิมะตกเป็นแห่ง",
+      "patchy freezing drizzle possible": "อาจมีฝนปรอยเยือกแข็งเป็นแห่ง",
+      "thundery outbreaks possible": "อาจมีพายุฝนฟ้าคะนอง"
+    },
+    "details": {
+      "sunrise": "พระอาทิตย์ขึ้น",
+      "sunset": "พระอาทิตย์ตก",
+      "wind": "ลม",
+      "pressure": "ความกดอากาศ",
+      "uvIndex": "ดัชนี UV",
+      "uvLevels": {
+        "low": "ต่ำ",
+        "moderate": "ปานกลาง",
+        "high": "สูง",
+        "veryHigh": "สูงมาก",
+        "extreme": "รุนแรง"
+      },
+      "moonPhase": "ดวงจันทร์",
+      "visibility": "ทัศนวิสัย",
+      "moonrise": "ดวงจันทร์ขึ้น",
+      "moonset": "ดวงจันทร์ตก",
+      "dewPoint": "จุดน้ำค้าง",
+      "precipitation": "ปริมาณน้ำฝน",
+      "precipitationProbability": "ความน่าจะเป็นที่จะมีฝน",
+      "cloudCover": "เมฆปกคลุม",
+      "windGust": "ลมกระโชก",
+      "windDirection": "ทิศทางลม",
+      "airQuality": "คุณภาพอากาศ",
+      "airQualityLevels": {
+        "good": "ดี",
+        "moderate": "ปานกลาง",
+        "unhealthyForSensitive": "ไม่ดีต่อกลุ่มเสี่ยง",
+        "unhealthy": "ไม่ดี",
+        "veryUnhealthy": "แย่มาก",
+        "hazardous": "อันตราย"
+      }
+    }
+  },
+  "app": {
+    "name": "สภาพอากาศ",
+    "description": "พยากรณ์อากาศและข้อมูลอัพเดทแบบเรียลไทม์สำหรับเมืองทั่วโลก",
+    "theme": {
+      "dark": "โหมดมืด",
+      "light": "โหมดสว่าง",
+      "system": "ธีมระบบ"
+    },
+    "language": {
+      "switch": "เปลี่ยนภาษา",
+      "en": "อังกฤษ",
+      "tr": "ตุรกี",
+      "es": "สเปน",
+      "fr": "ฝรั่งเศส",
+      "de": "เยอรมัน",
+      "it": "อิตาลี",
+      "ru": "รัสเซีย",
+      "pl": "โปแลนด์",
+      "nl": "ดัตช์",
+      "uk": "ยูเครน",
+      "ar": "อาหรับ",
+      "zh": "จีน",
+      "hi": "ฮินดี",
+      "ja": "ญี่ปุ่น",
+      "ko": "เกาหลี",
+      "pt": "โปรตุเกส",
+      "sv": "สวีเดน",
+      "da": "เดนมาร์ก",
+      "fi": "ฟินแลนด์",
+      "no": "นอร์เวย์",
+      "el": "กรีก",
+      "cs": "เช็ก",
+      "he": "ฮีบรู",
+      "id": "อินโดนีเซีย",
+      "ms": "มาเลย์",
+      "th": "ไทย",
+      "hu": "ฮังการี",
+      "vi": "เวียดนาม"
+    },
+    "footer": {
+      "rights": "สงวนลิขสิทธิ์"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "ไม่พบเมือง",
+        "fetch_failed": "ไม่สามารถดึงข้อมูลสภาพอากาศได้",
+        "invalid_input": "กรุณาป้อนชื่อเมืองที่ถูกต้อง",
+        "location_denied": "ไม่อนุญาตให้เข้าถึงตำแหน่ง",
+        "api_key": "ข้อผิดพลาดในการกำหนดค่า API สภาพอากาศ",
+        "connection_reset": "การเชื่อมต่อกับ API สภาพอากาศถูกรีเซ็ต",
+        "invalid_response": "ได้รับข้อมูลไม่ถูกต้องจาก API สภาพอากาศ",
+        "unknown": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+      }
+    }
+  },
+  "error": {
+    "title": "ข้อผิดพลาด",
+    "description": "เกิดข้อผิดพลาดบางอย่าง",
+    "retry": "ลองอีกครั้ง",
+    "back": "ย้อนกลับ"
+  },
+  "common": {
+    "retry": "ลองอีกครั้ง",
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด"
+  }
+} 

@@ -1,0 +1,309 @@
+{
+  "welcome": {
+    "title": "Üdvözöljük az Időjárás Alkalmazásban",
+    "subtitle": "Valós idejű időjárási információk és előrejelzések"
+  },
+  "header": {
+    "title": "Időjárás Alkalmazás",
+    "toggleTheme": "Téma váltása"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Beépített TypeScript támogatás jobb fejlesztői élményért"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Használati alapú CSS keretrendszer gyors felhasználói felület fejlesztéshez"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "A Vue.js keretrendszer következő generációja"
+    }
+  },
+  "navigation": {
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "settings": "Beállítások"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "WeatherAPI által működtetett",
+    "copyright": "© {year} Időjárás Alkalmazás. Minden jog fenntartva."
+  },
+  "language": {
+    "switch": "Nyelv váltása",
+    "current": "Jelenlegi nyelv",
+    "select": "Nyelv kiválasztása"
+  },
+  "home": {
+    "title": "Időjárás Alkalmazás",
+    "search_prompt": "Adjon meg egy városnevet vagy használja a saját helyét az időjárási információk megtekintéséhez"
+  },
+  "weather": {
+    "title": "Időjárás",
+    "subtitle": "Pontos időjárási információk bármely városhoz",
+    "cityLabel": "Város neve",
+    "cityPlaceholder": "Adjon meg egy városnevet...",
+    "search": {
+      "title": "Időjárás keresése",
+      "enterCity": "Adjon meg egy városnevet",
+      "searchButton": "Keresés",
+      "placeholder": "Gépelje be a város nevét...",
+      "error": "A város nem található",
+      "useLocation": "Saját hely használata",
+      "searching": "Keresés..."
+    },
+    "loading": "Betöltés...",
+    "fetchError": "Nem sikerült lekérni az időjárási adatokat. Kérjük, próbálja újra.",
+    "currentWeather": "Jelenlegi időjárás",
+    "feelsLike": "Hőérzet",
+    "humidity": "Páratartalom",
+    "wind": "Szélsebesség",
+    "uvIndex": "UV index",
+    "forecast": {
+      "title": "Előrejelzés",
+      "daily": "Napi előrejelzés",
+      "hourly": "Óránkénti előrejelzés",
+      "nextDays": "Következő {days} nap",
+      "nextHours": "Következő {hours} óra",
+      "today": "Ma",
+      "tomorrow": "Holnap",
+      "thisWeek": "Ezen a héten",
+      "thisMonth": "Ebben a hónapban",
+      "threeDay": "3 napos előrejelzés",
+      "temperature": {
+        "high": "Maximum",
+        "low": "Minimum",
+        "average": "Átlag"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "hüvelyk",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mérföld",
+      "m": "m",
+      "ft": "láb",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Észak",
+        "NE": "Északkelet",
+        "E": "Kelet",
+        "SE": "Délkelet",
+        "S": "Dél",
+        "SW": "Délnyugat",
+        "W": "Nyugat",
+        "NW": "Északnyugat"
+      }
+    },
+    "conditions": {
+      "clear": "Tiszta",
+      "sunny": "Napos",
+      "clouds": "Felhős",
+      "rain": "Eső",
+      "snow": "Hó",
+      "thunderstorm": "Zivatar",
+      "drizzle": "Szitálás",
+      "mist": "Könnyű köd",
+      "fog": "Köd",
+      "partlyCloudy": "Részben felhős",
+      "cloudy": "Felhős",
+      "overcast": "Teljesen felhős",
+      "patchyRain": "Helyenként eső",
+      "patchySnow": "Helyenként hó",
+      "patchySleet": "Helyenként hóeső",
+      "patchyFreezingDrizzle": "Helyenként fagyó szitálás",
+      "thunderyOutbreaks": "Helyenként zivatar",
+      "blowingSnow": "Hófúvás",
+      "blizzard": "Hóvihar",
+      "freezingFog": "Fagyó köd",
+      "patchyLightDrizzle": "Helyenként könnyű szitálás",
+      "lightDrizzle": "Könnyű szitálás",
+      "freezingDrizzle": "Fagyó szitálás",
+      "heavyFreezingDrizzle": "Erős fagyó szitálás",
+      "patchyLightRain": "Helyenként könnyű eső",
+      "lightRain": "Könnyű eső",
+      "moderateRain": "Mérsékelt eső",
+      "heavyRain": "Erős eső",
+      "lightFreezingRain": "Könnyű fagyó eső",
+      "moderateOrHeavyFreezingRain": "Mérsékelt vagy erős fagyó eső",
+      "lightSleet": "Könnyű hóeső",
+      "moderateOrHeavySleet": "Mérsékelt vagy erős hóeső",
+      "patchyLightSnow": "Helyenként könnyű hó",
+      "lightSnow": "Könnyű hó",
+      "moderateSnow": "Mérsékelt hó",
+      "heavySnow": "Erős hó",
+      "icePellets": "Jégszemek",
+      "lightRainShower": "Könnyű zápor",
+      "moderateOrHeavyRainShower": "Mérsékelt vagy erős zápor",
+      "torrentialRainShower": "Záporos eső",
+      "lightSleetShowers": "Könnyű hóeső zápor",
+      "moderateOrHeavySleetShowers": "Mérsékelt vagy erős hóeső zápor",
+      "lightSnowShowers": "Könnyű hózápor",
+      "moderateOrHeavySnowShowers": "Mérsékelt vagy erős hózápor",
+      "lightShowersOfIcePellets": "Könnyű jégszem zápor",
+      "moderateOrHeavyShowersOfIcePellets": "Mérsékelt vagy erős jégszem zápor",
+      "patchyLightRainWithThunder": "Helyenként könnyű eső mennydörgéssel",
+      "moderateOrHeavyRainWithThunder": "Mérsékelt vagy erős eső mennydörgéssel",
+      "patchyLightSnowWithThunder": "Helyenként könnyű hó mennydörgéssel",
+      "moderateOrHeavySnowWithThunder": "Mérsékelt vagy erős hó mennydörgéssel"
+    },
+    "alerts": {
+      "title": "Időjárási figyelmeztetések",
+      "expand": "Részletek megjelenítése",
+      "collapse": "Részletek elrejtése",
+      "affectedAreas": "Érintett területek",
+      "severity": {
+        "Minor": "Kisebb",
+        "Moderate": "Mérsékelt",
+        "Severe": "Súlyos",
+        "Extreme": "Extrém"
+      }
+    },
+    "enterCity": "Adjon meg egy városnevet...",
+    "errors": {
+      "enterCity": "Kérjük, adjon meg egy városnevet",
+      "fetchFailed": "Nem sikerült lekérni az időjárási adatokat. Kérjük, próbálja újra.",
+      "fetchError": "Nem sikerült lekérni az időjárási információkat"
+    },
+    "refresh": "Frissítés",
+    "uvIndexDescription": "Szint {level} (UV: {value})",
+    "temperature": {
+      "title": "Hőmérséklet",
+      "current": "Jelenlegi hőmérséklet",
+      "min": "Minimum hőmérséklet",
+      "max": "Maximum hőmérséklet",
+      "average": "Átlagos hőmérséklet",
+      "feelsLike": "Hőérzet"
+    },
+    "visibility": {
+      "title": "Látótávolság",
+      "current": "Jelenlegi látótávolság",
+      "good": "Jó",
+      "moderate": "Mérsékelt",
+      "poor": "Rossz",
+      "veryPoor": "Nagyon rossz",
+      "foggy": "Ködös"
+    },
+    "uvIndex": {
+      "title": "UV index",
+      "current": "Jelenlegi UV index",
+      "levels": {
+        "low": "Alacsony (0-2)",
+        "moderate": "Mérsékelt (3-5)",
+        "high": "Magas (6-7)",
+        "veryHigh": "Nagyon magas (8-10)",
+        "extreme": "Extrém (11+)"
+      },
+      "protection": {
+        "low": "Nincs szükség védelemre",
+        "moderate": "Védelem javasolt",
+        "high": "Védelem szükséges",
+        "veryHigh": "További védelem szükséges",
+        "extreme": "Kerülje a napfényt"
+      }
+    },
+    "timeNotAvailable": "Az idő információ nem elérhető",
+    "details": {
+      "sunrise": "Napkelte",
+      "sunset": "Napnyugta",
+      "wind": "Szél",
+      "pressure": "Légnyomás",
+      "uvIndex": "UV index",
+      "uvLevels": {
+        "low": "Alacsony",
+        "moderate": "Mérsékelt",
+        "high": "Magas",
+        "veryHigh": "Nagyon magas",
+        "extreme": "Extrém"
+      },
+      "moonPhase": "Holdfázis",
+      "visibility": "Látótávolság",
+      "moonrise": "Holdkelte",
+      "moonset": "Holdnyugta",
+      "dewPoint": "Harmatpont",
+      "precipitation": "Csapadék",
+      "precipitationProbability": "Csapadék valószínűsége",
+      "cloudCover": "Felhőborítás",
+      "windGust": "Széllökések",
+      "windDirection": "Szélirány",
+      "airQuality": "Levegőminőség",
+      "airQualityLevels": {
+        "good": "Jó",
+        "moderate": "Mérsékelt",
+        "unhealthyForSensitive": "Érzékeny csoportok számára egészségtelen",
+        "unhealthy": "Egészségtelen",
+        "veryUnhealthy": "Nagyon egészségtelen",
+        "hazardous": "Veszélyes"
+      }
+    }
+  },
+  "app": {
+    "name": "Időjárás",
+    "description": "Valós idejű időjárási előrejelzések és frissítések világszerte",
+    "theme": {
+      "dark": "Sötét mód",
+      "light": "Világos mód",
+      "system": "Rendszer téma"
+    },
+    "language": {
+      "switch": "Nyelv váltása",
+      "en": "Angol",
+      "tr": "Török",
+      "es": "Spanyol",
+      "fr": "Francia",
+      "de": "Német",
+      "it": "Olasz",
+      "ru": "Orosz",
+      "pl": "Lengyel",
+      "nl": "Holland",
+      "uk": "Ukrán",
+      "ar": "Arab",
+      "zh": "Kínai",
+      "hi": "Hindi",
+      "ja": "Japán",
+      "ko": "Koreai",
+      "pt": "Portugál",
+      "sv": "Svéd",
+      "da": "Dán",
+      "fi": "Finn",
+      "no": "Norvég",
+      "el": "Görög",
+      "cs": "Cseh",
+      "he": "Héber",
+      "id": "Indonéz",
+      "ms": "Maláj",
+      "th": "Thai",
+      "hu": "Magyar",
+      "vi": "Vietnámi"
+    },
+    "footer": {
+      "rights": "Minden jog fenntartva"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "A város nem található",
+        "fetch_failed": "Nem sikerült lekérni az időjárási adatokat",
+        "invalid_input": "Kérjük, adjon meg egy érvényes városnevet",
+        "location_denied": "A helymeghatározás elutasítva",
+        "api_key": "Időjárás szolgáltatás konfigurációs hiba",
+        "connection_reset": "Időjárás szolgáltatás kapcsolat visszaállítva",
+        "invalid_response": "Érvénytelen adatok érkeztek az időjárás szolgáltatástól",
+        "unknown": "Ismeretlen hiba történt"
+      }
+    }
+  },
+  "error": {
+    "title": "Hiba",
+    "description": "Valami elromlott",
+    "retry": "Újrapróbálás",
+    "back": "Vissza"
+  }
+} 

@@ -1,0 +1,413 @@
+{
+  "header": {
+    "title": "날씨 앱",
+    "toggleTheme": "테마 변경"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "WeatherAPI 제공",
+    "copyright": "모든 권리 보유"
+  },
+  "home": {
+    "title": "날씨 앱",
+    "search_prompt": "위치를 입력하여 날씨 확인"
+  },
+  "weather": {
+    "current": {
+      "title": "현재 날씨",
+      "subtitle": "실시간 날씨 정보",
+      "humidity": "습도",
+      "wind": "바람"
+    },
+    "details": {
+      "title": "날씨 상세",
+      "sunrise": "일출",
+      "sunset": "일몰",
+      "wind": "바람",
+      "uvIndex": "자외선 지수",
+      "visibility": "가시거리",
+      "pressure": "기압",
+      "moonPhase": "월령",
+      "moonrise": "월출",
+      "uvLevels": {
+        "low": "낮음",
+        "moderate": "보통",
+        "high": "높음",
+        "veryHigh": "매우 높음",
+        "extreme": "극단적"
+      }
+    },
+    "conditions": {
+      "clear": "맑음",
+      "sunny": "맑음",
+      "partlyCloudy": "구름 조금",
+      "cloudy": "구름 많음",
+      "overcast": "흐림",
+      "rain": "비",
+      "lightRain": "약한 비",
+      "moderateRain": "보통 비",
+      "heavyRain": "강한 비",
+      "snow": "눈",
+      "lightSnow": "약한 눈",
+      "moderateSnow": "보통 눈",
+      "heavySnow": "강한 눈",
+      "thunderstorm": "천둥번개",
+      "fog": "안개",
+      "mist": "연무"
+    }
+  },
+  "common": {
+    "retry": "다시 시도",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다"
+  },
+  "welcome": {
+    "title": "날씨 앱에 오신 것을 환영합니다",
+    "subtitle": "실시간 날씨 정보 및 예보"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "더 나은 개발 경험을 위한 내장 TypeScript 지원"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "빠른 UI 개발을 위한 유틸리티 우선 CSS 프레임워크"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "차세대 Vue.js 프레임워크"
+    }
+  },
+  "navigation": {
+    "home": "홈",
+    "about": "소개",
+    "settings": "설정"
+  },
+  "language": {
+    "switch": "언어 변경",
+    "current": "현재 언어",
+    "select": "언어 선택"
+  },
+  "home": {
+    "title": "날씨 앱",
+    "search_prompt": "도시 이름을 입력하거나 위치를 사용하여 날씨 확인"
+  },
+  "weather": {
+    "title": "날씨",
+    "subtitle": "모든 도시의 정확한 날씨 정보를 확인하세요",
+    "cityLabel": "도시 이름",
+    "cityPlaceholder": "도시 이름 입력...",
+    "search": {
+      "title": "날씨 검색",
+      "enterCity": "도시 이름 입력",
+      "searchButton": "검색",
+      "placeholder": "도시 이름 입력...",
+      "error": "도시를 찾을 수 없습니다",
+      "useLocation": "내 위치 사용",
+      "searching": "검색 중..."
+    },
+    "loading": "로딩 중...",
+    "fetchError": "날씨 데이터를 가져올 수 없습니다. 다시 시도해 주세요.",
+    "currentWeather": "현재 날씨",
+    "feelsLike": "체감 온도",
+    "humidity": "습도",
+    "wind": "풍속",
+    "uvIndex": "자외선 지수",
+    "forecast": {
+      "title": "예보",
+      "daily": "일일 예보",
+      "hourly": "시간별 예보",
+      "nextDays": "향후 {days}일",
+      "nextHours": "향후 {hours}시간",
+      "today": "오늘",
+      "tomorrow": "내일",
+      "thisWeek": "이번 주",
+      "thisMonth": "이번 달",
+      "threeDay": "3일 예보",
+      "temperature": {
+        "high": "최고",
+        "low": "최저",
+        "average": "평균"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "인치",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "마일",
+      "m": "m",
+      "ft": "피트",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "북",
+        "NE": "북동",
+        "E": "동",
+        "SE": "남동",
+        "S": "남",
+        "SW": "남서",
+        "W": "서",
+        "NW": "북서"
+      }
+    },
+    "conditions": {
+      "clear": "맑음",
+      "sunny": "맑음",
+      "clouds": "구름",
+      "rain": "비",
+      "snow": "눈",
+      "thunderstorm": "뇌우",
+      "drizzle": "이슬비",
+      "mist": "안개",
+      "fog": "짙은 안개",
+      "partlyCloudy": "구름 조금",
+      "cloudy": "구름 많음",
+      "overcast": "흐림",
+      "patchyRain": "소나기",
+      "patchySnow": "소낙눈",
+      "patchySleet": "진눈깨비",
+      "patchyFreezingDrizzle": "얼어붙는 이슬비",
+      "thunderyOutbreaks": "뇌우 발생",
+      "blowingSnow": "눈 날림",
+      "blizzard": "눈보라",
+      "freezingFog": "얼어붙는 안개",
+      "patchyLightDrizzle": "가벼운 이슬비",
+      "lightDrizzle": "이슬비",
+      "freezingDrizzle": "얼어붙는 이슬비",
+      "heavyFreezingDrizzle": "강한 얼어붙는 이슬비",
+      "patchyLightRain": "가벼운 소나기",
+      "lightRain": "가벼운 비",
+      "moderateRain": "보통 비",
+      "heavyRain": "강한 비",
+      "lightFreezingRain": "얼어붙는 가벼운 비",
+      "moderateOrHeavyFreezingRain": "얼어붙는 보통/강한 비",
+      "lightSleet": "가벼운 진눈깨비",
+      "moderateOrHeavySleet": "보통/강한 진눈깨비",
+      "patchyLightSnow": "가벼운 소낙눈",
+      "lightSnow": "가벼운 눈",
+      "moderateSnow": "보통 눈",
+      "heavySnow": "강한 눈",
+      "icePellets": "싸락눈",
+      "lightRainShower": "가벼운 소나기",
+      "moderateOrHeavyRainShower": "보통/강한 소나기",
+      "torrentialRainShower": "폭우",
+      "lightSleetShowers": "가벼운 진눈깨비 소나기",
+      "moderateOrHeavySleetShowers": "보통/강한 진눈깨비 소나기",
+      "lightSnowShowers": "가벼운 눈 소나기",
+      "moderateOrHeavySnowShowers": "보통/강한 눈 소나기",
+      "lightShowersOfIcePellets": "가벼운 싸락눈 소나기",
+      "moderateOrHeavyShowersOfIcePellets": "보통/강한 싸락눈 소나기",
+      "patchyLightRainWithThunder": "천둥번개와 함께하는 가벼운 소나기",
+      "moderateOrHeavyRainWithThunder": "천둥번개와 함께하는 보통/강한 비",
+      "patchyLightSnowWithThunder": "천둥번개와 함께하는 가벼운 소낙눈",
+      "moderateOrHeavySnowWithThunder": "천둥번개와 함께하는 보통/강한 눈"
+    },
+    "alerts": {
+      "title": "날씨 경보",
+      "expand": "상세 보기",
+      "collapse": "접기",
+      "affectedAreas": "영향 지역",
+      "severity": {
+        "Minor": "경미",
+        "Moderate": "보통",
+        "Severe": "심각",
+        "Extreme": "극단"
+      }
+    },
+    "enterCity": "도시 이름 입력...",
+    "errors": {
+      "enterCity": "도시 이름을 입력해 주세요",
+      "fetchFailed": "날씨 데이터를 가져올 수 없습니다. 다시 시도해 주세요.",
+      "fetchError": "날씨 정보를 가져올 수 없습니다"
+    },
+    "refresh": "새로고침",
+    "uvIndexDescription": "{level} 수준 (UV: {value})",
+    "temperature": {
+      "title": "기온",
+      "current": "현재 기온",
+      "min": "최저 기온",
+      "max": "최고 기온",
+      "average": "평균 기온",
+      "feelsLike": "체감 온도"
+    },
+    "visibility": {
+      "title": "가시거리",
+      "current": "현재 가시거리",
+      "good": "좋음",
+      "moderate": "보통",
+      "poor": "나쁨",
+      "veryPoor": "매우 나쁨",
+      "foggy": "안개"
+    },
+    "uvIndex": {
+      "title": "자외선 지수",
+      "current": "현재 자외선 지수",
+      "levels": {
+        "low": "낮음 (0-2)",
+        "moderate": "보통 (3-5)",
+        "high": "높음 (6-7)",
+        "veryHigh": "매우 높음 (8-10)",
+        "extreme": "극단적 (11+)"
+      },
+      "protection": {
+        "low": "보호 불필요",
+        "moderate": "보호 권장",
+        "high": "보호 필요",
+        "veryHigh": "추가 보호 필요",
+        "extreme": "직사광선 피하기"
+      }
+    },
+    "timeNotAvailable": "시간 정보를 사용할 수 없습니다",
+    "iconAltText": {
+      "clear": "맑음",
+      "sunny": "맑음",
+      "partly cloudy": "구름 조금",
+      "cloudy": "구름 많음",
+      "overcast": "흐림",
+      "mist": "안개",
+      "patchy rain nearby": "근처 소나기",
+      "patchy light rain": "가벼운 소나기",
+      "light rain": "가벼운 비",
+      "moderate rain": "보통 비",
+      "heavy rain": "강한 비",
+      "light freezing rain": "얼어붙는 가벼운 비",
+      "moderate or heavy freezing rain": "얼어붙는 보통/강한 비",
+      "light sleet": "가벼운 진눈깨비",
+      "moderate or heavy sleet": "보통/강한 진눈깨비",
+      "patchy light snow": "가벼운 소낙눈",
+      "light snow": "가벼운 눈",
+      "patchy moderate snow": "보통 소낙눈",
+      "moderate snow": "보통 눈",
+      "patchy heavy snow": "강한 소낙눈",
+      "heavy snow": "강한 눈",
+      "ice pellets": "싸락눈",
+      "light rain shower": "가벼운 소나기",
+      "moderate or heavy rain shower": "보통/강한 소나기",
+      "torrential rain shower": "폭우",
+      "light sleet showers": "가벼운 진눈깨비 소나기",
+      "moderate or heavy sleet showers": "보통/강한 진눈깨비 소나기",
+      "light snow showers": "가벼운 눈 소나기",
+      "moderate or heavy snow showers": "보통/강한 눈 소나기",
+      "light showers of ice pellets": "가벼운 싸락눈 소나기",
+      "moderate or heavy showers of ice pellets": "보통/강한 싸락눈 소나기",
+      "patchy light rain with thunder": "천둥번개와 함께하는 가벼운 소나기",
+      "moderate or heavy rain with thunder": "천둥번개와 함께하는 보통/강한 비",
+      "patchy light snow with thunder": "천둥번개와 함께하는 가벼운 소낙눈",
+      "moderate or heavy snow with thunder": "천둥번개와 함께하는 보통/강한 눈",
+      "fog": "안개",
+      "freezing fog": "얼어붙는 안개",
+      "blowing snow": "눈 날림",
+      "blizzard": "눈보라",
+      "thundery outbreaks in nearby": "근처 뇌우 발생",
+      "patchy light drizzle": "가벼운 이슬비",
+      "light drizzle": "이슬비",
+      "freezing drizzle": "얼어붙는 이슬비",
+      "heavy freezing drizzle": "강한 얼어붙는 이슬비",
+      "patchy rain possible": "소나기 가능",
+      "patchy snow possible": "소낙눈 가능",
+      "patchy sleet possible": "진눈깨비 가능",
+      "patchy freezing drizzle possible": "얼어붙는 이슬비 가능",
+      "thundery outbreaks possible": "뇌우 발생 가능"
+    },
+    "details": {
+      "sunrise": "일출",
+      "sunset": "일몰",
+      "wind": "바람",
+      "pressure": "기압",
+      "uvIndex": "자외선 지수",
+      "uvLevels": {
+        "low": "낮음",
+        "moderate": "보통",
+        "high": "높음",
+        "veryHigh": "매우 높음",
+        "extreme": "극단적"
+      },
+      "moonPhase": "월령",
+      "visibility": "가시거리",
+      "moonrise": "월출",
+      "moonset": "월몰",
+      "dewPoint": "이슬점",
+      "precipitation": "강수량",
+      "precipitationProbability": "강수 확률",
+      "cloudCover": "운량",
+      "windGust": "돌풍",
+      "windDirection": "풍향",
+      "airQuality": "대기질",
+      "airQualityLevels": {
+        "good": "좋음",
+        "moderate": "보통",
+        "unhealthyForSensitive": "민감군 주의",
+        "unhealthy": "나쁨",
+        "veryUnhealthy": "매우 나쁨",
+        "hazardous": "위험"
+      }
+    }
+  },
+  "app": {
+    "name": "날씨",
+    "description": "전 세계 도시의 실시간 날씨 예보 및 업데이트",
+    "theme": {
+      "dark": "다크 모드",
+      "light": "라이트 모드",
+      "system": "시스템 테마"
+    },
+    "language": {
+      "switch": "언어 변경",
+      "en": "영어",
+      "tr": "터키어",
+      "es": "스페인어",
+      "fr": "프랑스어",
+      "de": "독일어",
+      "it": "이탈리아어",
+      "ru": "러시아어",
+      "pl": "폴란드어",
+      "nl": "네덜란드어",
+      "uk": "우크라이나어",
+      "ar": "아랍어",
+      "zh": "중국어",
+      "hi": "힌디어",
+      "ja": "일본어",
+      "ko": "한국어",
+      "pt": "포르투갈어",
+      "sv": "스웨덴어",
+      "da": "덴마크어",
+      "fi": "핀란드어",
+      "no": "노르웨이어",
+      "el": "그리스어",
+      "cs": "체코어",
+      "he": "히브리어",
+      "id": "인도네시아어",
+      "ms": "말레이어",
+      "th": "태국어",
+      "hu": "헝가리어",
+      "vi": "베트남어"
+    },
+    "footer": {
+      "rights": "모든 권리 보유"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "도시를 찾을 수 없습니다",
+        "fetch_failed": "날씨 데이터를 가져올 수 없습니다",
+        "invalid_input": "유효한 도시 이름을 입력해 주세요",
+        "location_denied": "위치 접근이 거부되었습니다",
+        "api_key": "날씨 서비스 구성 오류",
+        "connection_reset": "날씨 서비스 연결이 재설정되었습니다",
+        "invalid_response": "날씨 서비스에서 잘못된 데이터를 받았습니다",
+        "unknown": "알 수 없는 오류가 발생했습니다"
+      }
+    }
+  },
+  "error": {
+    "title": "오류",
+    "description": "문제가 발생했습니다",
+    "retry": "다시 시도",
+    "back": "뒤로"
+  }
+} 

@@ -1,0 +1,365 @@
+{
+  "welcome": {
+    "title": "Добро пожаловать в Приложение Погоды",
+    "subtitle": "Информация о погоде и прогнозы в реальном времени"
+  },
+  "header": {
+    "title": "Приложение Погоды",
+    "toggleTheme": "Переключить тему"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Встроенная поддержка TypeScript для лучшего опыта разработки"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "CSS-фреймворк utility-first для быстрой разработки интерфейса"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Новое поколение фреймворка Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "Главная",
+    "about": "О нас",
+    "settings": "Настройки"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "Работает на WeatherAPI",
+    "copyright": "Все права защищены"
+  },
+  "language": {
+    "switch": "Изменить язык",
+    "current": "Текущий язык",
+    "select": "Выбрать язык"
+  },
+  "home": {
+    "title": "Приложение Погоды",
+    "search_prompt": "Введите название города или используйте ваше местоположение для получения информации о погоде"
+  },
+  "weather": {
+    "title": "Погода",
+    "subtitle": "Получите точную информацию о погоде для любого города",
+    "cityLabel": "Название города",
+    "cityPlaceholder": "Введите название города...",
+    "search": {
+      "title": "Поиск погоды",
+      "enterCity": "Введите название города",
+      "searchButton": "Поиск",
+      "placeholder": "Введите название города...",
+      "error": "Город не найден",
+      "useLocation": "Использовать мое местоположение",
+      "searching": "Поиск..."
+    },
+    "loading": "Загрузка...",
+    "fetchError": "Не удалось получить данные о погоде. Пожалуйста, попробуйте снова.",
+    "currentWeather": "Текущая погода",
+    "feelsLike": "Ощущается как",
+    "humidity": "Влажность",
+    "wind": "Скорость ветра",
+    "uvIndex": "УФ-индекс",
+    "forecast": {
+      "title": "Прогноз",
+      "daily": "Ежедневный прогноз",
+      "hourly": "Почасовой прогноз",
+      "nextDays": "Следующие {days} дней",
+      "nextHours": "Следующие {hours} часов",
+      "today": "Сегодня",
+      "tomorrow": "Завтра",
+      "thisWeek": "Эта неделя",
+      "thisMonth": "Этот месяц",
+      "threeDay": "Прогноз на 3 дня",
+      "temperature": {
+        "high": "Максимум",
+        "low": "Минимум",
+        "average": "Среднее"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "км/ч",
+      "mph": "миль/ч",
+      "mm": "мм",
+      "inch": "дюйм",
+      "hPa": "гПа",
+      "km": "км",
+      "mi": "миль",
+      "m": "м",
+      "ft": "фут",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Север",
+        "NE": "Северо-восток",
+        "E": "Восток",
+        "SE": "Юго-восток",
+        "S": "Юг",
+        "SW": "Юго-запад",
+        "W": "Запад",
+        "NW": "Северо-запад"
+      }
+    },
+    "conditions": {
+      "clear": "Ясно",
+      "sunny": "Солнечно",
+      "clouds": "Облачно",
+      "rain": "Дождь",
+      "snow": "Снег",
+      "thunderstorm": "Гроза",
+      "drizzle": "Морось",
+      "mist": "Туман",
+      "fog": "Туман",
+      "partlyCloudy": "Переменная облачность",
+      "cloudy": "Облачно",
+      "overcast": "Пасмурно",
+      "patchyRain": "Местами дождь",
+      "patchySnow": "Местами снег",
+      "patchySleet": "Местами мокрый снег",
+      "patchyFreezingDrizzle": "Местами ледяной дождь",
+      "thunderyOutbreaks": "Местами грозы",
+      "blowingSnow": "Метель",
+      "blizzard": "Буран",
+      "freezingFog": "Ледяной туман",
+      "patchyLightDrizzle": "Местами легкая морось",
+      "lightDrizzle": "Легкая морось",
+      "freezingDrizzle": "Ледяной дождь",
+      "heavyFreezingDrizzle": "Сильный ледяной дождь",
+      "patchyLightRain": "Местами легкий дождь",
+      "lightRain": "Легкий дождь",
+      "moderateRain": "Умеренный дождь",
+      "heavyRain": "Сильный дождь",
+      "lightFreezingRain": "Легкий ледяной дождь",
+      "moderateOrHeavyFreezingRain": "Умеренный или сильный ледяной дождь",
+      "lightSleet": "Легкий мокрый снег",
+      "moderateOrHeavySleet": "Умеренный или сильный мокрый снег",
+      "patchyLightSnow": "Местами легкий снег",
+      "lightSnow": "Легкий снег",
+      "moderateSnow": "Умеренный снег",
+      "heavySnow": "Сильный снег",
+      "icePellets": "Ледяной дождь",
+      "lightRainShower": "Легкий ливень",
+      "moderateOrHeavyRainShower": "Умеренный или сильный ливень",
+      "torrentialRainShower": "Проливной дождь",
+      "lightSleetShowers": "Легкие ливни с мокрым снегом",
+      "moderateOrHeavySleetShowers": "Умеренные или сильные ливни с мокрым снегом",
+      "lightSnowShowers": "Легкие снежные ливни",
+      "moderateOrHeavySnowShowers": "Умеренные или сильные снежные ливни",
+      "lightShowersOfIcePellets": "Легкие ливни с ледяным дождем",
+      "moderateOrHeavyShowersOfIcePellets": "Умеренные или сильные ливни с ледяным дождем",
+      "patchyLightRainWithThunder": "Местами легкий дождь с грозой",
+      "moderateOrHeavyRainWithThunder": "Умеренный или сильный дождь с грозой",
+      "patchyLightSnowWithThunder": "Местами легкий снег с грозой",
+      "moderateOrHeavySnowWithThunder": "Умеренный или сильный снег с грозой"
+    },
+    "alerts": {
+      "title": "Погодные предупреждения",
+      "expand": "Показать детали",
+      "collapse": "Скрыть детали",
+      "affectedAreas": "Затронутые районы",
+      "severity": {
+        "Minor": "Незначительное",
+        "Moderate": "Умеренное",
+        "Severe": "Сильное",
+        "Extreme": "Экстремальное"
+      }
+    },
+    "enterCity": "Введите название города...",
+    "errors": {
+      "enterCity": "Пожалуйста, введите название города",
+      "fetchFailed": "Не удалось получить данные о погоде. Пожалуйста, попробуйте снова.",
+      "fetchError": "Не удалось получить информацию о погоде"
+    },
+    "refresh": "Обновить",
+    "uvIndexDescription": "Уровень {level} (УФ: {value})",
+    "temperature": {
+      "title": "Температура",
+      "current": "Текущая температура",
+      "min": "Минимальная температура",
+      "max": "Максимальная температура",
+      "average": "Средняя температура",
+      "feelsLike": "Ощущается как"
+    },
+    "visibility": {
+      "title": "Видимость",
+      "current": "Текущая видимость",
+      "good": "Хорошая",
+      "moderate": "Умеренная",
+      "poor": "Плохая",
+      "veryPoor": "Очень плохая",
+      "foggy": "Туманная"
+    },
+    "uvIndex": {
+      "title": "УФ-индекс",
+      "current": "Текущий УФ-индекс",
+      "levels": {
+        "low": "Низкий (0-2)",
+        "moderate": "Умеренный (3-5)",
+        "high": "Высокий (6-7)",
+        "veryHigh": "Очень высокий (8-10)",
+        "extreme": "Экстремальный (11+)"
+      },
+      "protection": {
+        "low": "Защита не требуется",
+        "moderate": "Рекомендуется защита",
+        "high": "Требуется защита",
+        "veryHigh": "Требуется дополнительная защита",
+        "extreme": "Избегайте пребывания на солнце"
+      }
+    },
+    "timeNotAvailable": "Информация о времени недоступна",
+    "iconAltText": {
+      "clear": "Ясное небо",
+      "sunny": "Солнечно",
+      "partly cloudy": "Переменная облачность",
+      "cloudy": "Облачно",
+      "overcast": "Пасмурно",
+      "mist": "Туман",
+      "patchy rain nearby": "Местами дождь поблизости",
+      "patchy light rain": "Местами легкий дождь",
+      "light rain": "Легкий дождь",
+      "moderate rain": "Умеренный дождь",
+      "heavy rain": "Сильный дождь",
+      "light freezing rain": "Легкий ледяной дождь",
+      "moderate or heavy freezing rain": "Умеренный или сильный ледяной дождь",
+      "light sleet": "Легкий мокрый снег",
+      "moderate or heavy sleet": "Умеренный или сильный мокрый снег",
+      "patchy light snow": "Местами легкий снег",
+      "light snow": "Легкий снег",
+      "patchy moderate snow": "Местами умеренный снег",
+      "moderate snow": "Умеренный снег",
+      "patchy heavy snow": "Местами сильный снег",
+      "heavy snow": "Сильный снег",
+      "ice pellets": "Ледяной дождь",
+      "light rain shower": "Легкий ливень",
+      "moderate or heavy rain shower": "Умеренный или сильный ливень",
+      "torrential rain shower": "Проливной дождь",
+      "light sleet showers": "Легкие ливни с мокрым снегом",
+      "moderate or heavy sleet showers": "Умеренные или сильные ливни с мокрым снегом",
+      "light snow showers": "Легкие снежные ливни",
+      "moderate or heavy snow showers": "Умеренные или сильные снежные ливни",
+      "light showers of ice pellets": "Легкие ливни с ледяным дождем",
+      "moderate or heavy showers of ice pellets": "Умеренные или сильные ливни с ледяным дождем",
+      "patchy light rain with thunder": "Местами легкий дождь с грозой",
+      "moderate or heavy rain with thunder": "Умеренный или сильный дождь с грозой",
+      "patchy light snow with thunder": "Местами легкий снег с грозой",
+      "moderate or heavy snow with thunder": "Умеренный или сильный снег с грозой",
+      "fog": "Туман",
+      "freezing fog": "Ледяной туман",
+      "blowing snow": "Метель",
+      "blizzard": "Буран",
+      "thundery outbreaks in nearby": "Грозы поблизости",
+      "patchy light drizzle": "Местами легкая морось",
+      "light drizzle": "Легкая морось",
+      "freezing drizzle": "Ледяной дождь",
+      "heavy freezing drizzle": "Сильный ледяной дождь",
+      "patchy rain possible": "Возможен местами дождь",
+      "patchy snow possible": "Возможен местами снег",
+      "patchy sleet possible": "Возможен местами мокрый снег",
+      "patchy freezing drizzle possible": "Возможен местами ледяной дождь",
+      "thundery outbreaks possible": "Возможны грозы"
+    },
+    "details": {
+      "sunrise": "Восход",
+      "sunset": "Закат",
+      "wind": "Ветер",
+      "pressure": "Давление",
+      "uvIndex": "УФ-индекс",
+      "uvLevels": {
+        "low": "Низкий",
+        "moderate": "Умеренный",
+        "high": "Высокий",
+        "veryHigh": "Очень высокий",
+        "extreme": "Экстремальный"
+      },
+      "moonPhase": "Фаза луны",
+      "visibility": "Видимость",
+      "moonrise": "Восход луны",
+      "moonset": "Закат луны",
+      "dewPoint": "Точка росы",
+      "precipitation": "Осадки",
+      "precipitationProbability": "Вероятность осадков",
+      "cloudCover": "Облачность",
+      "windGust": "Порыв ветра",
+      "windDirection": "Направление ветра",
+      "airQuality": "Качество воздуха",
+      "airQualityLevels": {
+        "good": "Хорошее",
+        "moderate": "Умеренное",
+        "unhealthyForSensitive": "Нездоровое для чувствительных групп",
+        "unhealthy": "Нездоровое",
+        "veryUnhealthy": "Очень нездоровое",
+        "hazardous": "Опасное"
+      }
+    }
+  },
+  "app": {
+    "name": "Погода",
+    "description": "Прогнозы погоды и обновления в реальном времени для городов по всему миру",
+    "theme": {
+      "dark": "Темная тема",
+      "light": "Светлая тема",
+      "system": "Системная тема"
+    },
+    "language": {
+      "switch": "Изменить язык",
+      "en": "Английский",
+      "tr": "Турецкий",
+      "es": "Испанский",
+      "fr": "Французский",
+      "de": "Немецкий",
+      "it": "Итальянский",
+      "ru": "Русский",
+      "pl": "Польский",
+      "nl": "Голландский",
+      "uk": "Украинский",
+      "ar": "Арабский",
+      "zh": "Китайский",
+      "hi": "Хинди",
+      "ja": "Японский",
+      "ko": "Корейский",
+      "pt": "Португальский",
+      "sv": "Шведский",
+      "da": "Датский",
+      "fi": "Финский",
+      "no": "Норвежский",
+      "el": "Греческий",
+      "cs": "Чешский",
+      "he": "Иврит",
+      "id": "Индонезийский",
+      "ms": "Малайский",
+      "th": "Тайский",
+      "hu": "Венгерский",
+      "vi": "Вьетнамский"
+    },
+    "footer": {
+      "rights": "Все права защищены"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Город не найден",
+        "fetch_failed": "Не удалось получить данные о погоде",
+        "invalid_input": "Пожалуйста, введите корректное название города",
+        "location_denied": "Доступ к местоположению запрещен",
+        "api_key": "Ошибка конфигурации сервиса погоды",
+        "connection_reset": "Соединение с сервисом погоды сброшено",
+        "invalid_response": "Получены некорректные данные от сервиса погоды",
+        "unknown": "Произошла непредвиденная ошибка"
+      }
+    }
+  },
+  "error": {
+    "title": "Ошибка",
+    "description": "Что-то пошло не так",
+    "retry": "Повторить",
+    "back": "Назад"
+  },
+  "common": {
+    "retry": "Повторить",
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка"
+  }
+} 

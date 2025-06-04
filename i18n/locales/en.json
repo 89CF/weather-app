@@ -1,0 +1,327 @@
+{
+  "welcome": {
+    "title": "Welcome to Weather App",
+    "subtitle": "Real-time weather information and forecasts"
+  },
+  "header": {
+    "title": "Weather App"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Built-in TypeScript support for better development experience"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Utility-first CSS framework for rapid UI development"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "The next generation of Vue.js framework"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "settings": "Settings"
+  },
+  "footer": {
+    "copyright": "© {year} Weather App. All rights reserved."
+  },
+  "language": {
+    "switch": "Switch Language",
+    "current": "Current Language",
+    "select": "Select Language"
+  },
+  "home": {
+    "title": "Weather App",
+    "search_prompt": "Enter city name or use your location for weather information"
+  },
+  "weather": {
+    "title": "Weather",
+    "subtitle": "Get accurate weather information for any city",
+    "cityLabel": "City Name",
+    "cityPlaceholder": "Enter city name...",
+    "search": {
+      "title": "Weather Search",
+      "enterCity": "Enter city name",
+      "searchButton": "Search",
+      "placeholder": "Enter city name...",
+      "error": "City not found",
+      "useLocation": "Use my location",
+      "searching": "Searching..."
+    },
+    "loading": "Loading...",
+    "fetchError": "Could not fetch weather data. Please try again.",
+    "currentWeather": "Current Weather",
+    "feelsLike": "Feels Like",
+    "humidity": "Humidity",
+    "wind": "Wind Speed",
+    "uvIndex": "UV Index",
+    "forecast": {
+      "title": "Forecast",
+      "daily": "Daily Forecast",
+      "hourly": "Hourly Forecast",
+      "nextDays": "Next {days} Days",
+      "nextHours": "Next {hours} Hours",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month",
+      "threeDay": "3-Day Forecast",
+      "temperature": {
+        "high": "High",
+        "low": "Low",
+        "average": "Average"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "in",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mi",
+      "m": "m",
+      "ft": "ft",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "North",
+        "NE": "Northeast",
+        "E": "East",
+        "SE": "Southeast",
+        "S": "South",
+        "SW": "Southwest",
+        "W": "West",
+        "NW": "Northwest"
+      }
+    },
+    "conditions": {
+      "clear": "Clear",
+      "sunny": "Sunny",
+      "clouds": "Cloudy",
+      "rain": "Rain",
+      "snow": "Snow",
+      "thunderstorm": "Thunderstorm",
+      "drizzle": "Drizzle",
+      "mist": "Mist",
+      "fog": "Fog",
+      "partlyCloudy": "Partly Cloudy",
+      "cloudy": "Cloudy",
+      "overcast": "Overcast",
+      "patchyRain": "Patchy Rain",
+      "patchySnow": "Patchy Snow",
+      "patchySleet": "Patchy Sleet",
+      "patchyFreezingDrizzle": "Patchy Freezing Drizzle",
+      "thunderyOutbreaks": "Thundery Outbreaks",
+      "blowingSnow": "Blowing Snow",
+      "blizzard": "Blizzard",
+      "freezingFog": "Freezing Fog",
+      "patchyLightDrizzle": "Patchy Light Drizzle",
+      "lightDrizzle": "Light Drizzle",
+      "freezingDrizzle": "Freezing Drizzle",
+      "heavyFreezingDrizzle": "Heavy Freezing Drizzle",
+      "patchyLightRain": "Patchy Light Rain",
+      "lightRain": "Light Rain",
+      "moderateRain": "Moderate Rain",
+      "heavyRain": "Heavy Rain",
+      "lightFreezingRain": "Light Freezing Rain",
+      "moderateOrHeavyFreezingRain": "Moderate or Heavy Freezing Rain",
+      "lightSleet": "Light Sleet",
+      "moderateOrHeavySleet": "Moderate or Heavy Sleet",
+      "patchyLightSnow": "Patchy Light Snow",
+      "lightSnow": "Light Snow",
+      "moderateSnow": "Moderate Snow",
+      "heavySnow": "Heavy Snow",
+      "icePellets": "Ice Pellets",
+      "lightRainShower": "Light Rain Shower",
+      "moderateOrHeavyRainShower": "Moderate or Heavy Rain Shower",
+      "torrentialRainShower": "Torrential Rain Shower",
+      "lightSleetShowers": "Light Sleet Showers",
+      "moderateOrHeavySleetShowers": "Moderate or Heavy Sleet Showers",
+      "lightSnowShowers": "Light Snow Showers",
+      "moderateOrHeavySnowShowers": "Moderate or Heavy Snow Showers",
+      "lightShowersOfIcePellets": "Light Showers of Ice Pellets",
+      "moderateOrHeavyShowersOfIcePellets": "Moderate or Heavy Showers of Ice Pellets",
+      "patchyLightRainWithThunder": "Patchy Light Rain with Thunder",
+      "moderateOrHeavyRainWithThunder": "Moderate or Heavy Rain with Thunder",
+      "patchyLightSnowWithThunder": "Patchy Light Snow with Thunder",
+      "moderateOrHeavySnowWithThunder": "Moderate or Heavy Snow with Thunder"
+    },
+    "alerts": {
+      "title": "Weather Alerts",
+      "expand": "Show Details",
+      "collapse": "Hide Details",
+      "affectedAreas": "Affected Areas",
+      "severity": {
+        "Minor": "Minor",
+        "Moderate": "Moderate",
+        "Severe": "Severe",
+        "Extreme": "Extreme"
+      }
+    },
+    "enterCity": "Enter city name...",
+    "errors": {
+      "enterCity": "Please enter a city name",
+      "fetchFailed": "Could not fetch weather data. Please try again.",
+      "fetchError": "Could not fetch weather information"
+    },
+    "refresh": "Refresh",
+    "uvIndexDescription": "Level {level} (UV: {value})",
+    "temperature": {
+      "title": "Temperature",
+      "current": "Current Temperature",
+      "min": "Minimum",
+      "max": "Maximum",
+      "average": "Average",
+      "feelsLike": "Feels Like"
+    },
+    "visibility": {
+      "title": "Visibility",
+      "current": "Current Visibility",
+      "good": "Good",
+      "moderate": "Moderate",
+      "poor": "Poor",
+      "veryPoor": "Very Poor",
+      "foggy": "Foggy"
+    },
+    "uvIndex": {
+      "title": "UV Index",
+      "current": "Current UV Index",
+      "levels": {
+        "low": "Low (0-2)",
+        "moderate": "Moderate (3-5)",
+        "high": "High (6-7)",
+        "veryHigh": "Very High (8-10)",
+        "extreme": "Extreme (11+)"
+      },
+      "protection": {
+        "low": "No protection required",
+        "moderate": "Protection recommended",
+        "high": "Protection required",
+        "veryHigh": "Extra protection required",
+        "extreme": "Avoid sun exposure"
+      }
+    },
+    "timeNotAvailable": "Time information not available",
+    "iconAltText": {
+      "clear": "Clear sky",
+      "sunny": "Sunny",
+      "partly cloudy": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "overcast": "Overcast",
+      "mist": "Misty",
+      "patchy rain nearby": "Patchy rain nearby",
+      "patchy light rain": "Patchy light rain",
+      "light rain": "Light rain",
+      "moderate rain": "Moderate rain",
+      "heavy rain": "Heavy rain",
+      "light freezing rain": "Light freezing rain",
+      "moderate or heavy freezing rain": "Moderate or heavy freezing rain",
+      "light sleet": "Light sleet",
+      "moderate or heavy sleet": "Moderate or heavy sleet",
+      "patchy light snow": "Patchy light snow",
+      "light snow": "Light snow",
+      "patchy moderate snow": "Patchy moderate snow",
+      "moderate snow": "Moderate snow",
+      "patchy heavy snow": "Patchy heavy snow",
+      "heavy snow": "Heavy snow",
+      "ice pellets": "Ice pellets",
+      "light rain shower": "Light rain shower",
+      "moderate or heavy rain shower": "Moderate or heavy rain shower",
+      "torrential rain shower": "Torrential rain shower",
+      "light sleet showers": "Light sleet showers",
+      "moderate or heavy sleet showers": "Moderate or heavy sleet showers",
+      "light snow showers": "Light snow showers",
+      "moderate or heavy snow showers": "Moderate or heavy snow showers",
+      "light showers of ice pellets": "Light showers of ice pellets",
+      "moderate or heavy showers of ice pellets": "Moderate or heavy showers of ice pellets",
+      "patchy light rain with thunder": "Patchy light rain with thunder",
+      "moderate or heavy rain with thunder": "Moderate or heavy rain with thunder",
+      "patchy light snow with thunder": "Patchy light snow with thunder",
+      "moderate or heavy snow with thunder": "Moderate or heavy snow with thunder",
+      "fog": "Fog",
+      "freezing fog": "Freezing fog",
+      "blowing snow": "Blowing snow",
+      "blizzard": "Blizzard",
+      "thundery outbreaks in nearby": "Thundery outbreaks in nearby",
+      "patchy light drizzle": "Patchy light drizzle",
+      "light drizzle": "Light drizzle",
+      "freezing drizzle": "Freezing drizzle",
+      "heavy freezing drizzle": "Heavy freezing drizzle",
+      "patchy rain possible": "Patchy rain possible",
+      "patchy snow possible": "Patchy snow possible",
+      "patchy sleet possible": "Patchy sleet possible",
+      "patchy freezing drizzle possible": "Patchy freezing drizzle possible",
+      "thundery outbreaks possible": "Thundery outbreaks possible"
+    },
+    "details": {
+      "uvIndex": "UV Index"
+    }
+  },
+  "app": {
+    "name": "Weather",
+    "description": "Weather forecasts and real-time updates for cities worldwide",
+    "theme": {
+      "dark": "Dark Mode",
+      "light": "Light Mode",
+      "system": "System"
+    },
+    "language": {
+      "switch": "Switch Language",
+      "en": "English",
+      "tr": "Turkish",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "it": "Italian",
+      "ru": "Russian",
+      "pl": "Polish",
+      "nl": "Dutch",
+      "uk": "Ukrainian",
+      "ar": "Arabic",
+      "zh": "Chinese",
+      "hi": "Hindi",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "pt": "Portuguese",
+      "sv": "Swedish",
+      "da": "Danish",
+      "fi": "Finnish",
+      "no": "Norwegian",
+      "el": "Greek",
+      "cs": "Czech",
+      "he": "Hebrew",
+      "id": "Indonesian",
+      "ms": "Malay",
+      "th": "Thai",
+      "hu": "Hungarian",
+      "vi": "Vietnamese"
+    },
+    "footer": {
+      "rights": "All rights reserved"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "City not found",
+        "fetch_failed": "Could not fetch weather data",
+        "invalid_input": "Please enter a valid city name",
+        "location_denied": "Location access denied",
+        "api_key": "Weather service configuration error",
+        "connection_reset": "Weather service connection reset",
+        "invalid_response": "Received invalid data from weather service",
+        "unknown": "An unexpected error occurred"
+      }
+    }
+  },
+  "error": {
+    "title": "Error",
+    "description": "Something went wrong",
+    "retry": "Retry",
+    "back": "Back"
+  }
+} 

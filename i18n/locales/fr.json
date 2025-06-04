@@ -1,0 +1,388 @@
+{
+  "welcome": {
+    "title": "Bienvenue sur l'Application Météo",
+    "subtitle": "Informations météorologiques et prévisions en temps réel"
+  },
+  "header": {
+    "title": "Application Météo"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Support TypeScript intégré pour une meilleure expérience de développement"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "Framework CSS utility-first pour un développement rapide de l'interface"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Nouvelle génération du framework Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "settings": "Paramètres"
+  },
+  "footer": {
+    "copyright": "© {year} Application Météo. Tous droits réservés."
+  },
+  "language": {
+    "switch": "Changer de Langue",
+    "current": "Langue actuelle",
+    "select": "Sélectionner la langue",
+    "en": "Anglais",
+    "tr": "Turc",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "it": "Italien",
+    "ru": "Russe",
+    "pl": "Polonais",
+    "nl": "Néerlandais",
+    "uk": "Ukrainien",
+    "ar": "Arabe",
+    "zh": "Chinois",
+    "hi": "Hindi",
+    "ja": "Japonais",
+    "ko": "Coréen",
+    "pt": "Portugais",
+    "sv": "Suédois",
+    "da": "Danois",
+    "fi": "Finnois",
+    "no": "Norvégien",
+    "el": "Grec",
+    "cs": "Tchèque",
+    "he": "Hébreu",
+    "id": "Indonésien",
+    "ms": "Malais",
+    "th": "Thaï",
+    "hu": "Hongrois",
+    "vi": "Vietnamien"
+  },
+  "home": {
+    "title": "Application Météo",
+    "search_prompt": "Entrez le nom d'une ville ou utilisez votre position pour obtenir les informations météorologiques"
+  },
+  "weather": {
+    "title": "Météo",
+    "subtitle": "Obtenez des informations météorologiques précises pour n'importe quelle ville",
+    "cityLabel": "Nom de la Ville",
+    "cityPlaceholder": "Entrez le nom de la ville...",
+    "search": {
+      "title": "Rechercher la Météo",
+      "enterCity": "Entrez le nom de la ville",
+      "searchButton": "Rechercher",
+      "placeholder": "Tapez le nom de la ville...",
+      "error": "Ville non trouvée",
+      "useLocation": "Utiliser ma position",
+      "searching": "Recherche en cours..."
+    },
+    "loading": "Chargement...",
+    "fetchError": "Impossible d'obtenir les données météorologiques. Veuillez réessayer.",
+    "currentWeather": "Météo Actuelle",
+    "feelsLike": "Ressenti",
+    "humidity": "Humidité",
+    "wind": "Vitesse du Vent",
+    "uvIndex": "Indice UV",
+    "forecast": "Prévisions sur 3 Jours",
+    "chanceOfRain": "Probabilité de Pluie",
+    "alerts": "Alertes Météo",
+    "alertPeriod": "Période d'Alerte",
+    "current": {
+      "title": "Météo Actuelle",
+      "subtitle": "Informations Météorologiques Détaillées",
+      "temperature": "Température",
+      "feelsLike": "Ressenti",
+      "humidity": "Humidité",
+      "wind": "Vent",
+      "pressure": "Pression",
+      "visibility": "Visibilité",
+      "sunrise": "Lever du Soleil",
+      "sunset": "Coucher du Soleil"
+    },
+    "details": {
+      "sunrise": "Lever du Soleil",
+      "sunset": "Coucher du Soleil",
+      "wind": "Vent",
+      "pressure": "Pression",
+      "uvIndex": "Indice UV",
+      "uvLevels": {
+        "low": "Faible",
+        "moderate": "Modéré",
+        "high": "Élevé",
+        "veryHigh": "Très Élevé",
+        "extreme": "Extrême"
+      },
+      "moonPhase": "Phase de la Lune",
+      "visibility": "Visibilité",
+      "moonrise": "Lever de la Lune",
+      "moonset": "Coucher de la Lune",
+      "dewPoint": "Point de Rosée",
+      "precipitation": "Précipitations",
+      "precipitationProbability": "Probabilité de Précipitations",
+      "cloudCover": "Couverture Nuageuse",
+      "windGust": "Rafale de Vent",
+      "windDirection": "Direction du Vent",
+      "airQuality": "Qualité de l'Air",
+      "airQualityLevels": {
+        "good": "Bonne",
+        "moderate": "Modérée",
+        "unhealthyForSensitive": "Mauvaise pour les Groupes Sensibles",
+        "unhealthy": "Mauvaise",
+        "veryUnhealthy": "Très Mauvaise",
+        "hazardous": "Dangereuse"
+      }
+    },
+    "forecast": {
+      "title": "Prévisions",
+      "daily": "Prévisions Journalières",
+      "hourly": "Prévisions Horaire",
+      "nextDays": "Prochains {days} jours",
+      "nextHours": "Prochaines {hours} heures",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain",
+      "thisWeek": "Cette Semaine",
+      "thisMonth": "Ce Mois",
+      "threeDay": "Prévisions sur 3 Jours",
+      "temperature": {
+        "high": "Maximale",
+        "low": "Minimale",
+        "average": "Moyenne"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "km/h",
+      "mph": "mph",
+      "mm": "mm",
+      "inch": "pouces",
+      "hPa": "hPa",
+      "km": "km",
+      "mi": "mi",
+      "m": "m",
+      "ft": "pieds",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "Nord",
+        "NE": "Nord-Est",
+        "E": "Est",
+        "SE": "Sud-Est",
+        "S": "Sud",
+        "SW": "Sud-Ouest",
+        "W": "Ouest",
+        "NW": "Nord-Ouest"
+      }
+    },
+    "conditions": {
+      "clear": "Dégagé",
+      "sunny": "Ensoleillé",
+      "clouds": "Nuageux",
+      "rain": "Pluie",
+      "snow": "Neige",
+      "thunderstorm": "Orage",
+      "drizzle": "Bruine",
+      "mist": "Brume",
+      "fog": "Brouillard",
+      "partlyCloudy": "Partiellement Nuageux",
+      "cloudy": "Nuageux",
+      "overcast": "Couvert",
+      "patchyRain": "Pluie Éparse",
+      "patchySnow": "Neige Éparse",
+      "patchySleet": "Neige Fondue Éparse",
+      "patchyFreezingDrizzle": "Bruine Verglaçante Éparse",
+      "thunderyOutbreaks": "Éclairs",
+      "blowingSnow": "Neige Soufflée",
+      "blizzard": "Blizzard",
+      "freezingFog": "Brouillard Givrant",
+      "patchyLightDrizzle": "Bruine Légère Éparse",
+      "lightDrizzle": "Bruine Légère",
+      "freezingDrizzle": "Bruine Verglaçante",
+      "heavyFreezingDrizzle": "Bruine Verglaçante Forte",
+      "patchyLightRain": "Pluie Légère Éparse",
+      "lightRain": "Pluie Légère",
+      "moderateRain": "Pluie Modérée",
+      "heavyRain": "Pluie Forte",
+      "lightFreezingRain": "Pluie Verglaçante Légère",
+      "moderateOrHeavyFreezingRain": "Pluie Verglaçante Modérée ou Forte",
+      "lightSleet": "Neige Fondue Légère",
+      "moderateOrHeavySleet": "Neige Fondue Modérée ou Forte",
+      "patchyLightSnow": "Neige Légère Éparse",
+      "lightSnow": "Neige Légère",
+      "moderateSnow": "Neige Modérée",
+      "heavySnow": "Neige Forte",
+      "icePellets": "Grésil",
+      "lightRainShower": "Averse Légère",
+      "moderateOrHeavyRainShower": "Averse Modérée ou Forte",
+      "torrentialRainShower": "Averse Torrentielle",
+      "lightSleetShowers": "Averse de Neige Fondue Légère",
+      "moderateOrHeavySleetShowers": "Averse de Neige Fondue Modérée ou Forte",
+      "lightSnowShowers": "Averse de Neige Légère",
+      "moderateOrHeavySnowShowers": "Averse de Neige Modérée ou Forte",
+      "lightShowersOfIcePellets": "Averse de Grésil Légère",
+      "moderateOrHeavyShowersOfIcePellets": "Averse de Grésil Modérée ou Forte",
+      "patchyLightRainWithThunder": "Pluie Légère Éparse avec Orage",
+      "moderateOrHeavyRainWithThunder": "Pluie Modérée ou Forte avec Orage",
+      "patchyLightSnowWithThunder": "Neige Légère Éparse avec Orage",
+      "moderateOrHeavySnowWithThunder": "Neige Modérée ou Forte avec Orage"
+    },
+    "alerts": {
+      "title": "Alertes Météo",
+      "expand": "Afficher les détails",
+      "collapse": "Masquer les détails",
+      "affectedAreas": "Zones touchées",
+      "severity": {
+        "Minor": "Mineure",
+        "Moderate": "Modérée",
+        "Severe": "Sévère",
+        "Extreme": "Extrême"
+      }
+    },
+    "enterCity": "Entrez le nom de la ville...",
+    "errors": {
+      "enterCity": "Veuillez entrer un nom de ville",
+      "fetchFailed": "Impossible d'obtenir les données météorologiques. Veuillez réessayer.",
+      "fetchError": "Impossible d'obtenir les informations météorologiques"
+    },
+    "refresh": "Actualiser",
+    "uvIndexDescription": "Niveau {level} (UV: {value})",
+    "temperature": {
+      "title": "Température",
+      "current": "Température Actuelle",
+      "min": "Température Minimale",
+      "max": "Température Maximale",
+      "average": "Température Moyenne",
+      "feelsLike": "Ressenti"
+    },
+    "visibility": {
+      "title": "Visibilité",
+      "current": "Visibilité Actuelle",
+      "good": "Bonne",
+      "moderate": "Modérée",
+      "poor": "Mauvaise",
+      "veryPoor": "Très Mauvaise",
+      "foggy": "Brumeuse"
+    },
+    "uvIndex": {
+      "title": "Indice UV",
+      "current": "Indice UV Actuel",
+      "levels": {
+        "low": "Faible (0-2)",
+        "moderate": "Modéré (3-5)",
+        "high": "Élevé (6-7)",
+        "veryHigh": "Très Élevé (8-10)",
+        "extreme": "Extrême (11+)"
+      },
+      "protection": {
+        "low": "Protection non nécessaire",
+        "moderate": "Protection recommandée",
+        "high": "Protection requise",
+        "veryHigh": "Protection supplémentaire requise",
+        "extreme": "Éviter l'exposition au soleil"
+      }
+    },
+    "timeNotAvailable": "Informations horaires non disponibles",
+    "iconAltText": {
+      "clear": "Ciel dégagé",
+      "sunny": "Ensoleillé",
+      "partly cloudy": "Partiellement nuageux",
+      "cloudy": "Nuageux",
+      "overcast": "Couvert",
+      "mist": "Brumeux",
+      "patchy rain nearby": "Pluie éparse à proximité",
+      "patchy light rain": "Pluie légère éparse",
+      "light rain": "Pluie légère",
+      "moderate rain": "Pluie modérée",
+      "heavy rain": "Pluie forte",
+      "light freezing rain": "Pluie verglaçante légère",
+      "moderate or heavy freezing rain": "Pluie verglaçante modérée ou forte",
+      "light sleet": "Neige fondue légère",
+      "moderate or heavy sleet": "Neige fondue modérée ou forte",
+      "patchy light snow": "Neige légère éparse",
+      "light snow": "Neige légère",
+      "patchy moderate snow": "Neige modérée éparse",
+      "moderate snow": "Neige modérée",
+      "patchy heavy snow": "Neige forte éparse",
+      "heavy snow": "Neige forte",
+      "ice pellets": "Grésil",
+      "light rain shower": "Averse légère",
+      "moderate or heavy rain shower": "Averse modérée ou forte",
+      "torrential rain shower": "Averse torrentielle",
+      "light sleet showers": "Averse de neige fondue légère",
+      "moderate or heavy sleet showers": "Averse de neige fondue modérée ou forte",
+      "light snow showers": "Averse de neige légère",
+      "moderate or heavy snow showers": "Averse de neige modérée ou forte",
+      "light showers of ice pellets": "Averse de grésil légère",
+      "moderate or heavy showers of ice pellets": "Averse de grésil modérée ou forte",
+      "patchy light rain with thunder": "Pluie légère éparse avec orage",
+      "moderate or heavy rain with thunder": "Pluie modérée ou forte avec orage",
+      "patchy light snow with thunder": "Neige légère éparse avec orage",
+      "moderate or heavy snow with thunder": "Neige modérée ou forte avec orage",
+      "fog": "Brouillard",
+      "freezing fog": "Brouillard givrant",
+      "blowing snow": "Neige soufflée",
+      "blizzard": "Blizzard",
+      "thundery outbreaks in nearby": "Éclairs à proximité",
+      "patchy light drizzle": "Bruine légère éparse",
+      "light drizzle": "Bruine légère",
+      "freezing drizzle": "Bruine verglaçante",
+      "heavy freezing drizzle": "Bruine verglaçante forte",
+      "patchy rain possible": "Pluie éparse possible",
+      "patchy snow possible": "Neige éparse possible",
+      "patchy sleet possible": "Neige fondue éparse possible",
+      "patchy freezing drizzle possible": "Bruine verglaçante éparse possible",
+      "thundery outbreaks possible": "Éclairs possibles"
+    }
+  },
+  "app": {
+    "name": "Météo",
+    "description": "Prévisions et mises à jour météorologiques en temps réel pour les villes du monde entier",
+    "theme": {
+      "dark": "Mode Sombre",
+      "light": "Mode Clair",
+      "system": "Thème Système"
+    },
+    "language": {
+      "switch": "Changer de Langue",
+      "en": "Anglais",
+      "tr": "Turc",
+      "es": "Espagnol",
+      "fr": "Français",
+      "de": "Allemand",
+      "it": "Italien",
+      "ru": "Russe",
+      "pl": "Polonais",
+      "nl": "Néerlandais",
+      "uk": "Ukrainien"
+    },
+    "footer": {
+      "rights": "Tous droits réservés"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "Ville non trouvée",
+        "fetch_failed": "Impossible d'obtenir les données météorologiques",
+        "invalid_input": "Veuillez entrer un nom de ville valide",
+        "location_denied": "Accès à la position refusé",
+        "api_key": "Erreur de configuration du service météo",
+        "connection_reset": "Connexion au service météo réinitialisée",
+        "invalid_response": "Données invalides reçues du service météo",
+        "unknown": "Une erreur inattendue s'est produite"
+      }
+    }
+  },
+  "error": {
+    "title": "Erreur",
+    "description": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "back": "Retour"
+  },
+  "common": {
+    "retry": "Réessayer",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite"
+  }
+} 

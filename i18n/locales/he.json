@@ -1,0 +1,309 @@
+{
+  "welcome": {
+    "title": "ברוכים הבאים לאפליקציית מזג האוויר",
+    "subtitle": "מידע ותחזיות מזג אוויר בזמן אמת"
+  },
+  "header": {
+    "title": "אפליקציית מזג אוויר",
+    "toggleTheme": "החלף ערכת נושא"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "תמיכה מובנית ב-TypeScript לחוויית פיתוח טובה יותר"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "מסגרת CSS מבוססת-תועלת לפיתוח ממשק משתמש מהיר"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "הדור הבא של מסגרת Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "דף הבית",
+    "about": "אודות",
+    "settings": "הגדרות"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "מופעל על ידי WeatherAPI",
+    "copyright": "© {year} אפליקציית מזג אוויר. כל הזכויות שמורות."
+  },
+  "language": {
+    "switch": "החלף שפה",
+    "current": "שפה נוכחית",
+    "select": "בחר שפה"
+  },
+  "home": {
+    "title": "אפליקציית מזג אוויר",
+    "search_prompt": "הזן שם עיר או השתמש במיקום שלך לקבלת מידע על מזג האוויר"
+  },
+  "weather": {
+    "title": "מזג אוויר",
+    "subtitle": "קבל מידע מדויק על מזג האוויר לכל עיר",
+    "cityLabel": "שם העיר",
+    "cityPlaceholder": "הזן שם עיר...",
+    "search": {
+      "title": "חפש מזג אוויר",
+      "enterCity": "הזן שם עיר",
+      "searchButton": "חפש",
+      "placeholder": "הקלד שם עיר...",
+      "error": "העיר לא נמצאה",
+      "useLocation": "השתמש במיקום שלי",
+      "searching": "מחפש..."
+    },
+    "loading": "טוען...",
+    "fetchError": "לא ניתן לקבל נתוני מזג אוויר. אנא נסה שוב.",
+    "currentWeather": "מזג אוויר נוכחי",
+    "feelsLike": "מרגיש כמו",
+    "humidity": "לחות",
+    "wind": "מהירות רוח",
+    "uvIndex": "מדד UV",
+    "forecast": {
+      "title": "תחזית",
+      "daily": "תחזית יומית",
+      "hourly": "תחזית שעתית",
+      "nextDays": "ה-{days} ימים הבאים",
+      "nextHours": "ה-{hours} שעות הבאות",
+      "today": "היום",
+      "tomorrow": "מחר",
+      "thisWeek": "השבוע",
+      "thisMonth": "החודש",
+      "threeDay": "תחזית ל-3 ימים",
+      "temperature": {
+        "high": "מקסימום",
+        "low": "מינימום",
+        "average": "ממוצע"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "קמ\"ש",
+      "mph": "מייל לשעה",
+      "mm": "מ\"מ",
+      "inch": "אינץ'",
+      "hPa": "hPa",
+      "km": "ק\"מ",
+      "mi": "מייל",
+      "m": "מ'",
+      "ft": "רגל",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "צפון",
+        "NE": "צפון-מזרח",
+        "E": "מזרח",
+        "SE": "דרום-מזרח",
+        "S": "דרום",
+        "SW": "דרום-מערב",
+        "W": "מערב",
+        "NW": "צפון-מערב"
+      }
+    },
+    "conditions": {
+      "clear": "בהיר",
+      "sunny": "שמשי",
+      "clouds": "מעונן",
+      "rain": "גשם",
+      "snow": "שלג",
+      "thunderstorm": "סופת רעמים",
+      "drizzle": "טפטוף",
+      "mist": "ערפל קל",
+      "fog": "ערפל",
+      "partlyCloudy": "מעונן חלקית",
+      "cloudy": "מעונן",
+      "overcast": "מעונן לחלוטין",
+      "patchyRain": "גשם מקומי",
+      "patchySnow": "שלג מקומי",
+      "patchySleet": "גשם מעורב בשלג מקומי",
+      "patchyFreezingDrizzle": "טפטוף קפוא מקומי",
+      "thunderyOutbreaks": "סופות רעמים מקומיות",
+      "blowingSnow": "שלג נושב",
+      "blizzard": "סופת שלג",
+      "freezingFog": "ערפל קפוא",
+      "patchyLightDrizzle": "טפטוף קל מקומי",
+      "lightDrizzle": "טפטוף קל",
+      "freezingDrizzle": "טפטוף קפוא",
+      "heavyFreezingDrizzle": "טפטוף קפוא כבד",
+      "patchyLightRain": "גשם קל מקומי",
+      "lightRain": "גשם קל",
+      "moderateRain": "גשם בינוני",
+      "heavyRain": "גשם כבד",
+      "lightFreezingRain": "גשם קפוא קל",
+      "moderateOrHeavyFreezingRain": "גשם קפוא בינוני או כבד",
+      "lightSleet": "גשם מעורב בשלג קל",
+      "moderateOrHeavySleet": "גשם מעורב בשלג בינוני או כבד",
+      "patchyLightSnow": "שלג קל מקומי",
+      "lightSnow": "שלג קל",
+      "moderateSnow": "שלג בינוני",
+      "heavySnow": "שלג כבד",
+      "icePellets": "גשם ברד",
+      "lightRainShower": "ממטרים קלים",
+      "moderateOrHeavyRainShower": "ממטרים בינוניים או כבדים",
+      "torrentialRainShower": "ממטרים חזקים",
+      "lightSleetShowers": "ממטרים מעורבים בשלג קלים",
+      "moderateOrHeavySleetShowers": "ממטרים מעורבים בשלג בינוניים או כבדים",
+      "lightSnowShowers": "ממטרי שלג קלים",
+      "moderateOrHeavySnowShowers": "ממטרי שלג בינוניים או כבדים",
+      "lightShowersOfIcePellets": "ממטרי ברד קלים",
+      "moderateOrHeavyShowersOfIcePellets": "ממטרי ברד בינוניים או כבדים",
+      "patchyLightRainWithThunder": "גשם קל מקומי עם רעמים",
+      "moderateOrHeavyRainWithThunder": "גשם בינוני או כבד עם רעמים",
+      "patchyLightSnowWithThunder": "שלג קל מקומי עם רעמים",
+      "moderateOrHeavySnowWithThunder": "שלג בינוני או כבד עם רעמים"
+    },
+    "alerts": {
+      "title": "התראות מזג אוויר",
+      "expand": "הצג פרטים",
+      "collapse": "הסתר פרטים",
+      "affectedAreas": "אזורים מושפעים",
+      "severity": {
+        "Minor": "קל",
+        "Moderate": "בינוני",
+        "Severe": "חמור",
+        "Extreme": "קיצוני"
+      }
+    },
+    "enterCity": "הזן שם עיר...",
+    "errors": {
+      "enterCity": "אנא הזן שם עיר",
+      "fetchFailed": "לא ניתן לקבל נתוני מזג אוויר. אנא נסה שוב.",
+      "fetchError": "לא ניתן לקבל מידע על מזג האוויר"
+    },
+    "refresh": "רענן",
+    "uvIndexDescription": "רמה {level} (UV: {value})",
+    "temperature": {
+      "title": "טמפרטורה",
+      "current": "טמפרטורה נוכחית",
+      "min": "טמפרטורה מינימלית",
+      "max": "טמפרטורה מקסימלית",
+      "average": "טמפרטורה ממוצעת",
+      "feelsLike": "מרגיש כמו"
+    },
+    "visibility": {
+      "title": "ראות",
+      "current": "ראות נוכחית",
+      "good": "טובה",
+      "moderate": "בינונית",
+      "poor": "גרועה",
+      "veryPoor": "גרועה מאוד",
+      "foggy": "מעורפלת"
+    },
+    "uvIndex": {
+      "title": "מדד UV",
+      "current": "מדד UV נוכחי",
+      "levels": {
+        "low": "נמוך (0-2)",
+        "moderate": "בינוני (3-5)",
+        "high": "גבוה (6-7)",
+        "veryHigh": "גבוה מאוד (8-10)",
+        "extreme": "קיצוני (11+)"
+      },
+      "protection": {
+        "low": "אין צורך בהגנה",
+        "moderate": "מומלץ להגן",
+        "high": "נדרשת הגנה",
+        "veryHigh": "נדרשת הגנה נוספת",
+        "extreme": "הימנע מחשיפה לשמש"
+      }
+    },
+    "timeNotAvailable": "מידע על זמן אינו זמין",
+    "details": {
+      "sunrise": "זריחה",
+      "sunset": "שקיעה",
+      "wind": "רוח",
+      "pressure": "לחץ",
+      "uvIndex": "מדד UV",
+      "uvLevels": {
+        "low": "נמוך",
+        "moderate": "בינוני",
+        "high": "גבוה",
+        "veryHigh": "גבוה מאוד",
+        "extreme": "קיצוני"
+      },
+      "moonPhase": "מופע הירח",
+      "visibility": "ראות",
+      "moonrise": "זריחת הירח",
+      "moonset": "שקיעת הירח",
+      "dewPoint": "נקודת הטל",
+      "precipitation": "משקעים",
+      "precipitationProbability": "הסתברות למשקעים",
+      "cloudCover": "כיסוי עננים",
+      "windGust": "משבי רוח",
+      "windDirection": "כיוון רוח",
+      "airQuality": "איכות אוויר",
+      "airQualityLevels": {
+        "good": "טובה",
+        "moderate": "בינונית",
+        "unhealthyForSensitive": "לא בריאה לקבוצות רגישות",
+        "unhealthy": "לא בריאה",
+        "veryUnhealthy": "לא בריאה מאוד",
+        "hazardous": "מסוכנת"
+      }
+    }
+  },
+  "app": {
+    "name": "מזג אוויר",
+    "description": "תחזיות מזג אוויר ועדכונים בזמן אמת לערים ברחבי העולם",
+    "theme": {
+      "dark": "מצב כהה",
+      "light": "מצב בהיר",
+      "system": "ערכת נושא מערכת"
+    },
+    "language": {
+      "switch": "החלף שפה",
+      "en": "אנגלית",
+      "tr": "טורקית",
+      "es": "ספרדית",
+      "fr": "צרפתית",
+      "de": "גרמנית",
+      "it": "איטלקית",
+      "ru": "רוסית",
+      "pl": "פולנית",
+      "nl": "הולנדית",
+      "uk": "אוקראינית",
+      "ar": "ערבית",
+      "zh": "סינית",
+      "hi": "הינדית",
+      "ja": "יפנית",
+      "ko": "קוריאנית",
+      "pt": "פורטוגזית",
+      "sv": "שוודית",
+      "da": "דנית",
+      "fi": "פינית",
+      "no": "נורווגית",
+      "el": "יוונית",
+      "cs": "צ'כית",
+      "he": "עברית",
+      "id": "אינדונזית",
+      "ms": "מלאית",
+      "th": "תאית",
+      "hu": "הונגרית",
+      "vi": "וייטנאמית"
+    },
+    "footer": {
+      "rights": "כל הזכויות שמורות"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "העיר לא נמצאה",
+        "fetch_failed": "לא ניתן לקבל נתוני מזג אוויר",
+        "invalid_input": "אנא הזן שם עיר תקין",
+        "location_denied": "גישה למיקום נדחתה",
+        "api_key": "שגיאת תצורה בשירות מזג האוויר",
+        "connection_reset": "חיבור לשירות מזג האוויר אופס",
+        "invalid_response": "התקבלו נתונים לא תקינים משירות מזג האוויר",
+        "unknown": "אירעה שגיאה לא ידועה"
+      }
+    }
+  },
+  "error": {
+    "title": "שגיאה",
+    "description": "משהו השתבש",
+    "retry": "נסה שוב",
+    "back": "חזור"
+  }
+} 

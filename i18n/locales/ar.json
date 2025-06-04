@@ -1,0 +1,378 @@
+{
+  "header": {
+    "title": "تطبيق الطقس"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "مدعوم بواسطة WeatherAPI",
+    "copyright": "جميع الحقوق محفوظة"
+  },
+  "home": {
+    "title": "تطبيق الطقس",
+    "search_prompt": "أدخل اسم المدينة أو استخدم موقعك للحصول على معلومات الطقس"
+  },
+  "weather": {
+    "current": {
+      "title": "الطقس الحالي",
+      "subtitle": "معلومات الطقس في الوقت الفعلي",
+      "humidity": "الرطوبة",
+      "wind": "الرياح"
+    },
+    "details": {
+      "title": "تفاصيل الطقس",
+      "sunrise": "شروق الشمس",
+      "sunset": "غروب الشمس",
+      "wind": "الرياح",
+      "uvIndex": "مؤشر الأشعة فوق البنفسجية",
+      "visibility": "الرؤية",
+      "pressure": "الضغط الجوي",
+      "moonPhase": "طور القمر",
+      "moonrise": "شروق القمر",
+      "uvLevels": {
+        "low": "منخفض",
+        "moderate": "متوسط",
+        "high": "مرتفع",
+        "veryHigh": "مرتفع جداً",
+        "extreme": "شديد"
+      }
+    },
+    "conditions": {
+      "clear": "صافي",
+      "sunny": "مشمس",
+      "partlyCloudy": "غائم جزئياً",
+      "cloudy": "غائم",
+      "overcast": "غائم تماماً",
+      "rain": "ممطر",
+      "lightRain": "مطر خفيف",
+      "moderateRain": "مطر متوسط",
+      "heavyRain": "مطر غزير",
+      "snow": "ثلجي",
+      "lightSnow": "ثلج خفيف",
+      "moderateSnow": "ثلج متوسط",
+      "heavySnow": "ثلج غزير",
+      "thunderstorm": "عاصفة رعدية",
+      "fog": "ضباب",
+      "mist": "رذاذ"
+    }
+  },
+  "common": {
+    "retry": "إعادة المحاولة",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ"
+  },
+  "welcome": {
+    "title": "مرحباً بك في تطبيق الطقس",
+    "subtitle": "معلومات الطقس وتوقعات في الوقت الفعلي"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "دعم مدمج لـ TypeScript لتجربة تطوير أفضل"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "إطار عمل CSS يعتمد على المرافق لتطوير واجهة المستخدم بسرعة"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "الجيل الجديد من إطار عمل Vue.js"
+    }
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "حول",
+    "settings": "الإعدادات"
+  },
+  "footer": {
+    "copyright": "© {year} تطبيق الطقس. جميع الحقوق محفوظة."
+  },
+  "language": {
+    "switch": "تغيير اللغة",
+    "current": "اللغة الحالية",
+    "select": "اختر اللغة"
+  },
+  "weather": {
+    "title": "الطقس",
+    "subtitle": "احصل على معلومات الطقس الدقيقة لأي مدينة",
+    "cityLabel": "اسم المدينة",
+    "cityPlaceholder": "أدخل اسم المدينة...",
+    "search": {
+      "title": "البحث عن الطقس",
+      "enterCity": "أدخل اسم المدينة",
+      "searchButton": "بحث",
+      "placeholder": "أدخل اسم المدينة...",
+      "error": "لم يتم العثور على المدينة",
+      "useLocation": "استخدم موقعي",
+      "searching": "جاري البحث..."
+    },
+    "loading": "جاري التحميل...",
+    "fetchError": "تعذر الحصول على بيانات الطقس. يرجى المحاولة مرة أخرى.",
+    "currentWeather": "الطقس الحالي",
+    "feelsLike": "الإحساس",
+    "humidity": "الرطوبة",
+    "wind": "سرعة الرياح",
+    "uvIndex": "مؤشر الأشعة فوق البنفسجية",
+    "forecast": {
+      "title": "التوقعات",
+      "daily": "التوقعات اليومية",
+      "hourly": "التوقعات الساعية",
+      "nextDays": "ال{days} أيام القادمة",
+      "nextHours": "ال{hours} ساعات القادمة",
+      "today": "اليوم",
+      "tomorrow": "غداً",
+      "thisWeek": "هذا الأسبوع",
+      "thisMonth": "هذا الشهر",
+      "threeDay": "توقعات 3 أيام",
+      "temperature": {
+        "high": "الحد الأقصى",
+        "low": "الحد الأدنى",
+        "average": "المتوسط"
+      }
+    },
+    "units": {
+      "celsius": "°م",
+      "fahrenheit": "°ف",
+      "kmh": "كم/ساعة",
+      "mph": "ميل/ساعة",
+      "mm": "مم",
+      "inch": "بوصة",
+      "hPa": "هيكتوباسكال",
+      "km": "كم",
+      "mi": "ميل",
+      "m": "م",
+      "ft": "قدم",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "شمال",
+        "NE": "شمال شرق",
+        "E": "شرق",
+        "SE": "جنوب شرق",
+        "S": "جنوب",
+        "SW": "جنوب غرب",
+        "W": "غرب",
+        "NW": "شمال غرب"
+      }
+    },
+    "conditions": {
+      "clear": "صافي",
+      "sunny": "مشمس",
+      "clouds": "غائم",
+      "rain": "ممطر",
+      "snow": "ثلجي",
+      "thunderstorm": "عاصفة رعدية",
+      "drizzle": "رذاذ",
+      "mist": "ضباب خفيف",
+      "fog": "ضباب",
+      "partlyCloudy": "غائم جزئياً",
+      "cloudy": "غائم",
+      "overcast": "غائم تماماً",
+      "patchyRain": "أمطار متفرقة",
+      "patchySnow": "ثلوج متفرقة",
+      "patchySleet": "أمطار وثلوج متفرقة",
+      "patchyFreezingDrizzle": "رذاذ متجمد متفرق",
+      "thunderyOutbreaks": "عواصف رعدية متفرقة",
+      "blowingSnow": "ثلوج متطايرة",
+      "blizzard": "عاصفة ثلجية",
+      "freezingFog": "ضباب متجمد",
+      "patchyLightDrizzle": "رذاذ خفيف متفرق",
+      "lightDrizzle": "رذاذ خفيف",
+      "freezingDrizzle": "رذاذ متجمد",
+      "heavyFreezingDrizzle": "رذاذ متجمد شديد",
+      "patchyLightRain": "أمطار خفيفة متفرقة",
+      "lightRain": "أمطار خفيفة",
+      "moderateRain": "أمطار متوسطة",
+      "heavyRain": "أمطار غزيرة",
+      "lightFreezingRain": "أمطار متجمدة خفيفة",
+      "moderateOrHeavyFreezingRain": "أمطار متجمدة متوسطة أو غزيرة",
+      "lightSleet": "أمطار وثلوج خفيفة",
+      "moderateOrHeavySleet": "أمطار وثلوج متوسطة أو غزيرة",
+      "patchyLightSnow": "ثلوج خفيفة متفرقة",
+      "lightSnow": "ثلوج خفيفة",
+      "moderateSnow": "ثلوج متوسطة",
+      "heavySnow": "ثلوج غزيرة",
+      "icePellets": "برد",
+      "lightRainShower": "زخات أمطار خفيفة",
+      "moderateOrHeavyRainShower": "زخات أمطار متوسطة أو غزيرة",
+      "torrentialRainShower": "زخات أمطار غزيرة جداً",
+      "lightSleetShowers": "زخات أمطار وثلوج خفيفة",
+      "moderateOrHeavySleetShowers": "زخات أمطار وثلوج متوسطة أو غزيرة",
+      "lightSnowShowers": "زخات ثلوج خفيفة",
+      "moderateOrHeavySnowShowers": "زخات ثلوج متوسطة أو غزيرة",
+      "lightShowersOfIcePellets": "زخات برد خفيفة",
+      "moderateOrHeavyShowersOfIcePellets": "زخات برد متوسطة أو غزيرة",
+      "patchyLightRainWithThunder": "أمطار خفيفة متفرقة مع رعد",
+      "moderateOrHeavyRainWithThunder": "أمطار متوسطة أو غزيرة مع رعد",
+      "patchyLightSnowWithThunder": "ثلوج خفيفة متفرقة مع رعد",
+      "moderateOrHeavySnowWithThunder": "ثلوج متوسطة أو غزيرة مع رعد"
+    },
+    "alerts": {
+      "title": "تنبيهات الطقس",
+      "expand": "عرض التفاصيل",
+      "collapse": "إخفاء التفاصيل",
+      "affectedAreas": "المناطق المتأثرة",
+      "severity": {
+        "Minor": "خفيف",
+        "Moderate": "متوسط",
+        "Severe": "شديد",
+        "Extreme": "شديد جداً"
+      }
+    },
+    "enterCity": "أدخل اسم المدينة...",
+    "errors": {
+      "enterCity": "الرجاء إدخال اسم المدينة",
+      "fetchFailed": "تعذر الحصول على بيانات الطقس. يرجى المحاولة مرة أخرى.",
+      "fetchError": "تعذر الحصول على معلومات الطقس"
+    },
+    "refresh": "تحديث",
+    "uvIndexDescription": "مستوى {level} (UV: {value})",
+    "temperature": {
+      "title": "درجة الحرارة",
+      "current": "درجة الحرارة الحالية",
+      "min": "الحد الأدنى",
+      "max": "الحد الأقصى",
+      "average": "المتوسط",
+      "feelsLike": "الإحساس"
+    },
+    "visibility": {
+      "title": "الرؤية",
+      "current": "الرؤية الحالية",
+      "good": "جيدة",
+      "moderate": "متوسطة",
+      "poor": "ضعيفة",
+      "veryPoor": "ضعيفة جداً",
+      "foggy": "ضبابية"
+    },
+    "uvIndex": {
+      "title": "مؤشر الأشعة فوق البنفسجية",
+      "current": "المؤشر الحالي",
+      "levels": {
+        "low": "منخفض (0-2)",
+        "moderate": "متوسط (3-5)",
+        "high": "مرتفع (6-7)",
+        "veryHigh": "مرتفع جداً (8-10)",
+        "extreme": "شديد (11+)"
+      },
+      "protection": {
+        "low": "لا حاجة للحماية",
+        "moderate": "يُنصح بالحماية",
+        "high": "الحماية ضرورية",
+        "veryHigh": "حماية إضافية ضرورية",
+        "extreme": "تجنب التعرض لأشعة الشمس"
+      }
+    },
+    "timeNotAvailable": "معلومات الوقت غير متوفرة",
+    "iconAltText": {
+      "clear": "سماء صافية",
+      "sunny": "مشمس",
+      "partly cloudy": "غائم جزئياً",
+      "cloudy": "غائم",
+      "overcast": "غائم تماماً",
+      "mist": "ضبابي",
+      "patchy rain nearby": "أمطار متفرقة قريبة",
+      "patchy light rain": "أمطار خفيفة متفرقة",
+      "light rain": "أمطار خفيفة",
+      "moderate rain": "أمطار متوسطة",
+      "heavy rain": "أمطار غزيرة",
+      "light freezing rain": "أمطار متجمدة خفيفة",
+      "moderate or heavy freezing rain": "أمطار متجمدة متوسطة أو غزيرة",
+      "light sleet": "أمطار وثلوج خفيفة",
+      "moderate or heavy sleet": "أمطار وثلوج متوسطة أو غزيرة",
+      "patchy light snow": "ثلوج خفيفة متفرقة",
+      "light snow": "ثلوج خفيفة",
+      "patchy moderate snow": "ثلوج متوسطة متفرقة",
+      "moderate snow": "ثلوج متوسطة",
+      "patchy heavy snow": "ثلوج غزيرة متفرقة",
+      "heavy snow": "ثلوج غزيرة",
+      "ice pellets": "برد",
+      "light rain shower": "زخات أمطار خفيفة",
+      "moderate or heavy rain shower": "زخات أمطار متوسطة أو غزيرة",
+      "torrential rain shower": "زخات أمطار غزيرة جداً",
+      "light sleet showers": "زخات أمطار وثلوج خفيفة",
+      "moderate or heavy sleet showers": "زخات أمطار وثلوج متوسطة أو غزيرة",
+      "light snow showers": "زخات ثلوج خفيفة",
+      "moderate or heavy snow showers": "زخات ثلوج متوسطة أو غزيرة",
+      "light showers of ice pellets": "زخات برد خفيفة",
+      "moderate or heavy showers of ice pellets": "زخات برد متوسطة أو غزيرة",
+      "patchy light rain with thunder": "أمطار خفيفة متفرقة مع رعد",
+      "moderate or heavy rain with thunder": "أمطار متوسطة أو غزيرة مع رعد",
+      "patchy light snow with thunder": "ثلوج خفيفة متفرقة مع رعد",
+      "moderate or heavy snow with thunder": "ثلوج متوسطة أو غزيرة مع رعد",
+      "fog": "ضباب",
+      "freezing fog": "ضباب متجمد",
+      "blowing snow": "ثلوج متطايرة",
+      "blizzard": "عاصفة ثلجية",
+      "thundery outbreaks in nearby": "عواصف رعدية قريبة",
+      "patchy light drizzle": "رذاذ خفيف متفرق",
+      "light drizzle": "رذاذ خفيف",
+      "freezing drizzle": "رذاذ متجمد",
+      "heavy freezing drizzle": "رذاذ متجمد شديد",
+      "patchy rain possible": "أمطار متفرقة محتملة",
+      "patchy snow possible": "ثلوج متفرقة محتملة",
+      "patchy sleet possible": "أمطار وثلوج متفرقة محتملة",
+      "patchy freezing drizzle possible": "رذاذ متجمد متفرق محتمل",
+      "thundery outbreaks possible": "عواصف رعدية محتملة"
+    }
+  },
+  "app": {
+    "name": "الطقس",
+    "description": "توقعات الطقس وتحديثات في الوقت الفعلي لمدن حول العالم",
+    "theme": {
+      "dark": "الوضع الداكن",
+      "light": "الوضع الفاتح",
+      "system": "مظهر النظام"
+    },
+    "language": {
+      "switch": "تغيير اللغة",
+      "en": "الإنجليزية",
+      "tr": "التركية",
+      "es": "الإسبانية",
+      "fr": "الفرنسية",
+      "de": "الألمانية",
+      "it": "الإيطالية",
+      "ru": "الروسية",
+      "pl": "البولندية",
+      "nl": "الهولندية",
+      "uk": "الأوكرانية",
+      "ar": "العربية",
+      "zh": "الصينية",
+      "hi": "الهندية",
+      "ja": "اليابانية",
+      "ko": "الكورية",
+      "pt": "البرتغالية",
+      "sv": "السويدية",
+      "da": "الدنماركية",
+      "fi": "الفنلندية",
+      "no": "النرويجية",
+      "el": "اليونانية",
+      "cs": "التشيكية",
+      "he": "العبرية",
+      "id": "الإندونيسية",
+      "ms": "الملايو",
+      "th": "التايلاندية",
+      "hu": "المجرية",
+      "vi": "الفيتنامية"
+    },
+    "footer": {
+      "rights": "جميع الحقوق محفوظة"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "لم يتم العثور على المدينة",
+        "fetch_failed": "تعذر الحصول على بيانات الطقس",
+        "invalid_input": "الرجاء إدخال اسم مدينة صالح",
+        "location_denied": "تم رفض الوصول إلى الموقع",
+        "api_key": "خطأ في تكوين خدمة الطقس",
+        "connection_reset": "تم إعادة تعيين اتصال خدمة الطقس",
+        "invalid_response": "تم استلام بيانات غير صالحة من خدمة الطقس",
+        "unknown": "حدث خطأ غير متوقع"
+      }
+    }
+  },
+  "error": {
+    "title": "خطأ",
+    "description": "حدث خطأ ما",
+    "retry": "إعادة المحاولة",
+    "back": "رجوع"
+  }
+} 

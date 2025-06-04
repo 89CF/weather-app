@@ -1,0 +1,367 @@
+{
+  "header": {
+    "title": "मौसम ऐप",
+    "toggleTheme": "थीम बदलें"
+  },
+  "footer": {
+    "github": "GitHub",
+    "poweredBy": "WeatherAPI द्वारा संचालित",
+    "copyright": "© {year} मौसम ऐप। सर्वाधिकार सुरक्षित।"
+  },
+  "home": {
+    "title": "मौसम ऐप",
+    "search_prompt": "मौसम की जानकारी के लिए शहर का नाम दर्ज करें या अपना स्थान उपयोग करें"
+  },
+  "weather": {
+    "current": {
+      "title": "वर्तमान मौसम",
+      "subtitle": "रीयल-टाइम मौसम जानकारी",
+      "humidity": "आर्द्रता",
+      "wind": "हवा"
+    },
+    "details": {
+      "title": "मौसम विवरण",
+      "sunrise": "सूर्योदय",
+      "sunset": "सूर्यास्त",
+      "wind": "हवा",
+      "uvIndex": "यूवी सूचकांक",
+      "visibility": "दृश्यता",
+      "pressure": "दबाव",
+      "moonPhase": "चंद्रमा की अवस्था",
+      "moonrise": "चंद्रोदय",
+      "uvLevels": {
+        "low": "कम",
+        "moderate": "मध्यम",
+        "high": "उच्च",
+        "veryHigh": "बहुत उच्च",
+        "extreme": "अत्यधिक"
+      }
+    },
+    "conditions": {
+      "clear": "साफ",
+      "sunny": "धूप",
+      "partlyCloudy": "आंशिक रूप से बादल",
+      "cloudy": "बादल",
+      "overcast": "घने बादल",
+      "rain": "बारिश",
+      "lightRain": "हल्की बारिश",
+      "moderateRain": "मध्यम बारिश",
+      "heavyRain": "भारी बारिश",
+      "snow": "बर्फ",
+      "lightSnow": "हल्की बर्फ",
+      "moderateSnow": "मध्यम बर्फ",
+      "heavySnow": "भारी बर्फ",
+      "thunderstorm": "आंधी-तूफान",
+      "fog": "कोहरा",
+      "mist": "धुंध"
+    }
+  },
+  "common": {
+    "retry": "पुनः प्रयास करें",
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई"
+  },
+  "welcome": {
+    "title": "मौसम ऐप में आपका स्वागत है",
+    "subtitle": "वास्तविक समय मौसम जानकारी और पूर्वानुमान"
+  },
+  "features": {
+    "typescript": {
+      "title": "TypeScript",
+      "description": "बेहतर विकास अनुभव के लिए अंतर्निहित TypeScript समर्थन"
+    },
+    "tailwind": {
+      "title": "TailwindCSS",
+      "description": "तेज़ UI विकास के लिए उपयोगिता-आधारित CSS फ्रेमवर्क"
+    },
+    "nuxt": {
+      "title": "Nuxt 3",
+      "description": "Vue.js फ्रेमवर्क की अगली पीढ़ी"
+    }
+  },
+  "navigation": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "settings": "सेटिंग्स"
+  },
+  "language": {
+    "switch": "भाषा बदलें",
+    "current": "वर्तमान भाषा",
+    "select": "भाषा चुनें"
+  },
+  "home": {
+    "title": "मौसम ऐप",
+    "search_prompt": "मौसम की जानकारी के लिए शहर का नाम दर्ज करें या अपना स्थान उपयोग करें"
+  },
+  "weather": {
+    "title": "मौसम",
+    "subtitle": "किसी भी शहर के लिए सटीक मौसम जानकारी प्राप्त करें",
+    "cityLabel": "शहर का नाम",
+    "cityPlaceholder": "शहर का नाम दर्ज करें...",
+    "search": {
+      "title": "मौसम खोजें",
+      "enterCity": "शहर का नाम दर्ज करें",
+      "searchButton": "खोजें",
+      "placeholder": "शहर का नाम टाइप करें...",
+      "error": "शहर नहीं मिला",
+      "useLocation": "मेरा स्थान उपयोग करें",
+      "searching": "खोज रहा है..."
+    },
+    "loading": "लोड हो रहा है...",
+    "fetchError": "मौसम डेटा प्राप्त नहीं किया जा सका। कृपया पुनः प्रयास करें।",
+    "currentWeather": "वर्तमान मौसम",
+    "feelsLike": "अनुभूत तापमान",
+    "humidity": "आर्द्रता",
+    "wind": "हवा की गति",
+    "uvIndex": "UV सूचकांक",
+    "forecast": {
+      "title": "पूर्वानुमान",
+      "daily": "दैनिक पूर्वानुमान",
+      "hourly": "प्रति घंटा पूर्वानुमान",
+      "nextDays": "अगले {days} दिन",
+      "nextHours": "अगले {hours} घंटे",
+      "today": "आज",
+      "tomorrow": "कल",
+      "thisWeek": "इस सप्ताह",
+      "thisMonth": "इस महीने",
+      "threeDay": "3 दिन का पूर्वानुमान",
+      "temperature": {
+        "high": "अधिकतम",
+        "low": "न्यूनतम",
+        "average": "औसत"
+      }
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "kmh": "किमी/घंटा",
+      "mph": "मील/घंटा",
+      "mm": "मिमी",
+      "inch": "इंच",
+      "hPa": "hPa",
+      "km": "किमी",
+      "mi": "मील",
+      "m": "मी",
+      "ft": "फुट",
+      "percent": "%",
+      "degree": "°",
+      "direction": {
+        "N": "उत्तर",
+        "NE": "उत्तर-पूर्व",
+        "E": "पूर्व",
+        "SE": "दक्षिण-पूर्व",
+        "S": "दक्षिण",
+        "SW": "दक्षिण-पश्चिम",
+        "W": "पश्चिम",
+        "NW": "उत्तर-पश्चिम"
+      }
+    },
+    "conditions": {
+      "clear": "साफ",
+      "sunny": "धूप",
+      "clouds": "बादल",
+      "rain": "बारिश",
+      "snow": "बर्फ",
+      "thunderstorm": "आंधी-तूफान",
+      "drizzle": "बूंदाबांदी",
+      "mist": "हल्का कोहरा",
+      "fog": "कोहरा",
+      "partlyCloudy": "आंशिक रूप से बादल",
+      "cloudy": "बादल",
+      "overcast": "पूरी तरह बादल",
+      "patchyRain": "स्थानीय बारिश",
+      "patchySnow": "स्थानीय बर्फ",
+      "patchySleet": "स्थानीय बर्फीली बारिश",
+      "patchyFreezingDrizzle": "स्थानीय हिम बूंदाबांदी",
+      "thunderyOutbreaks": "स्थानीय आंधी-तूफान",
+      "blowingSnow": "उड़ती बर्फ",
+      "blizzard": "बर्फीला तूफान",
+      "freezingFog": "हिम कोहरा",
+      "patchyLightDrizzle": "स्थानीय हल्की बूंदाबांदी",
+      "lightDrizzle": "हल्की बूंदाबांदी",
+      "freezingDrizzle": "हिम बूंदाबांदी",
+      "heavyFreezingDrizzle": "भारी हिम बूंदाबांदी",
+      "patchyLightRain": "स्थानीय हल्की बारिश",
+      "lightRain": "हल्की बारिश",
+      "moderateRain": "मध्यम बारिश",
+      "heavyRain": "भारी बारिश",
+      "lightFreezingRain": "हल्की हिम बारिश",
+      "moderateOrHeavyFreezingRain": "मध्यम या भारी हिम बारिश",
+      "lightSleet": "हल्की बर्फीली बारिश",
+      "moderateOrHeavySleet": "मध्यम या भारी बर्फीली बारिश",
+      "patchyLightSnow": "स्थानीय हल्की बर्फ",
+      "lightSnow": "हल्की बर्फ",
+      "moderateSnow": "मध्यम बर्फ",
+      "heavySnow": "भारी बर्फ",
+      "icePellets": "बर्फ के टुकड़े",
+      "lightRainShower": "हल्की बौछार",
+      "moderateOrHeavyRainShower": "मध्यम या भारी बौछार",
+      "torrentialRainShower": "मूसलाधार बौछार",
+      "lightSleetShowers": "हल्की बर्फीली बौछार",
+      "moderateOrHeavySleetShowers": "मध्यम या भारी बर्फीली बौछार",
+      "lightSnowShowers": "हल्की बर्फीली बौछार",
+      "moderateOrHeavySnowShowers": "मध्यम या भारी बर्फीली बौछार",
+      "lightShowersOfIcePellets": "हल्की बर्फ के टुकड़ों की बौछार",
+      "moderateOrHeavyShowersOfIcePellets": "मध्यम या भारी बर्फ के टुकड़ों की बौछार",
+      "patchyLightRainWithThunder": "स्थानीय हल्की बारिश के साथ गरज",
+      "moderateOrHeavyRainWithThunder": "मध्यम या भारी बारिश के साथ गरज",
+      "patchyLightSnowWithThunder": "स्थानीय हल्की बर्फ के साथ गरज",
+      "moderateOrHeavySnowWithThunder": "मध्यम या भारी बर्फ के साथ गरज"
+    },
+    "alerts": {
+      "title": "मौसम चेतावनियां",
+      "expand": "विवरण दिखाएं",
+      "collapse": "विवरण छिपाएं",
+      "affectedAreas": "प्रभावित क्षेत्र",
+      "severity": {
+        "Minor": "मामूली",
+        "Moderate": "मध्यम",
+        "Severe": "गंभीर",
+        "Extreme": "अत्यधिक"
+      }
+    },
+    "enterCity": "शहर का नाम दर्ज करें...",
+    "errors": {
+      "enterCity": "कृपया शहर का नाम दर्ज करें",
+      "fetchFailed": "मौसम डेटा प्राप्त नहीं किया जा सका। कृपया पुनः प्रयास करें।",
+      "fetchError": "मौसम की जानकारी प्राप्त नहीं की जा सकी"
+    },
+    "refresh": "ताज़ा करें",
+    "uvIndexDescription": "स्तर {level} (UV: {value})",
+    "temperature": {
+      "title": "तापमान",
+      "current": "वर्तमान तापमान",
+      "min": "न्यूनतम तापमान",
+      "max": "अधिकतम तापमान",
+      "average": "औसत तापमान",
+      "feelsLike": "अनुभूत तापमान"
+    },
+    "visibility": {
+      "title": "दृश्यता",
+      "current": "वर्तमान दृश्यता",
+      "good": "अच्छी",
+      "moderate": "मध्यम",
+      "poor": "खराब",
+      "veryPoor": "बहुत खराब",
+      "foggy": "धुंधली"
+    },
+    "uvIndex": {
+      "title": "UV सूचकांक",
+      "current": "वर्तमान UV सूचकांक",
+      "levels": {
+        "low": "कम (0-2)",
+        "moderate": "मध्यम (3-5)",
+        "high": "उच्च (6-7)",
+        "veryHigh": "बहुत उच्च (8-10)",
+        "extreme": "अत्यधिक (11+)"
+      },
+      "protection": {
+        "low": "सुरक्षा की आवश्यकता नहीं",
+        "moderate": "सुरक्षा की सलाह दी जाती है",
+        "high": "सुरक्षा आवश्यक है",
+        "veryHigh": "अतिरिक्त सुरक्षा आवश्यक है",
+        "extreme": "धूप से बचें"
+      }
+    },
+    "timeNotAvailable": "समय की जानकारी उपलब्ध नहीं है",
+    "details": {
+      "sunrise": "सूर्योदय",
+      "sunset": "सूर्यास्त",
+      "wind": "हवा",
+      "pressure": "दबाव",
+      "uvIndex": "UV सूचकांक",
+      "uvLevels": {
+        "low": "कम",
+        "moderate": "मध्यम",
+        "high": "उच्च",
+        "veryHigh": "बहुत उच्च",
+        "extreme": "अत्यधिक"
+      },
+      "moonPhase": "चंद्रमा का चरण",
+      "visibility": "दृश्यता",
+      "moonrise": "चंद्रोदय",
+      "moonset": "चंद्रास्त",
+      "dewPoint": "ओस बिंदु",
+      "precipitation": "वर्षा",
+      "precipitationProbability": "वर्षा की संभावना",
+      "cloudCover": "बादलों का आवरण",
+      "windGust": "हवा के झोंके",
+      "windDirection": "हवा की दिशा",
+      "airQuality": "वायु गुणवत्ता",
+      "airQualityLevels": {
+        "good": "अच्छी",
+        "moderate": "मध्यम",
+        "unhealthyForSensitive": "संवेदनशील समूहों के लिए अस्वस्थ",
+        "unhealthy": "अस्वस्थ",
+        "veryUnhealthy": "बहुत अस्वस्थ",
+        "hazardous": "खतरनाक"
+      }
+    }
+  },
+  "app": {
+    "name": "मौसम",
+    "description": "दुनिया भर के शहरों के लिए वास्तविक समय मौसम पूर्वानुमान और अपडेट",
+    "theme": {
+      "dark": "डार्क मोड",
+      "light": "लाइट मोड",
+      "system": "सिस्टम थीम"
+    },
+    "language": {
+      "switch": "भाषा बदलें",
+      "en": "अंग्रेजी",
+      "tr": "तुर्की",
+      "es": "स्पेनिश",
+      "fr": "फ्रेंच",
+      "de": "जर्मन",
+      "it": "इतालवी",
+      "ru": "रूसी",
+      "pl": "पोलिश",
+      "nl": "डच",
+      "uk": "यूक्रेनी",
+      "ar": "अरबी",
+      "zh": "चीनी",
+      "hi": "हिंदी",
+      "ja": "जापानी",
+      "ko": "कोरियाई",
+      "pt": "पुर्तगाली",
+      "sv": "स्वीडिश",
+      "da": "डेनिश",
+      "fi": "फिनिश",
+      "no": "नॉर्वेजियन",
+      "el": "ग्रीक",
+      "cs": "चेक",
+      "he": "हिब्रू",
+      "id": "इंडोनेशियाई",
+      "ms": "मलय",
+      "th": "थाई",
+      "hu": "हंगेरियन",
+      "vi": "वियतनामी"
+    },
+    "footer": {
+      "rights": "सर्वाधिकार सुरक्षित"
+    },
+    "weather": {
+      "error": {
+        "city_not_found": "शहर नहीं मिला",
+        "fetch_failed": "मौसम डेटा प्राप्त नहीं किया जा सका",
+        "invalid_input": "कृपया एक वैध शहर का नाम दर्ज करें",
+        "location_denied": "स्थान तक पहुंच अस्वीकृत",
+        "api_key": "मौसम सेवा कॉन्फ़िगरेशन त्रुटि",
+        "connection_reset": "मौसम सेवा कनेक्शन रीसेट",
+        "invalid_response": "मौसम सेवा से अमान्य डेटा प्राप्त हुआ",
+        "unknown": "एक अज्ञात त्रुटि हुई"
+      }
+    }
+  },
+  "error": {
+    "title": "त्रुटि",
+    "description": "कुछ गलत हो गया",
+    "retry": "पुनः प्रयास करें",
+    "back": "वापस जाएं"
+  },
+  "common": {
+    "retry": "पुनः प्रयास करें",
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई"
+  }
+} 
