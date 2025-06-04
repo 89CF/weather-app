@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node api/weather.ts",
+    "build": "tsc",
+    "start": "node dist/api/weather.js",
     "dev": "ts-node api/weather.ts"
   },
   "dependencies": {
