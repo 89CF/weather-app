@@ -1,4 +1,4 @@
-import type { WeatherData, WeatherForecast } from '@/types/weather'
+import type { WeatherData, WeatherForecast } from '../types/weather'
 
 export class WeatherFetcher {
   private apiKey: string
