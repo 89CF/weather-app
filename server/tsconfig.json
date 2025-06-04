@@ -7,8 +7,13 @@
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "types": ["node"]
   },
-  "include": ["api/**/*", "utils/**/*"],
+  "include": ["api/**/*", "utils/**/*", "types/**/*"],
   "exclude": ["node_modules"]
 } 
